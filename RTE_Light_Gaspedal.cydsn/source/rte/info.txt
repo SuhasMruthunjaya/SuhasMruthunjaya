@@ -1,0 +1,144 @@
+signalclasses:
+    sc_joystick:
+        datatrigger: 
+    sc_speed:
+        datatrigger: 
+    sc_pwm:
+        datatrigger: 
+    sc_brakelight:
+        datatrigger:
+
+signalpools:
+    sp_common:
+        start: ADR_SP_COMMON_START
+        end: ADR_SP_COMMON_END
+        signals:
+            so_joystick:
+                    class: sc_joystick
+                    inDriver: default
+                    outDriver: 0
+                    onDataUpdate: ev_joystick_onData
+                    onDataUpdateTask: 
+                    onDataError: 0
+                    onDataErrorTask: 
+            so_engine_speed:
+                    class: sc_speed
+                    inDriver: 0
+                    outDriver: 0
+                    onDataUpdate: ev_engine_speed_onData
+                    onDataUpdateTask: 
+                    onDataError: 0
+                    onDataErrorTask: 
+            so_rgb_led:
+                    class: sc_pwm
+                    inDriver: 0
+                    outDriver: default
+                    onDataUpdate: 0
+                    onDataUpdateTask: 
+                    onDataError: 0
+                    onDataErrorTask: 
+            so_breaklight:
+                    class: sc_brakelight
+                    inDriver: 0
+                    outDriver: default
+                    onDataUpdate: 0
+                    onDataUpdateTask: 
+                    onDataError: 0
+                    onDataErrorTask:
+
+tasks:
+    tsk_realtime:
+        timertickperiod: 1
+        mode: Cyclic and Event
+        signalpoolsRO: sp_common
+        signalpoolsRW: sp_common
+        events: ev_1ms|ev_engine_speed_onData|ev_joystick_onData
+        runnables:
+                JOYSTICK_readJoystick_run:
+                    task: tsk_realtime
+                    cycletime: 10
+                    events: 
+                    signalIN: 
+                    signalOUT: so_joystick
+            
+                CONTROL_calcControl_run:
+                    task: tsk_realtime
+                    cycletime: 0
+                    events: ev_joystick_onData
+                    signalIN: so_joystick
+                    signalOUT: so_engine_speed
+            
+                ENGINE_setEngine_run:
+                    task: tsk_realtime
+                    cycletime: 100
+                    events: 
+                    signalIN: so_engine_speed
+                    signalOUT: so_rgb_led
+            
+                BRAKE_setBrakeLight_run:
+                    task: tsk_realtime
+                    cycletime: 0
+                    events: ev_engine_speed_onData
+                    signalIN: so_engine_speed
+                    signalOUT: so_breaklight
+            
+    tsk_system:
+        timertickperiod: 1
+        mode: Cyclic
+        signalpoolsRO: sp_common
+        signalpoolsRW: sp_common
+        events: 
+        runnables:
+                AGE_incAge_run:
+                    task: tsk_system
+                    cycletime: 1
+                    events: 
+                    signalIN: so_joystick|so_engine_speed|so_rgb_led|so_breaklight
+                    signalOUT: so_joystick|so_engine_speed|so_rgb_led|so_breaklight
+
+swc:
+    swc_joystick:
+        runnables:
+                JOYSTICK_readJoystick_run:
+                    task: tsk_realtime
+                    cycletime: 10
+                    events: 
+                    signalIN: 
+                    signalOUT: so_joystick
+            
+    swc_control:
+        runnables:
+                CONTROL_calcControl_run:
+                    task: tsk_realtime
+                    cycletime: 0
+                    events: ev_joystick_onData
+                    signalIN: so_joystick
+                    signalOUT: so_engine_speed
+            
+    swc_engine:
+        runnables:
+                ENGINE_setEngine_run:
+                    task: tsk_realtime
+                    cycletime: 100
+                    events: 
+                    signalIN: so_engine_speed
+                    signalOUT: so_rgb_led
+            
+    swc_brake:
+        runnables:
+                BRAKE_setBrakeLight_run:
+                    task: tsk_realtime
+                    cycletime: 0
+                    events: ev_engine_speed_onData
+                    signalIN: so_engine_speed
+                    signalOUT: so_breaklight
+            
+    swc_age:
+        runnables:
+                AGE_incAge_run:
+                    task: tsk_system
+                    cycletime: 1
+                    events: 
+                    signalIN: so_joystick|so_engine_speed|so_rgb_led|so_breaklight
+                    signalOUT: so_joystick|so_engine_speed|so_rgb_led|so_breaklight
+

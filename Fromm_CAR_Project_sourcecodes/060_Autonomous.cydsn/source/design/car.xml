@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rte>
+ <configset>
+  <config name="version" value="Erika 2"/>
+  <config name="path_out" value="{PROJECT_PATH}\out"/>
+  <config name="templateDir" value="{GEN_PATH}\..\templates"/>
+  <config name="userCodeStart" value="/\* USER CODE START {TAG} \*/"/>
+  <config name="userCodeEnd" value="/\* USER CODE END {TAG} \*/"/>
+  <config name="guivers" value="0.1.2"/>
+ </configset>
+ <naming>
+  <config name="signalpoolPrefix" value="sp_"/>
+  <config name="signalpoolPostfix" value=""/>
+  <config name="taskPrefix" value="tsk_"/>
+  <config name="taskPostfix" value=""/>
+  <config name="signalclassPrefix" value="sc_"/>
+  <config name="signalclassPostfix" value=""/>
+  <config name="signalobjectPrefix" value="so_"/>
+  <config name="signalobjectPostfix" value=""/>
+  <config name="swcPrefix" value="swc_"/>
+  <config name="swcPostfix" value=""/>
+  <config name="runnablePrefix" value=""/>
+  <config name="runnablePostfix" value="_run"/>
+  <config name="eventPrefix" value="ev_"/>
+  <config name="eventPostfix" value=""/>
+  <config name="resourcePrefix" value="res_"/>
+  <config name="resourcePostfix" value=""/>
+  <config name="addrPrefix" value="ADR_"/>
+  <config name="addrStartPostfix" value="_START"/>
+  <config name="addrEndPostfix" value="_END"/>
+ </naming>
+ <signalpools>
+  <signalpool description="The common global signal pool, all signals will be stored here" endaddr="ADR_SP_COMMON_END" name="sp_common" shortname="common" startaddr="ADR_SP_COMMON_START"/>
+ </signalpools>
+ <tasks>
+  <task description="This task will contain all IO operations, e.g. remote, engine,..." events="" mode="Cyclic and Event" name="tsk_io" shortname="io" signalpoolsRO="sp_common" signalpoolsRW="sp_common" tickEvent="ev_tick_1ms" timertickperiod="1"/>
+  <task description="Task control will call the application code (control algorithm, ADAS fuctions,..)" events="" mode="Cyclic and Event" name="tsk_control" shortname="control" signalpoolsRO="sp_common" signalpoolsRW="sp_common" tickEvent="ev_tick_1ms" timertickperiod="1"/>
+  <task description="Task doing work" events="" mode="System" name="tsk_system" shortname="system" signalpoolsRO="" signalpoolsRW="sp_common" tickEvent="0" timertickperiod="1"/>
+ </tasks>
+ <signalclasses>
+  <signalclass description="joystick payload from XBee protocol" name="sc_joystick" shortname="joystick"/>
+  <signalclass description="The engine speed record in RPM per engine. Used for controlspeed and currentspeed" name="sc_engineSpeed" shortname="engineSpeed"/>
+  <signalclass description="The car speed in vy [m/s] and vphi [deg/s]" name="sc_carSpeed" shortname="carSpeed"/>
+  <signalclass description="XBee protocol from remote" name="sc_protocol" shortname="protocol"/>
+  <signalclass description="Event from remote to application" name="sc_event_in" shortname="event_in"/>
+  <signalclass description="Connection state and algorithm of the car" name="sc_carstate" shortname="carstate"/>
+  <signalclass description="Event from application to remote" name="sc_event_out" shortname="event_out"/>
+  <signalclass description="Error state as set by the central error state machine. Will control the safe state independently from the application." name="sc_carErrorState" shortname="carErrorState"/>
+  <signalclass description="Set of 4 ultrasonic sensors" name="sc_ultrasonicArray" shortname="ultrasonicArray"/>
+  <signalclass description="Diagnostic service request" name="sc_diagnosticRequest" shortname="diagnosticRequest"/>
+ </signalclasses>
+ <signalobjects>
+  <signalobject description="Joystick x,y for controlling the car manually" indriver="0" name="so_joystick" onDataError="0" onDataUpdate="ev_joystick_onData" outdriver="0" resource="None" shortname="joystick" signalclass="sc_joystick" signalpool="sp_common"/>
+  <signalobject description="Targetspeed defined by the user or ADAS algorithm" indriver="0" name="so_targetspeed" onDataError="0" onDataUpdate="0" outdriver="0" resource="None" shortname="targetspeed" signalclass="sc_carSpeed" signalpool="sp_common"/>
+  <signalobject description="The currentspeed reported by the engine decoder" indriver="default" name="so_currentspeed" onDataError="0" onDataUpdate="0" outdriver="0" resource="None" shortname="currentspeed" signalclass="sc_engineSpeed" signalpool="sp_common"/>
+  <signalobject description="Controlspeed being send to the engine" indriver="0" name="so_controlspeed" onDataError="0" onDataUpdate="0" outdriver="default" resource="None" shortname="controlspeed" signalclass="sc_engineSpeed" signalpool="sp_common"/>
+  <signalobject description="Incoming protocol - note, that the data will be set asynchronously." indriver="default" name="so_protocolRx" onDataError="ev_protocolrx_onError" onDataUpdate="0" outdriver="0" resource="None" shortname="protocolRx" signalclass="sc_protocol" signalpool="sp_common"/>
+  <signalobject description="Outgoing Protocol" indriver="0" name="so_protocolTx" onDataError="0" onDataUpdate="0" outdriver="default" resource="None" shortname="protocolTx" signalclass="sc_protocol" signalpool="sp_common"/>
+  <signalobject description="Signal containing car state and other central data" indriver="0" name="so_carState" onDataError="0" onDataUpdate="0" outdriver="0" resource="None" shortname="carState" signalclass="sc_carstate" signalpool="sp_common"/>
+  <signalobject description="Incoming Event" indriver="0" name="so_eventIn" onDataError="0" onDataUpdate="ev_eventin_onData" outdriver="0" resource="None" shortname="eventIn" signalclass="sc_event_in" signalpool="sp_common"/>
+  <signalobject description="Outgoing Event" indriver="0" name="so_eventOut" onDataError="0" onDataUpdate="ev_eventout_onData" outdriver="0" resource="None" shortname="eventOut" signalclass="sc_event_out" signalpool="sp_common"/>
+  <signalobject description="Signal containing the car error state" indriver="0" name="so_carErrorState" onDataError="0" onDataUpdate="0" outdriver="default" resource="None" shortname="carErrorState" signalclass="sc_carErrorState" signalpool="sp_common"/>
+  <signalobject description="Ultrasonic array" indriver="default" name="so_ultrasonic" onDataError="0" onDataUpdate="0" outdriver="0" resource="None" shortname="ultrasonic" signalclass="sc_ultrasonicArray" signalpool="sp_common"/>
+  <signalobject description="Disgnostic Service Request" indriver="0" name="so_diagnosticRequest" onDataError="0" onDataUpdate="ev_diagnosticrequest_onData" outdriver="0" resource="None" shortname="diagnosticRequest" signalclass="sc_diagnosticRequest" signalpool="sp_common"/>
+ </signalobjects>
+ <swcs>
+  <swc description="Remote control, reading / sending XBee protocols" name="swc_remote" shortname="remote"/>
+  <swc description="SWC containing ADAS and manual driving functions" name="swc_control" shortname="control"/>
+  <swc description="Complex Devide driver type runnable for the engine" name="swc_engine" shortname="engine"/>
+  <swc description="Error monitor checking the system health" name="swc_monitor" shortname="monitor"/>
+  <swc description="Software component containing sensor runnables, e.g. ultrasonic" name="swc_sensor" shortname="sensor"/>
+ </swcs>
+ <runnables>
+  <runnable component="swc_control" cycletime="0" description="Central runnable calling the set driving function based on the carstate signal" events="ev_joystick_onData" name="CONTROL_control_run" shortname="control" signalIN="so_joystick|so_ultrasonic" signalOUT="so_targetspeed" task="tsk_control"/>
+  <runnable component="swc_engine" cycletime="100" description="Engine controller runnable" events="" name="ENGINE_setspeed_run" shortname="setspeed" signalIN="so_targetspeed|so_currentspeed" signalOUT="so_controlspeed" task="tsk_io"/>
+  <runnable component="swc_remote" cycletime="0" description="Receives outgoing event and creates and XBee protocol" events="ev_eventout_onData" name="REMOTE_transmit_run" shortname="transmit" signalIN="so_eventOut" signalOUT="so_protocolTx" task="tsk_io"/>
+  <runnable component="swc_remote" cycletime="0" description="Receive an incoming protocol and translates the content into joystick or event signal" events="ev_xbee_rx" name="REMOTE_receive_run" shortname="receive" signalIN="so_protocolRx" signalOUT="so_joystick|so_eventIn" task="tsk_io"/>
+  <runnable component="swc_control" cycletime="0" description="Runnable receiving and processing central events, e.g. related to the connection state of the remote." events="ev_eventin_onData" name="CONTROL_processCarstate_run" shortname="processCarstate" signalIN="so_carState|so_eventIn|so_eventOut" signalOUT="so_carState|so_eventOut" task="tsk_control"/>
+  <runnable component="swc_remote" cycletime="100" description="Error handler for Remote. Triggers on invalid data and wrong age. Will call central error handler as escalation." events="ev_protocolrx_onError" name="REMOTE_error_run" shortname="error" signalIN="so_protocolRx|so_protocolTx" signalOUT="" task="tsk_io"/>
+  <runnable component="swc_monitor" cycletime="10" description="Cyclic runnable checking the system health" events="" name="MONITOR_health_run" shortname="health" signalIN="so_joystick|so_targetspeed|so_currentspeed|so_controlspeed|so_protocolRx|so_protocolTx|so_carState|so_eventIn|so_eventOut|so_carErrorState|so_ultrasonic" signalOUT="so_carErrorState" task="tsk_io"/>
+  <runnable component="swc_sensor" cycletime="25" description="Runnable updating the next ultrasonic sensor of the arrays." events="" name="SENSOR_update_run" shortname="update" signalIN="" signalOUT="so_ultrasonic" task="tsk_io"/>
+  <runnable component="swc_monitor" cycletime="0" description="Receive Diagnostic Request and processes it, e.g clears DETor transmits DET to client" events="ev_diagnosticrequest_onData" name="MONITOR_processDiagnosticRequest_run" shortname="processDiagnosticRequest" signalIN="so_diagnosticRequest" signalOUT="" task="tsk_io"/>
+ </runnables>
+ <events>
+  <event description="A Event" name="ev_joystick_onData" shortname="joystick_onData"/>
+  <event description="Tick Event event and cyclic task" name="ev_tick_1ms" shortname="tick_1ms"/>
+  <event description="A Event" name="ev_eventin_onData" shortname="eventin_onData"/>
+  <event description="A Event" name="ev_eventout_onData" shortname="eventout_onData"/>
+  <event description="Event fired by ISR once a complete XBee protocol is received" name="ev_xbee_rx" shortname="xbee_rx"/>
+  <event description="A Event" name="ev_protocolrx_onError" shortname="protocolrx_onError"/>
+  <event description="Diagnostic request command received" name="ev_diagnosticrequest_onData" shortname="diagnosticrequest_onData"/>
+ </events>
+ <resources/>
+</rte>

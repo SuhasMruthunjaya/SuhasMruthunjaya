@@ -1,0 +1,7 @@
+--------------- Clean Started: 06/07/2021 12:48:45 Project: 040_CarDrive, Configuration: ARM GCC 5.4-2016-q2-update Debug ---------------
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\main.o"
+Deleting file ".\040_CarDrive.cycdx"
+Deleting file ".\040_CarDrive.svd"
+Deleting file ".\040_CarDrive.rpt"
+Deleting file ".\040_CarDrive_timing.html"
+--------------- Clean Succeeded: 06/07/2021 12:48:45 ---------------

@@ -1,0 +1,62 @@
+# Reading C:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# do sha1_Implimentation_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/intelFPGA_lite/18.1/sha1_Implimentation {C:/intelFPGA_lite/18.1/sha1_Implimentation/sha1_Implimentation.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:45:11 on Feb 13,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/intelFPGA_lite/18.1/sha1_Implimentation" C:/intelFPGA_lite/18.1/sha1_Implimentation/sha1_Implimentation.sv 
+# -- Compiling package state_machine_definitions
+# -- Compiling module sha1_Implimentation
+# -- Importing package state_machine_definitions
+# 
+# Top level modules:
+# 	sha1_Implimentation
+# End time: 23:45:11 on Feb 13,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/intelFPGA_lite/18.1/sha1_Implimentation {C:/intelFPGA_lite/18.1/sha1_Implimentation/sha1_Implimentation_tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:45:11 on Feb 13,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/intelFPGA_lite/18.1/sha1_Implimentation" C:/intelFPGA_lite/18.1/sha1_Implimentation/sha1_Implimentation_tb.sv 
+# -- Compiling module sha1_Implimentation_tb
+# 
+# Top level modules:
+# 	sha1_Implimentation_tb
+# End time: 23:45:11 on Feb 13,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  sha1_Implimentation_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" sha1_Implimentation_tb 
+# Start time: 23:45:11 on Feb 13,2023
+# Loading sv_std.std
+# Loading work.sha1_Implimentation_tb
+# Loading work.state_machine_definitions
+# Loading work.sha1_Implimentation
+# 
+# add wave *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: suhas  Hostname: LAPTOP-RPQPMS5S  ProcessID: 98192
+#           Attempting to use alternate WLF file "./wlftqtrmqv".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftqtrmqv
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Simulation starts ...
+# Simulation done ...
+# ** Note: $stop    : C:/intelFPGA_lite/18.1/sha1_Implimentation/sha1_Implimentation_tb.sv(42)
+#    Time: 10100 ns  Iteration: 0  Instance: /sha1_Implimentation_tb
+# Break in NamedBeginStat reset_generation_process at C:/intelFPGA_lite/18.1/sha1_Implimentation/sha1_Implimentation_tb.sv line 42
+# End time: 23:45:48 on Feb 13,2023, Elapsed time: 0:00:37
+# Errors: 0, Warnings: 2

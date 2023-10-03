@@ -1,0 +1,125 @@
+signalclasses:
+    sc_Button_Event:
+        datatrigger: 
+    sc_Control_Out:
+        datatrigger: 
+    sc_Display:
+        datatrigger:
+
+signalpools:
+    sp_common:
+        start: ADR_SP_COMMON_START
+        end: ADR_SP_COMMON_END
+        signals:
+            so_Button_Event:
+                    class: sc_Button_Event
+                    inDriver: default
+                    outDriver: 0
+                    onDataUpdate: ev_Button_OnData
+                    onDataUpdateTask: 
+                    onDataError: 0
+                    onDataErrorTask: 
+            so_Control_Out:
+                    class: sc_Control_Out
+                    inDriver: 0
+                    outDriver: 0
+                    onDataUpdate: 0
+                    onDataUpdateTask: 
+                    onDataError: 0
+                    onDataErrorTask: 
+            so_Display:
+                    class: sc_Display
+                    inDriver: 0
+                    outDriver: default
+                    onDataUpdate: 0
+                    onDataUpdateTask: 
+                    onDataError: 0
+                    onDataErrorTask:
+
+tasks:
+    tsk_realtime:
+        timertickperiod: 1
+        mode: Cyclic and Event
+        signalpoolsRO: sp_common
+        signalpoolsRW: sp_common
+        events: ev_1ms|ev_Button_OnData
+        runnables:
+                INPUT_Clock_Input_run:
+                    task: tsk_realtime
+                    cycletime: 50
+                    events: 
+                    signalIN: 
+                    signalOUT: so_Button_Event
+            
+                CONTROL_Clock_Control_run:
+                    task: tsk_realtime
+                    cycletime: 0
+                    events: ev_Button_OnData
+                    signalIN: so_Button_Event
+                    signalOUT: so_Control_Out
+            
+    tsk_system:
+        timertickperiod: 1
+        mode: Cyclic
+        signalpoolsRO: sp_common
+        signalpoolsRW: sp_common
+        events: 
+        runnables:
+                AGE_IncAge_run:
+                    task: tsk_system
+                    cycletime: 1
+                    events: 
+                    signalIN: so_Button_Event|so_Control_Out|so_Display
+                    signalOUT: so_Button_Event|so_Control_Out|so_Display
+            
+    tsk_HMI:
+        timertickperiod: 1
+        mode: Cyclic
+        signalpoolsRO: sp_common
+        signalpoolsRW: sp_common
+        events: 
+        runnables:
+                DISPLAY_Clock_Display_run:
+                    task: tsk_HMI
+                    cycletime: 250
+                    events: 
+                    signalIN: so_Control_Out
+                    signalOUT: so_Display
+
+swc:
+    swc_Input:
+        runnables:
+                INPUT_Clock_Input_run:
+                    task: tsk_realtime
+                    cycletime: 50
+                    events: 
+                    signalIN: 
+                    signalOUT: so_Button_Event
+            
+    swc_Control:
+        runnables:
+                CONTROL_Clock_Control_run:
+                    task: tsk_realtime
+                    cycletime: 0
+                    events: ev_Button_OnData
+                    signalIN: so_Button_Event
+                    signalOUT: so_Control_Out
+            
+    swc_Display:
+        runnables:
+                DISPLAY_Clock_Display_run:
+                    task: tsk_HMI
+                    cycletime: 250
+                    events: 
+                    signalIN: so_Control_Out
+                    signalOUT: so_Display
+            
+    swc_age:
+        runnables:
+                AGE_IncAge_run:
+                    task: tsk_system
+                    cycletime: 1
+                    events: 
+                    signalIN: so_Button_Event|so_Control_Out|so_Display
+                    signalOUT: so_Button_Event|so_Control_Out|so_Display
+

@@ -1,0 +1,11 @@
+# Default gitignore file for PSOC Creator projects
+# 11.11.2022 P. Fromm
+# Only build out is excluded
+# Generated sources are included
+
+# https://git-scm.com/docs/gitignore 
+
+**/codegentemp/**
+**/CortexM3/**
+**/*.und/**
+**/report/**

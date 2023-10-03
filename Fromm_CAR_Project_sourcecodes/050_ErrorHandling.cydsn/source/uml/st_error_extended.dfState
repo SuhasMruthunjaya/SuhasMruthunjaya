@@ -1,0 +1,280 @@
+package idc2rsakpycneuukpyd51xy;
+
+/**
+@version 2.0
+@__modelType diagram 
+*/
+class diagram {
+/**
+@__ref <oiref:design#Class#idc2rsakpycneuukpyd51xy.nodeid82eqkkpycneuukpyco3pa:oiref><oihard>
+@__modelType reference 
+*/
+class reference {
+}
+/**
+@__ref <oiref:design#Class#idc2rsakpycneuukpyd51xy.nodeidgz4dukpycneuukpycomeo:oiref><oihard>
+@__modelType reference 
+*/
+class reference1 {
+}
+/**
+@__ref <oiref:design#Class#idc2rsakpycneuukpyd51xy.nodeid8njjvkpycneuukpycp4aq:oiref><oihard>
+@__modelType reference 
+*/
+class reference2 {
+}
+/**
+@__ref <oiref:design#Class#idc2rsakpycneuukpyd51xy.nodeid656wnkpycneuukpycps02:oiref><oihard>
+@__modelType reference 
+*/
+class reference3 {
+}
+/**
+@__ref <oiref:design#Class#idc2rsakpycneuukpyd51xy.nodeidf364okpycneuukpyd85ik:oiref><oihard>
+@__modelType reference 
+*/
+class reference4 {
+}
+/**
+@__ref <oiref:design#Class#idc2rsakpycneuukpyd51xy.nodeidbuubukpycneuukpydc64w:oiref><oihard>
+@__modelType reference 
+*/
+class reference5 {
+}
+/**
+@__ref <oiref:design#Class#idc2rsakpycneuukpyd51xy.nodeiddsnfgkpycneuukpydckl1:oiref><oihard>
+@__modelType reference 
+*/
+class reference6 {
+}
+}/**
+
+@__tags
+@shapeType StateDiagram 
+@changelog rO0ABXNyABFqYXZhLnV0aWwuSGFzaE1hcAUH2sHDFmDRAwACRgAKbG9hZEZhY3RvckkACXRocmVz
+aG9sZHhwP0AAAAAAAAx3CAAAABAAAAABc3IADmphdmEubGFuZy5Mb25nO4vkkMyPI98CAAFKAAV2
+YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAAAXoM97wAc3IAE2phdmEudXRp
+bC5BcnJheUxpc3R4gdIdmcdhnQMAAUkABHNpemV4cAAAAAF3BAAAAApzcgAlZGUubW5sLmRvY2Jv
+b2s0VEEuaW1wbC5DaGFuZ2VMb2dFbnRyeQeNjrX5qiSfAgADTAAIaG9zdG5hbWV0ABJMamF2YS9s
+YW5nL1N0cmluZztMAARuYW1lcQB+AAhMAAR1c2VycQB+AAh4cHQACUZST01NLU5CMnQAEXN0X2Vy
+cm9yX2V4dGVuZGVkdAAFRnJvbW14eA==
+*/
+class __tags {
+}/**
+@__options 
+*/
+class __options {
+}/**
+@__positions <oigroup:<oiref:design#Class#idc2rsakpycneuukpyd51xy.nodeidgz4dukpycneuukpycomeo:oiref>=290,150,101,46,1:oigroup>
+<oigroup:Composite#$transitionInplaceEditing#<oiref:design#Class#idc2rsakpycneuukpyd51xy.nodeid8njjvkpycneuukpycp4aq.linkiddnqyykpycneuukpydcydf:oiref>=620,20,106,16,1:oigroup>
+<oigroup:<oiref:design#Class#idc2rsakpycneuukpyd51xy.nodeidgz4dukpycneuukpycomeo.linkid2707qkpycneuukpycqa1r:oiref>=290,160,89,160:oigroup>
+<oigroup:<oiref:design#Class#idc2rsakpycneuukpyd51xy.nodeidf364okpycneuukpyd85ik.linkiden4yokpycneuukpydb6ev:oiref>=60,140,60,50,280,50:oigroup>
+<oigroup:<oiref:design#Class#idc2rsakpycneuukpyd51xy.nodeidgz4dukpycneuukpycomeo.linkide40wykpycneuukpycq40u:oiref>=332,196,332,360:oigroup>
+<oigroup:Composite#$transitionInplaceEditing#<oiref:design#Class#idc2rsakpycneuukpyd51xy.nodeid82eqkkpycneuukpyco3pa.linkiddoyrwkpycneuukpyddqgs:oiref>=500,400,106,16,1:oigroup>
+<oigroup:<oiref:design#Class#idc2rsakpycneuukpyd51xy.nodeid8njjvkpycneuukpycp4aq.linkiddnqyykpycneuukpydcydf:oiref>=408,40,750,40,750,160:oigroup>
+<oigroup:Composite#$transitionInplaceEditing#<oiref:design#Class#idc2rsakpycneuukpyd51xy.nodeidgz4dukpycneuukpycomeo.linkid9g4m5kpycneuukpyddh24:oiref>=430,160,106,16,1:oigroup>
+<oigroup:<oiref:design#Class#idc2rsakpycneuukpyd51xy.nodeid82eqkkpycneuukpyco3pa.linkid4pa73kpycneuukpycq6at:oiref>=290,390,60,390,60,180:oigroup>
+<oigroup:Composite#$transitionInplaceEditing#<oiref:design#Class#idc2rsakpycneuukpyd51xy.nodeidgz4dukpycneuukpycomeo.linkid2707qkpycneuukpycqa1r:oiref>=140,140,103,16,1:oigroup>
+<oigroup:<oiref:design#Class#idc2rsakpycneuukpyd51xy.nodeidf364okpycneuukpyd85ik:oiref>=30,140,59,40,1:oigroup>
+<oigroup:<oiref:design#Class#idc2rsakpycneuukpyd51xy.nodeid656wnkpycneuukpycps02:oiref>=320,460,12,12,1:oigroup>
+<oigroup:<oiref:design#Class#idc2rsakpycneuukpyd51xy.nodeidbuubukpycneuukpydc64w:oiref>=720,160,87,46,1:oigroup>
+<oigroup:Composite#$transitionInplaceEditing#<oiref:design#Class#idc2rsakpycneuukpyd51xy.nodeidf364okpycneuukpyd85ik.linkiden4yokpycneuukpydb6ev:oiref>=70,87,144,16,1:oigroup>
+<oigroup:<oiref:design#Class#idc2rsakpycneuukpyd51xy.nodeid82eqkkpycneuukpyco3pa.linkiddoyrwkpycneuukpyddqgs:oiref>=377,390,730,390,730,206:oigroup>
+<oigroup:<oiref:design#Class#idc2rsakpycneuukpyd51xy.nodeidgz4dukpycneuukpycomeo.linkid9g4m5kpycneuukpyddh24:oiref>=391,178,720,178:oigroup>
+<oigroup:<oiref:design#Class#idc2rsakpycneuukpyd51xy.nodeid82eqkkpycneuukpyco3pa:oiref>=290,360,87,46,1:oigroup>
+<oigroup:Composite#$transitionInplaceEditing#<oiref:design#Class#idc2rsakpycneuukpyd51xy.nodeid8njjvkpycneuukpycp4aq.linkid58my3kpycneuukpycq8co:oiref>=367,105,106,16,1:oigroup>
+<oigroup:<oiref:design#Class#idc2rsakpycneuukpyd51xy.nodeid8njjvkpycneuukpycp4aq.linkid3amrzkpycneuukpycpy4z:oiref>=408,50,560,50,560,380,377,380:oigroup>
+<oigroup:Composite#$transitionInplaceEditing#<oiref:design#Class#idc2rsakpycneuukpyd51xy.nodeid82eqkkpycneuukpyco3pa.linkid4pa73kpycneuukpycq6at:oiref>=123,400,103,16,1:oigroup>
+<oigroup:<oiref:design#Class#idc2rsakpycneuukpyd51xy.nodeidbuubukpycneuukpydc64w.linkid3xafukpycneuukpydcvry:oiref>=768,206,768,250:oigroup>
+<oigroup:<oiref:design#Class#idc2rsakpycneuukpyd51xy.nodeid8njjvkpycneuukpycp4aq.linkid58my3kpycneuukpycq8co:oiref>=357,76,357,150:oigroup>
+<oigroup:Composite#$transitionInplaceEditing#<oiref:design#Class#idc2rsakpycneuukpyd51xy.nodeid82eqkkpycneuukpyco3pa.linkidddyx3kpycneuukpycq2d7:oiref>=60,240,154,16,1:oigroup>
+<oigroup:<oiref:design#Class#idc2rsakpycneuukpyd51xy.nodeid8njjvkpycneuukpycp4aq:oiref>=280,30,128,46,1:oigroup>
+<oigroup:Composite#$transitionInplaceEditing#<oiref:design#Class#idc2rsakpycneuukpyd51xy.nodeid8njjvkpycneuukpycp4aq.linkid3amrzkpycneuukpycpy4z:oiref>=570,227,106,16,1:oigroup>
+<oigroup:<oiref:design#Class#idc2rsakpycneuukpyd51xy.nodeid656wnkpycneuukpycps02.linkidfbvi7kpycneuukpydbz7e:oiref>=326,460,326,406:oigroup>
+<oigroup:<oiref:design#Class#idc2rsakpycneuukpyd51xy.nodeid82eqkkpycneuukpyco3pa.linkidddyx3kpycneuukpycq2d7:oiref>=290,370,210,370,210,170,290,170:oigroup>
+<oigroup:<oiref:design#Class#idc2rsakpycneuukpyd51xy.nodeiddsnfgkpycneuukpydckl1:oiref>=760,250,15,15,1:oigroup>
+<oigroup:Composite#$transitionInplaceEditing#<oiref:design#Class#idc2rsakpycneuukpyd51xy.nodeidgz4dukpycneuukpycomeo.linkide40wykpycneuukpycq40u:oiref>=342,270,106,16,1:oigroup>
+*/
+class __positions {
+}
+/**
+@shapeType State
+@__modelType node
+@name Safe2 
+*/
+class nodeid82eqkkpycneuukpyco3pa {
+/**
+@shapeType InternalTransition
+@__modelType member
+@name entry
+@action stopCar 
+*/
+class memberid89n7wkpycneuukpycofon {
+}
+/**
+@shapeType TransitionLink
+@__modelType link
+@__ref <oiref:design#Class#idc2rsakpycneuukpyd51xy.nodeidgz4dukpycneuukpycomeo:oiref><oihard>
+@event ev_RequestSafe1 
+@condition verify(5)
+*/
+class linkidddyx3kpycneuukpycq2d7 {
+}
+/**
+@shapeType TransitionLink
+@__modelType link
+@__ref <oiref:design#Class#idc2rsakpycneuukpyd51xy.nodeidf364okpycneuukpyd85ik:oiref><oihard>
+@event ev_AllOk 
+@condition verify(5)
+*/
+class linkid4pa73kpycneuukpycq6at {
+}
+/**
+@shapeType TransitionLink
+@__modelType link
+@__ref <oiref:design#Class#idc2rsakpycneuukpyd51xy.nodeidbuubukpycneuukpydc64w:oiref><oihard>
+@event ev_RequestSafe3 
+*/
+class linkiddoyrwkpycneuukpyddqgs {
+}
+}
+/**
+@shapeType State
+@__modelType node
+@name Safe1 
+*/
+class nodeidgz4dukpycneuukpycomeo {
+/**
+@shapeType InternalTransition
+@__modelType member
+@name entry
+@action slowDown 
+*/
+class memberidh1vrekpycneuukpycov7c {
+}
+/**
+@shapeType TransitionLink
+@__modelType link
+@__ref <oiref:design#Class#idc2rsakpycneuukpyd51xy.nodeid82eqkkpycneuukpyco3pa:oiref><oihard>
+@event ev_RequestSafe2 
+*/
+class linkide40wykpycneuukpycq40u {
+}
+/**
+@shapeType TransitionLink
+@__modelType link
+@__ref <oiref:design#Class#idc2rsakpycneuukpyd51xy.nodeidf364okpycneuukpyd85ik:oiref><oihard>
+@event ev_AllOk 
+@condition verify(5)
+*/
+class linkid2707qkpycneuukpycqa1r {
+}
+/**
+@shapeType TransitionLink
+@__modelType link
+@__ref <oiref:design#Class#idc2rsakpycneuukpyd51xy.nodeidbuubukpycneuukpydc64w:oiref><oihard>
+@event ev_RequestSafe3 
+*/
+class linkid9g4m5kpycneuukpyddh24 {
+}
+}
+/**
+@shapeType State
+@__modelType node
+@name OK 
+*/
+class nodeid8njjvkpycneuukpycp4aq {
+/**
+@shapeType InternalTransition
+@__modelType member
+@name entry
+@action allowFullSpeed 
+*/
+class memberidcbe8mkpycneuukpycpawj {
+}
+/**
+@shapeType TransitionLink
+@__modelType link
+@__ref <oiref:design#Class#idc2rsakpycneuukpyd51xy.nodeid82eqkkpycneuukpyco3pa:oiref><oihard>
+@event ev_RequestSafe2 
+*/
+class linkid3amrzkpycneuukpycpy4z {
+}
+/**
+@shapeType TransitionLink
+@__modelType link
+@__ref <oiref:design#Class#idc2rsakpycneuukpyd51xy.nodeidgz4dukpycneuukpycomeo:oiref><oihard>
+@event ev_RequestSafe1 
+*/
+class linkid58my3kpycneuukpycq8co {
+}
+/**
+@shapeType TransitionLink
+@__modelType link
+@__ref <oiref:design#Class#idc2rsakpycneuukpyd51xy.nodeidbuubukpycneuukpydc64w:oiref><oihard>
+@event ev_RequestSafe3 
+*/
+class linkiddnqyykpycneuukpydcydf {
+}
+}
+/**
+@shapeType StartState
+@__modelType node
+@name StartState1
+@backgroundColor 0,0,0 
+*/
+class nodeid656wnkpycneuukpycps02 {
+/**
+@shapeType TransitionLink
+@__modelType link
+@__ref <oiref:design#Class#idc2rsakpycneuukpyd51xy.nodeid82eqkkpycneuukpyco3pa:oiref><oihard> 
+*/
+class linkidfbvi7kpycneuukpydbz7e {
+}
+}
+/**
+@shapeType State
+@__modelType node
+@name Restart 
+*/
+class nodeidf364okpycneuukpyd85ik {
+/**
+@shapeType TransitionLink
+@__modelType link
+@__ref <oiref:design#Class#idc2rsakpycneuukpyd51xy.nodeid8njjvkpycneuukpycp4aq:oiref><oihard>
+@event ev_tick
+@condition targetspeed == 0 
+*/
+class linkiden4yokpycneuukpydb6ev {
+}
+}
+/**
+@shapeType State
+@__modelType node
+@name Safe3 
+*/
+class nodeidbuubukpycneuukpydc64w {
+/**
+@shapeType InternalTransition
+@__modelType member
+@name entry
+@action stopCar 
+*/
+class memberid1tpmzkpycneuukpydcc00 {
+}
+/**
+@shapeType TransitionLink
+@__modelType link
+@__ref <oiref:design#Class#idc2rsakpycneuukpyd51xy.nodeiddsnfgkpycneuukpydckl1:oiref><oihard> 
+*/
+class linkid3xafukpycneuukpydcvry {
+}
+}
+/**
+@shapeType EndState
+@__modelType node
+@name EndState1
+@backgroundColor 0,0,0 
+*/
+class nodeiddsnfgkpycneuukpydckl1 {
+}

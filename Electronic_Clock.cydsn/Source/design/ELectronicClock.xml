@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rte>
+ <configset>
+  <config name="version" value="Erika 2"/>
+  <config name="path_out" value="{PROJECT_PATH}\out"/>
+  <config name="templateDir" value="{GEN_PATH}\..\templates\erika"/>
+  <config name="userCodeStart" value="/\* USER CODE START {TAG} \*/"/>
+  <config name="userCodeEnd" value="/\* USER CODE END {TAG} \*/"/>
+  <config name="guivers" value="0.1.2"/>
+ </configset>
+ <naming>
+  <config name="signalpoolPrefix" value="sp_"/>
+  <config name="signalpoolPostfix" value=""/>
+  <config name="taskPrefix" value="tsk_"/>
+  <config name="taskPostfix" value=""/>
+  <config name="signalclassPrefix" value="sc_"/>
+  <config name="signalclassPostfix" value=""/>
+  <config name="signalobjectPrefix" value="so_"/>
+  <config name="signalobjectPostfix" value=""/>
+  <config name="swcPrefix" value="swc_"/>
+  <config name="swcPostfix" value=""/>
+  <config name="runnablePrefix" value=""/>
+  <config name="runnablePostfix" value="_run"/>
+  <config name="eventPrefix" value="ev_"/>
+  <config name="eventPostfix" value=""/>
+  <config name="resourcePrefix" value="res_"/>
+  <config name="resourcePostfix" value=""/>
+  <config name="addrPrefix" value="ADR_"/>
+  <config name="addrStartPostfix" value="_START"/>
+  <config name="addrEndPostfix" value="_END"/>
+ </naming>
+ <signalpools>
+  <signalpool description="The common global signal pool. All signals will be stored here" endaddr="ADR_SP_COMMON_END" name="sp_common" shortname="common" startaddr="ADR_SP_COMMON_START"/>
+ </signalpools>
+ <tasks>
+  <task description="This task will contain all real time operations, e.g: CLOCK_input and CLOCK_control runnables" events="ev_Button_OnData|ev_1ms" mode="Cyclic and Event" name="tsk_realtime" shortname="realtime" signalpoolsRO="sp_common" signalpoolsRW="sp_common" tickEvent="ev_1ms" timertickperiod="1"/>
+  <task description="Task for calculating the age of the signals" events="" mode="Cyclic" name="tsk_system" shortname="system" signalpoolsRO="sp_common" signalpoolsRW="sp_common" tickEvent="0" timertickperiod="1"/>
+  <task description="Task for displaying the clock data on TFT display. It is a long runnable, hence it is kept as a seperate task" events="" mode="Cyclic" name="tsk_HMI" shortname="HMI" signalpoolsRO="sp_common" signalpoolsRW="sp_common" tickEvent="0" timertickperiod="1"/>
+ </tasks>
+ <signalclasses>
+  <signalclass description="Signal class for SO_Button_Event object (event leftbutton for short press and rightbutton for short / long press)" name="sc_Button_Event" shortname="Button_Event"/>
+  <signalclass description="Signal Class for SO_Control_Out (which consists of statemachine output, that is nothing but data of the minute and hour widget given for the display_runnable)" name="sc_Control_Out" shortname="Control_Out"/>
+  <signalclass description="Signalclass for display runnable" name="sc_Display" shortname="Display"/>
+ </signalclasses>
+ <signalobjects>
+  <signalobject description="A Signal object containing event information of leftbutton for short press and rightbutton for short / long press)" indriver="default" name="so_Button_Event" onDataError="0" onDataUpdate="ev_Button_OnData" outdriver="0" resource="None" shortname="Button_Event" signalclass="sc_Button_Event" signalpool="sp_common"/>
+  <signalobject description="Signal object which consists of statemachine output, that is nothing but data of the minute and hour widget given for the display_runnable" indriver="0" name="so_Control_Out" onDataError="0" onDataUpdate="0" outdriver="0" resource="None" shortname="Control_Out" signalclass="sc_Control_Out" signalpool="sp_common"/>
+  <signalobject description="A signal for TFT commands type" indriver="0" name="so_Display" onDataError="0" onDataUpdate="0" outdriver="default" resource="None" shortname="Display" signalclass="sc_Display" signalpool="sp_common"/>
+ </signalobjects>
+ <swcs>
+  <swc description="Software components for Button input events for left short and right short/long press" name="swc_Input" shortname="Input"/>
+  <swc description="Software component for Control runnable containing state machine" name="swc_Control" shortname="Control"/>
+  <swc description="Software component for HMI runnable" name="swc_Display" shortname="Display"/>
+  <swc description="Software component for calculating age of the signals" name="swc_age" shortname="age"/>
+ </swcs>
+ <runnables>
+  <runnable component="swc_Input" cycletime="50" description="Runnable for  Button input events for left short and right short/long press" events="" name="INPUT_Clock_Input_run" shortname="Clock_Input" signalIN="" signalOUT="so_Button_Event" task="tsk_realtime"/>
+  <runnable component="swc_Control" cycletime="0" description="Runnable for Control runnable containing state machine" events="ev_Button_OnData" name="CONTROL_Clock_Control_run" shortname="Clock_Control" signalIN="so_Button_Event" signalOUT="so_Control_Out" task="tsk_realtime"/>
+  <runnable component="swc_Display" cycletime="250" description="Runnable for HMI runnable " events="" name="DISPLAY_Clock_Display_run" shortname="Clock_Display" signalIN="so_Control_Out" signalOUT="so_Display" task="tsk_HMI"/>
+  <runnable component="swc_age" cycletime="1" description="Runnable calculating age of the signals" events="" name="AGE_IncAge_run" shortname="IncAge" signalIN="so_Button_Event|so_Control_Out|so_Display" signalOUT="so_Button_Event|so_Control_Out|so_Display" task="tsk_system"/>
+ </runnables>
+ <events>
+  <event description="This event will be triggered for left button short press and right button short / log press" name="ev_Button_OnData" shortname="Button_OnData"/>
+  <event description="Cyclic tick event" name="ev_1ms" shortname="1ms"/>
+  <event description="A Event" name="ev_" shortname=""/>
+  <event description="A Event" name="ev_" shortname=""/>
+ </events>
+ <resources/>
+</rte>

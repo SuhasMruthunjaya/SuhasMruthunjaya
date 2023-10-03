@@ -1,0 +1,8 @@
+# Check https://www.pluralsight.com/guides/how-to-use-gitignore-file
+
+#Ignore temp build folder
+codegentemp/
+CortexM3/
+ErikaOS_v2_5_3/
+Export/
+Generated_Source/

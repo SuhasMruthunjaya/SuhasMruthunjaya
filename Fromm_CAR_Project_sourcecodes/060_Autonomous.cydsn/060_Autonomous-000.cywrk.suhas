@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CyXmlSerializer>
+<!--This file is machine generated and read. It is not intended to be edited by hand.-->
+<!--Due to this, there is no schema for this file.-->
+<CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21 type_name="CyDesigner.Common.ProjMgmt.Model.CyPrjMgmtWrkspcCustomData" version="4">
+<CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997 type_name="CyDesigner.Common.Base.CyCustomData" version="2">
+<userData>
+<dataGuid v="5f2be1a5-0687-4501-bb8c-cf21cb8211bf">
+<CyGuid_5f2be1a5-0687-4501-bb8c-cf21cb8211bf type_name="CyDesigner.Common.ProjMgmt.GUI.CyBookmarkData" version="1">
+<indicators />
+</CyGuid_5f2be1a5-0687-4501-bb8c-cf21cb8211bf>
+</dataGuid>
+<dataGuid v="1b906a0f-a7b6-4e4d-a428-82f98b53cb35">
+<CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35 type_name="CyDesigner.Common.ProjMgmt.GUI.CyExplorerWindow+CyExplorerWindowState" version="3" SelectedTab="Source">
+<TreeKeys>
+<v>Source</v>
+<v>Components</v>
+<v>Output</v>
+</TreeKeys>
+<TreeStates>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="060_Autonomous-000\060_Autonomous\rte\sc_carstate_type.h">
+<ExpandedNodeIds>
+<v>060_Autonomous-000</v>
+<v>060_Autonomous-000\060_Autonomous</v>
+<v>060_Autonomous-000\060_Autonomous\TopDesign</v>
+<v>060_Autonomous-000\060_Autonomous\060_Autonomous.cydwr</v>
+<v>060_Autonomous-000\060_Autonomous\060_Autonomous.cydwr\Pins</v>
+<v>060_Autonomous-000\060_Autonomous\060_Autonomous.cydwr\Analog</v>
+<v>060_Autonomous-000\060_Autonomous\060_Autonomous.cydwr\Clocks</v>
+<v>060_Autonomous-000\060_Autonomous\060_Autonomous.cydwr\Interrupts</v>
+<v>060_Autonomous-000\060_Autonomous\060_Autonomous.cydwr\DMA</v>
+<v>060_Autonomous-000\060_Autonomous\060_Autonomous.cydwr\System</v>
+<v>060_Autonomous-000\060_Autonomous\060_Autonomous.cydwr\Directives</v>
+<v>060_Autonomous-000\060_Autonomous\060_Autonomous.cydwr\Flash Security</v>
+<v>060_Autonomous-000\060_Autonomous\060_Autonomous.cydwr\EEPROM</v>
+<v>060_Autonomous-000\060_Autonomous\asw</v>
+<v>060_Autonomous-000\060_Autonomous\asw\carconfig.h</v>
+<v>060_Autonomous-000\060_Autonomous\asw\CTRL_autonomous.c</v>
+<v>060_Autonomous-000\060_Autonomous\asw\CTRL_autonomous.h</v>
+<v>060_Autonomous-000\060_Autonomous\asw\CTRL_manual.c</v>
+<v>060_Autonomous-000\060_Autonomous\asw\CTRL_manual.h</v>
+<v>060_Autonomous-000\060_Autonomous\asw\cyapicallbacks.h</v>
+<v>060_Autonomous-000\060_Autonomous\asw\main.c</v>
+<v>060_Autonomous-000\060_Autonomous\asw\statemachine.c</v>
+<v>060_Autonomous-000\060_Autonomous\asw\statemachine.h</v>
+<v>060_Autonomous-000\060_Autonomous\asw\swc_control.c</v>
+<v>060_Autonomous-000\060_Autonomous\asw\swc_control.h</v>
+<v>060_Autonomous-000\060_Autonomous\asw\swc_engine.c</v>
+<v>060_Autonomous-000\060_Autonomous\asw\swc_engine.h</v>
+<v>060_Autonomous-000\060_Autonomous\asw\swc_monitor.c</v>
+<v>060_Autonomous-000\060_Autonomous\asw\swc_monitor.h</v>
+<v>060_Autonomous-000\060_Autonomous\asw\swc_remote.c</v>
+<v>060_Autonomous-000\060_Autonomous\asw\swc_remote.h</v>
+<v>060_Autonomous-000\060_Autonomous\asw\swc_sensor.c</v>
+<v>060_Autonomous-000\060_Autonomous\asw\swc_sensor.h</v>
+<v>060_Autonomous-000\060_Autonomous\asw\tsk_control.c</v>
+<v>060_Autonomous-000\060_Autonomous\asw\tsk_control.h</v>
+<v>060_Autonomous-000\060_Autonomous\asw\tsk_io.c</v>
+<v>060_Autonomous-000\060_Autonomous\asw\tsk_io.h</v>
+<v>060_Autonomous-000\060_Autonomous\asw\tsk_system.c</v>
+<v>060_Autonomous-000\060_Autonomous\asw\tsk_system.h</v>
+<v>060_Autonomous-000\060_Autonomous\bsw</v>
+<v>060_Autonomous-000\060_Autonomous\bsw\cdd</v>
+<v>060_Autonomous-000\060_Autonomous\bsw\cdd\engine.c</v>
+<v>060_Autonomous-000\060_Autonomous\bsw\cdd\engine.h</v>
+<v>060_Autonomous-000\060_Autonomous\bsw\cdd\engine_cfg.c</v>
+<v>060_Autonomous-000\060_Autonomous\bsw\cdd\engine_cfg.h</v>
+<v>060_Autonomous-000\060_Autonomous\bsw\cdd\engine_type.h</v>
+<v>060_Autonomous-000\060_Autonomous\bsw\cdd\ultrasonic.c</v>
+<v>060_Autonomous-000\060_Autonomous\bsw\cdd\ultrasonic.h</v>
+<v>060_Autonomous-000\060_Autonomous\bsw\cdd\ultrasonic_cfg.c</v>
+<v>060_Autonomous-000\060_Autonomous\bsw\cdd\ultrasonic_cfg.h</v>
+<v>060_Autonomous-000\060_Autonomous\bsw\cdd\ultrasonic_type.h</v>
+<v>060_Autonomous-000\060_Autonomous\bsw\services</v>
+<v>060_Autonomous-000\060_Autonomous\bsw\services\det.c</v>
+<v>060_Autonomous-000\060_Autonomous\bsw\services\det.h</v>
+<v>060_Autonomous-000\060_Autonomous\bsw\services\det_cfg.c</v>
+<v>060_Autonomous-000\060_Autonomous\bsw\services\det_cfg.h</v>
+<v>060_Autonomous-000\060_Autonomous\bsw\services\filter.h</v>
+<v>060_Autonomous-000\060_Autonomous\bsw\services\logging.c</v>
+<v>060_Autonomous-000\060_Autonomous\bsw\services\logging.h</v>
+<v>060_Autonomous-000\060_Autonomous\bsw\services\logging_cfg.h</v>
+<v>060_Autonomous-000\060_Autonomous\bsw\services\math_helper.h</v>
+<v>060_Autonomous-000\060_Autonomous\bsw\services\ringbuffer.h</v>
+<v>060_Autonomous-000\060_Autonomous\bsw\derivate.h</v>
+<v>060_Autonomous-000\060_Autonomous\bsw\global.h</v>
+<v>060_Autonomous-000\060_Autonomous\rte</v>
+<v>060_Autonomous-000\060_Autonomous\rte\rte.c</v>
+<v>060_Autonomous-000\060_Autonomous\rte\rte.h</v>
+<v>060_Autonomous-000\060_Autonomous\rte\rte_types.h</v>
+<v>060_Autonomous-000\060_Autonomous\rte\sc_carerrorstate.c</v>
+<v>060_Autonomous-000\060_Autonomous\rte\sc_carerrorstate.h</v>
+<v>060_Autonomous-000\060_Autonomous\rte\sc_carerrorstate_type.c</v>
+<v>060_Autonomous-000\060_Autonomous\rte\sc_carerrorstate_type.h</v>
+<v>060_Autonomous-000\060_Autonomous\rte\sc_carspeed.c</v>
+<v>060_Autonomous-000\060_Autonomous\rte\sc_carspeed.h</v>
+<v>060_Autonomous-000\060_Autonomous\rte\sc_carspeed_type.h</v>
+<v>060_Autonomous-000\060_Autonomous\rte\sc_carstate.c</v>
+<v>060_Autonomous-000\060_Autonomous\rte\sc_carstate.h</v>
+<v>060_Autonomous-000\060_Autonomous\rte\sc_carstate_type.h</v>
+<v>060_Autonomous-000\060_Autonomous\rte\sc_diagnosticrequest.c</v>
+<v>060_Autonomous-000\060_Autonomous\rte\sc_diagnosticrequest.h</v>
+<v>060_Autonomous-000\060_Autonomous\rte\sc_diagnosticrequest_type.h</v>
+<v>060_Autonomous-000\060_Autonomous\rte\sc_enginespeed.c</v>
+<v>060_Autonomous-000\060_Autonomous\rte\sc_enginespeed.h</v>
+<v>060_Autonomous-000\060_Autonomous\rte\sc_enginespeed_type.c</v>
+<v>060_Autonomous-000\060_Autonomous\rte\sc_enginespeed_type.h</v>
+<v>060_Autonomous-000\060_Autonomous\rte\sc_event_in.c</v>
+<v>060_Autonomous-000\060_Autonomous\rte\sc_event_in.h</v>
+<v>060_Autonomous-000\060_Autonomous\rte\sc_event_in_type.h</v>
+<v>060_Autonomous-000\060_Autonomous\rte\sc_event_out.c</v>
+<v>060_Autonomous-000\060_Autonomous\rte\sc_event_out.h</v>
+<v>060_Autonomous-000\060_Autonomous\rte\sc_event_out_type.h</v>
+<v>060_Autonomous-000\060_Autonomous\rte\sc_joystick.c</v>
+<v>060_Autonomous-000\060_Autonomous\rte\sc_joystick.h</v>
+<v>060_Autonomous-000\060_Autonomous\rte\sc_joystick_type.h</v>
+<v>060_Autonomous-000\060_Autonomous\rte\sc_protocol.c</v>
+<v>060_Autonomous-000\060_Autonomous\rte\sc_protocol.h</v>
+<v>060_Autonomous-000\060_Autonomous\rte\sc_protocol_type.c</v>
+<v>060_Autonomous-000\060_Autonomous\rte\sc_protocol_type.h</v>
+<v>060_Autonomous-000\060_Autonomous\rte\sc_ultrasonicarray.c</v>
+<v>060_Autonomous-000\060_Autonomous\rte\sc_ultrasonicarray.h</v>
+<v>060_Autonomous-000\060_Autonomous\rte\sc_ultrasonicarray_type.c</v>
+<v>060_Autonomous-000\060_Autonomous\rte\sc_ultrasonicarray_type.h</v>
+<v>060_Autonomous-000\060_Autonomous\rte\sp_common.c</v>
+<v>060_Autonomous-000\060_Autonomous\rte\sp_common.h</v>
+<v>060_Autonomous-000\060_Autonomous\Generated_Source</v>
+<v>060_Autonomous-000\060_Autonomous\Generated_Source\PSoC5</v>
+</ExpandedNodeIds>
+<VisibleNodeIds />
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>060_Autonomous-000</v>
+<v>060_Autonomous-000\060_Autonomous</v>
+<v>060_Autonomous-000\060_Autonomous\ErikaOS_v2_5_3</v>
+<v>060_Autonomous-000\060_Autonomous\ErikaOS_v2_5_3\API</v>
+<v>060_Autonomous-000\060_Autonomous\ErikaOS_v2_5_3\API\common_ee_compiler_gcc.inc</v>
+<v>060_Autonomous-000\060_Autonomous\ErikaOS_v2_5_3\API\common_ee_hal_structs.c</v>
+<v>060_Autonomous-000\060_Autonomous\ErikaOS_v2_5_3\API\common_ee_hal_structs.inc</v>
+<v>060_Autonomous-000\060_Autonomous\ErikaOS_v2_5_3\API\common_ee_irqstub.inc</v>
+<v>060_Autonomous-000\060_Autonomous\ErikaOS_v2_5_3\API\common_ee_primitives.inc</v>
+<v>060_Autonomous-000\060_Autonomous\ErikaOS_v2_5_3\API\common_ee_stdint.inc</v>
+<v>060_Autonomous-000\060_Autonomous\ErikaOS_v2_5_3\API\common_ee_types.inc</v>
+<v>060_Autonomous-000\060_Autonomous\ErikaOS_v2_5_3\API\cortex_mx_ee_context.c</v>
+<v>060_Autonomous-000\060_Autonomous\ErikaOS_v2_5_3\API\cortex_mx_ee_context.inc</v>
+<v>060_Autonomous-000\060_Autonomous\ErikaOS_v2_5_3\API\cortex_mx_ee_cpu.inc</v>
+<v>060_Autonomous-000\060_Autonomous\ErikaOS_v2_5_3\API\cortex_mx_ee_internal.inc</v>
+<v>060_Autonomous-000\060_Autonomous\ErikaOS_v2_5_3\API\cortex_mx_ee_irq.inc</v>
+<v>060_Autonomous-000\060_Autonomous\ErikaOS_v2_5_3\API\cortex_mx_ee_irq_cng_cont.inc</v>
+<v>060_Autonomous-000\060_Autonomous\ErikaOS_v2_5_3\API\cortex_mx_ee_nvic.inc</v>
+<v>060_Autonomous-000\060_Autonomous\ErikaOS_v2_5_3\API\cortex_mx_ee_system_timer.c</v>
+<v>060_Autonomous-000\060_Autonomous\ErikaOS_v2_5_3\API\cortex_mx_ee_systick.inc</v>
+<v>060_Autonomous-000\060_Autonomous\ErikaOS_v2_5_3\API\cortex_mx_ee_utils.c</v>
+<v>060_Autonomous-000\060_Autonomous\ErikaOS_v2_5_3\API\ee.h</v>
+<v>060_Autonomous-000\060_Autonomous\ErikaOS_v2_5_3\API\ee_activate.c</v>
+<v>060_Autonomous-000\060_Autonomous\ErikaOS_v2_5_3\API\ee_alcancel.c</v>
+<v>060_Autonomous-000\060_Autonomous\ErikaOS_v2_5_3\API\ee_alget.c</v>
+<v>060_Autonomous-000\060_Autonomous\ErikaOS_v2_5_3\API\ee_algetbase.c</v>
+<v>060_Autonomous-000\060_Autonomous\ErikaOS_v2_5_3\API\ee_alsetabs.c</v>
+<v>060_Autonomous-000\060_Autonomous\ErikaOS_v2_5_3\API\ee_alsetrel.c</v>
+<v>060_Autonomous-000\060_Autonomous\ErikaOS_v2_5_3\API\ee_altick.c</v>
+<v>060_Autonomous-000\060_Autonomous\ErikaOS_v2_5_3\API\ee_api.inc</v>
+<v>060_Autonomous-000\060_Autonomous\ErikaOS_v2_5_3\API\ee_as_internal.inc</v>
+<v>060_Autonomous-000\060_Autonomous\ErikaOS_v2_5_3\API\ee_as_kernel.inc</v>
+<v>060_Autonomous-000\060_Autonomous\ErikaOS_v2_5_3\API\ee_as_timing_prot.inc</v>
+<v>060_Autonomous-000\060_Autonomous\ErikaOS_v2_5_3\API\ee_chaintas.c</v>
+<v>060_Autonomous-000\060_Autonomous\ErikaOS_v2_5_3\API\ee_evclear.c</v>
+<v>060_Autonomous-000\060_Autonomous\ErikaOS_v2_5_3\API\ee_evget.c</v>
+<v>060_Autonomous-000\060_Autonomous\ErikaOS_v2_5_3\API\ee_evset.c</v>
+<v>060_Autonomous-000\060_Autonomous\ErikaOS_v2_5_3\API\ee_evwait.c</v>
+<v>060_Autonomous-000\060_Autonomous\ErikaOS_v2_5_3\API\ee_force_schedule.c</v>
+<v>060_Autonomous-000\060_Autonomous\ErikaOS_v2_5_3\API\ee_getcountervalue.c</v>
+<v>060_Autonomous-000\060_Autonomous\ErikaOS_v2_5_3\API\ee_getelapsedvalue.c</v>
+<v>060_Autonomous-000\060_Autonomous\ErikaOS_v2_5_3\API\ee_gettaskid.c</v>
+<v>060_Autonomous-000\060_Autonomous\ErikaOS_v2_5_3\API\ee_gettaskstate.c</v>
+<v>060_Autonomous-000\060_Autonomous\ErikaOS_v2_5_3\API\ee_gnu_change_context_isr.s</v>
+<v>060_Autonomous-000\060_Autonomous\ErikaOS_v2_5_3\API\ee_gnu_irq_stack.s</v>
+<v>060_Autonomous-000\060_Autonomous\ErikaOS_v2_5_3\API\ee_gnu_multi_context.s</v>
+<v>060_Autonomous-000\060_Autonomous\ErikaOS_v2_5_3\API\ee_gnu_oo.s</v>
+<v>060_Autonomous-000\060_Autonomous\ErikaOS_v2_5_3\API\ee_internal.inc</v>
+<v>060_Autonomous-000\060_Autonomous\ErikaOS_v2_5_3\API\ee_iparam.c</v>
+<v>060_Autonomous-000\060_Autonomous\ErikaOS_v2_5_3\API\ee_irq.inc</v>
+<v>060_Autonomous-000\060_Autonomous\ErikaOS_v2_5_3\API\ee_irqendin.c</v>
+<v>060_Autonomous-000\060_Autonomous\ErikaOS_v2_5_3\API\ee_lockres.c</v>
+<v>060_Autonomous-000\060_Autonomous\ErikaOS_v2_5_3\API\ee_lookup.c</v>
+<v>060_Autonomous-000\060_Autonomous\ErikaOS_v2_5_3\API\ee_oo_api.inc</v>
+<v>060_Autonomous-000\060_Autonomous\ErikaOS_v2_5_3\API\ee_oo_common.inc</v>
+<v>060_Autonomous-000\060_Autonomous\ErikaOS_v2_5_3\API\ee_oo_inline.inc</v>
+<v>060_Autonomous-000\060_Autonomous\ErikaOS_v2_5_3\API\ee_oo_internal.inc</v>
+<v>060_Autonomous-000\060_Autonomous\ErikaOS_v2_5_3\API\ee_oo_intfunc.inc</v>
+<v>060_Autonomous-000\060_Autonomous\ErikaOS_v2_5_3\API\ee_oo_irq.inc</v>
+<v>060_Autonomous-000\060_Autonomous\ErikaOS_v2_5_3\API\ee_oo_kernel.inc</v>
+<v>060_Autonomous-000\060_Autonomous\ErikaOS_v2_5_3\API\ee_os.inc</v>
+<v>060_Autonomous-000\060_Autonomous\ErikaOS_v2_5_3\API\ee_rq_exchg.c</v>
+<v>060_Autonomous-000\060_Autonomous\ErikaOS_v2_5_3\API\ee_rq_first.c</v>
+<v>060_Autonomous-000\060_Autonomous\ErikaOS_v2_5_3\API\ee_rq_inser.c</v>
+<v>060_Autonomous-000\060_Autonomous\ErikaOS_v2_5_3\API\ee_rtdruid_versions.inc</v>
+<v>060_Autonomous-000\060_Autonomous\ErikaOS_v2_5_3\API\ee_schedule.c</v>
+<v>060_Autonomous-000\060_Autonomous\ErikaOS_v2_5_3\API\ee_semgetvalue.c</v>
+<v>060_Autonomous-000\060_Autonomous\ErikaOS_v2_5_3\API\ee_sempost.c</v>
+<v>060_Autonomous-000\060_Autonomous\ErikaOS_v2_5_3\API\ee_semtrywait.c</v>
+<v>060_Autonomous-000\060_Autonomous\ErikaOS_v2_5_3\API\ee_semwait.c</v>
+<v>060_Autonomous-000\060_Autonomous\ErikaOS_v2_5_3\API\ee_shtdown.c</v>
+<v>060_Autonomous-000\060_Autonomous\ErikaOS_v2_5_3\API\ee_startos.c</v>
+<v>060_Autonomous-000\060_Autonomous\ErikaOS_v2_5_3\API\ee_terminat.c</v>
+<v>060_Autonomous-000\060_Autonomous\ErikaOS_v2_5_3\API\ee_thendin.c</v>
+<v>060_Autonomous-000\060_Autonomous\ErikaOS_v2_5_3\API\ee_tnterm.c</v>
+<v>060_Autonomous-000\060_Autonomous\ErikaOS_v2_5_3\API\ee_tracing.h</v>
+<v>060_Autonomous-000\060_Autonomous\ErikaOS_v2_5_3\API\ee_tstub.c</v>
+<v>060_Autonomous-000\060_Autonomous\ErikaOS_v2_5_3\API\ee_ulockallres.c</v>
+<v>060_Autonomous-000\060_Autonomous\ErikaOS_v2_5_3\API\ee_ulockres.c</v>
+<v>060_Autonomous-000\060_Autonomous\ErikaOS_v2_5_3\API\eecfg.c</v>
+<v>060_Autonomous-000\060_Autonomous\ErikaOS_v2_5_3\API\eecfg.inc</v>
+<v>060_Autonomous-000\060_Autonomous\ErikaOS_v2_5_3\API\event_definition.inc</v>
+<v>060_Autonomous-000\060_Autonomous\ErikaOS_v2_5_3\API\ISR_definition.inc</v>
+<v>060_Autonomous-000\060_Autonomous\ErikaOS_v2_5_3\API\resource_priorities.inc</v>
+<v>060_Autonomous-000\060_Autonomous\ErikaOS_v2_5_3\API\task_priorities.inc</v>
+<v>060_Autonomous-000\060_Autonomous\ErikaOS_v2_5_3\Custom</v>
+<v>060_Autonomous-000\060_Autonomous\ErikaOS_v2_5_3\Custom\ErikaOSAlarmsCounters.cs</v>
+<v>060_Autonomous-000\060_Autonomous\ErikaOS_v2_5_3\Custom\ErikaOSAlarmsCounters.Designer.cs</v>
+<v>060_Autonomous-000\060_Autonomous\ErikaOS_v2_5_3\Custom\ErikaOSAlarmsCounters.resx</v>
+<v>060_Autonomous-000\060_Autonomous\ErikaOS_v2_5_3\Custom\ErikaOSControl.cs</v>
+<v>060_Autonomous-000\060_Autonomous\ErikaOS_v2_5_3\Custom\ErikaOSControl.Designer.cs</v>
+<v>060_Autonomous-000\060_Autonomous\ErikaOS_v2_5_3\Custom\ErikaOSControl.resx</v>
+<v>060_Autonomous-000\060_Autonomous\ErikaOS_v2_5_3\Custom\ErikaOSCustomizer.cs</v>
+<v>060_Autonomous-000\060_Autonomous\ErikaOS_v2_5_3\Custom\ErikaOSEventsResources.cs</v>
+<v>060_Autonomous-000\060_Autonomous\ErikaOS_v2_5_3\Custom\ErikaOSEventsResources.Designer.cs</v>
+<v>060_Autonomous-000\060_Autonomous\ErikaOS_v2_5_3\Custom\ErikaOSEventsResources.resx</v>
+<v>060_Autonomous-000\060_Autonomous\ErikaOS_v2_5_3\Custom\ErikaOSISRs.cs</v>
+<v>060_Autonomous-000\060_Autonomous\ErikaOS_v2_5_3\Custom\ErikaOSISRs.Designer.cs</v>
+<v>060_Autonomous-000\060_Autonomous\ErikaOS_v2_5_3\Custom\ErikaOSISRs.resx</v>
+<v>060_Autonomous-000\060_Autonomous\ErikaOS_v2_5_3\Custom\ErikaOSParameters.cs</v>
+<v>060_Autonomous-000\060_Autonomous\ErikaOS_v2_5_3\Custom\ErikaOSTask.cs</v>
+<v>060_Autonomous-000\060_Autonomous\ErikaOS_v2_5_3\Custom\ErikaOSTask.Designer.cs</v>
+<v>060_Autonomous-000\060_Autonomous\ErikaOS_v2_5_3\Custom\ErikaOSTask.resx</v>
+<v>060_Autonomous-000\060_Autonomous\ErikaOS_v2_5_3\ErikaOS_v2_5_3.cysym</v>
+<v>060_Autonomous-000\060_Autonomous\ErikaOS_v2_5_3\ErikaOS_v2_5_3.pdf</v>
+<v>060_Autonomous-000\060_Autonomous\TopDesign</v>
+<v>060_Autonomous-000\060_Autonomous\TopDesign\TopDesign.cysch</v>
+</ExpandedNodeIds>
+<VisibleNodeIds />
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>060_Autonomous-000</v>
+<v>060_Autonomous-000\060_Autonomous</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\Clock_PWM.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\Cm3Start.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\CTRL_autonomous.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\CTRL_manual.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\cy_em_eeprom.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\CyDmac.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\CyFlash.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\CyLib.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\cyPm.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\CySpc.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\det.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\det_cfg.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\engine.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\engine_cfg.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\Engine_Mode_FL.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\Engine_Mode_FL_1.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\Engine_Mode_FL_2.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\Engine_Mode_FL_PM.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\Engine_Mode_FR.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\Engine_Mode_FR_1.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\Engine_Mode_FR_2.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\Engine_Mode_FR_PM.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\Engine_Mode_RL.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\Engine_Mode_RL_1.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\Engine_Mode_RL_2.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\Engine_Mode_RL_PM.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\Engine_Mode_RR.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\Engine_Mode_RR_1.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\Engine_Mode_RR_2.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\Engine_Mode_RR_PM.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\ENGINE_OnOff.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\ENGINE_OnOff_PM.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\Engine_PWM_FL.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\Engine_PWM_FR.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\Engine_PWM_Front.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\Engine_PWM_Front_PM.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\Engine_PWM_Rear.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\Engine_PWM_Rear_PM.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\Engine_PWM_RL.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\Engine_PWM_RR.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\Engine_QuadDec_FL_A.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\Engine_QuadDec_FL_B.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\Engine_QuadDec_FR_A.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\Engine_QuadDec_FR_B.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\Engine_QuadDec_RL_A.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\Engine_QuadDec_RL_B.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\Engine_QuadDec_RR_A.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\Engine_QuadDec_RR_B.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_common_ee_hal_structs.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_cortex_mx_ee_context.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_cortex_mx_ee_system_timer.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_cortex_mx_ee_utils.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_ee_activate.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_ee_alcancel.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_ee_alget.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_ee_algetbase.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_ee_alsetabs.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_ee_alsetrel.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_ee_altick.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_ee_chaintas.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_ee_evclear.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_ee_evget.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_ee_evset.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_ee_evwait.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_ee_force_schedule.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_ee_getcountervalue.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_ee_getelapsedvalue.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_ee_gettaskid.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_ee_gettaskstate.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_ee_gnu_change_context_isr.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_ee_gnu_irq_stack.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_ee_gnu_multi_context.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_ee_gnu_oo.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_ee_iparam.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_ee_irqendin.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_ee_lockres.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_ee_lookup.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_ee_rq_exchg.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_ee_rq_first.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_ee_rq_inser.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_ee_schedule.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_ee_semgetvalue.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_ee_sempost.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_ee_semtrywait.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_ee_semwait.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_ee_shtdown.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_ee_startos.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_ee_terminat.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_ee_thendin.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_ee_tnterm.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_ee_tstub.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_ee_ulockallres.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_ee_ulockres.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\ErikaOS_1_eecfg.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\isr_sw_tick.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\isr_uart_usb.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\isr_US_Timer_Start.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\isr_US_Timer_Stop.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\LED_Green.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\LED_Red.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\LED_Yellow.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\logging.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\main.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\QuadDec_FL.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\QuadDec_FL_Cnt16.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\QuadDec_FL_Cnt16_PM.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\QuadDec_FL_INT.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\QuadDec_FL_isr.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\QuadDec_FL_PM.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\QuadDec_FR.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\QuadDec_FR_Cnt16.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\QuadDec_FR_Cnt16_PM.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\QuadDec_FR_INT.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\QuadDec_FR_isr.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\QuadDec_FR_PM.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\QuadDec_RL.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\QuadDec_RL_Cnt16.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\QuadDec_RL_Cnt16_PM.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\QuadDec_RL_INT.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\QuadDec_RL_isr.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\QuadDec_RL_PM.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\QuadDec_RR.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\QuadDec_RR_Cnt16.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\QuadDec_RR_Cnt16_PM.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\QuadDec_RR_INT.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\QuadDec_RR_isr.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\QuadDec_RR_PM.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\rte.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\sc_carerrorstate.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\sc_carerrorstate_type.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\sc_carspeed.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\sc_carstate.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\sc_diagnosticrequest.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\sc_enginespeed.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\sc_enginespeed_type.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\sc_event_in.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\sc_event_out.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\sc_joystick.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\sc_protocol.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\sc_protocol_type.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\sc_ultrasonicarray.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\sc_ultrasonicarray_type.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\sp_common.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\statemachine.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\swc_control.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\swc_engine.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\swc_monitor.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\swc_remote.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\swc_sensor.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\timer_clock.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\tsk_control.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\tsk_io.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\tsk_system.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\UART_LOG.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\UART_LOG_BOOT.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\UART_LOG_INT.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\UART_LOG_IntClock.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\UART_LOG_PM.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\ultrasonic.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\ultrasonic_cfg.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\US_front_echo.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\US_front_trigger.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\US_left_echo.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\US_left_trigger.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\US_rear_echo.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\US_rear_trigger.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\US_right_echo.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\US_right_trigger.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\XBee.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\XBee_BOOT.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\XBee_INT.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\XBee_IntClock.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\XBee_PM.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\Listing Files\Xbee_rx_isr.lst</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\060_Autonomous.elf</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\060_Autonomous.hex</v>
+<v>060_Autonomous-000\060_Autonomous\CortexM3\ARM_GCC_541\Debug\060_Autonomous.map</v>
+<v>060_Autonomous-000\060_Autonomous\060_Autonomous.gpdsc</v>
+<v>060_Autonomous-000\060_Autonomous\060_Autonomous.rpt</v>
+<v>060_Autonomous-000\060_Autonomous\060_Autonomous_timing.html</v>
+</ExpandedNodeIds>
+<VisibleNodeIds />
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+</TreeStates>
+<TreeKeysV2>
+<v>Datasheet</v>
+</TreeKeysV2>
+<TreeStatesV2>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>060_Autonomous-000</v>
+<v>060_Autonomous-000\060_Autonomous</v>
+<v>060_Autonomous-000\060_Autonomous\PSoC 5LP Architecture TRM</v>
+<v>060_Autonomous-000\060_Autonomous\CY8C58LP Family Datasheet</v>
+<v>060_Autonomous-000\060_Autonomous\System Reference Guides</v>
+<v>060_Autonomous-000\060_Autonomous\System Reference Guides\cy_boot_v6_0</v>
+<v>060_Autonomous-000\060_Autonomous\and_v1_0</v>
+<v>060_Autonomous-000\060_Autonomous\and_v1_0\and_v1_0.pdf</v>
+<v>060_Autonomous-000\060_Autonomous\cy_clock_v2_20</v>
+<v>060_Autonomous-000\060_Autonomous\cy_clock_v2_20\cy_clock_v2_20.pdf</v>
+<v>060_Autonomous-000\060_Autonomous\cy_isr_v1_70</v>
+<v>060_Autonomous-000\060_Autonomous\cy_isr_v1_70\cy_isr_v1_70.pdf</v>
+<v>060_Autonomous-000\060_Autonomous\cy_pins_v2_20</v>
+<v>060_Autonomous-000\060_Autonomous\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>060_Autonomous-000\060_Autonomous\CyControlReg_v1_80</v>
+<v>060_Autonomous-000\060_Autonomous\CyControlReg_v1_80\CyControlReg_v1_80.pdf</v>
+<v>060_Autonomous-000\060_Autonomous\ErikaOS_v2_5_3.pdf</v>
+<v>060_Autonomous-000\060_Autonomous\not_v1_0.pdf</v>
+<v>060_Autonomous-000\060_Autonomous\or_v1_0.pdf</v>
+<v>060_Autonomous-000\060_Autonomous\PWM_v3_30</v>
+<v>060_Autonomous-000\060_Autonomous\PWM_v3_30\PWM_v3_30.pdf</v>
+<v>060_Autonomous-000\060_Autonomous\QuadDec_v3_0</v>
+<v>060_Autonomous-000\060_Autonomous\QuadDec_v3_0\QuadDec_v3_0.pdf</v>
+<v>060_Autonomous-000\060_Autonomous\UART_v2_50</v>
+<v>060_Autonomous-000\060_Autonomous\UART_v2_50\UART_v2_50.pdf</v>
+</ExpandedNodeIds>
+<VisibleNodeIds />
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+</TreeStatesV2>
+</CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35>
+</dataGuid>
+</userData>
+</CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997>
+<Unloaded />
+<OpenDocs>
+<name v=".\source\asw\swc_monitor.h" />
+<name v=".\source\asw\swc_monitor.c" />
+<name v=".\source\asw\swc_control.c" />
+<name v=".\source\asw\CTRL_autonomous.c" />
+<name v=".\source\asw\CTRL_manual.c" />
+<name v=".\source\bsw\cdd\ultrasonic_cfg.c" />
+<name v=".\source\rte\sc_carerrorstate_type.c" />
+<name v=".\source\rte\sc_carerrorstate_type.h" />
+<name v=".\source\rte\sc_ultrasonicarray_type.h" />
+<name v=".\source\rte\sc_ultrasonicarray_type.c" />
+<name v=".\TopDesign\TopDesign.cysch" />
+<name v=".\source\asw\tsk_control.c" />
+<name v=".\source\asw\swc_sensor.c" />
+<name v=".\source\asw\main.c" />
+<name v=".\source\asw\tsk_io.c" />
+<name v=".\source\bsw\cdd\ultrasonic.c" />
+<name v=".\source\asw\swc_engine.c" />
+<name v=".\source\rte\sc_ultrasonicarray.c" />
+<name v=".\source\bsw\cdd\ultrasonic_type.h" />
+<name v=".\Generated_Source\PSoC5\US_left_trigger.c" />
+<name v=".\060_Autonomous.cydwr" />
+<name v=".\source\asw\statemachine.c" />
+<name v=".\source\asw\swc_control.h" />
+<name v=".\source\asw\swc_engine.h" />
+<name v=".\source\bsw\cdd\engine_cfg.c" />
+<name v=".\source\bsw\cdd\engine_cfg.h" />
+<name v=".\source\bsw\cdd\ultrasonic_cfg.h" />
+<name v=".\source\rte\sc_carspeed_type.h" />
+<name v=".\source\rte\sc_carstate_type.h" />
+</OpenDocs>
+<OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
+
+  Actipro Docking/MDI for WinForms
+  Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
+  http://www.actiprosoftware.com
+
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1019, 678" SelectedTabbedMdiWindow="2e2ad7ec-378c-489f-9c1e-b42a08c276bf"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="ab1cdf5f-39b6-421d-9233-d1cf9c079b72" /><DocumentWindow Key="C:\Users\suhas\OneDrive\Documents\PSoC Creator\060_Autonomous.cydsn\source\asw\swc_monitor.h" Guid="4c5a437d-336b-456b-b169-0966fdd2b691" /><DocumentWindow Key="C:\Users\suhas\OneDrive\Documents\PSoC Creator\060_Autonomous.cydsn\source\asw\swc_monitor.c" Guid="6082a31c-3ec6-49b9-b005-1a8234a1f3d3" /><DocumentWindow Key="C:\Users\suhas\OneDrive\Documents\PSoC Creator\060_Autonomous.cydsn\source\asw\swc_control.c" Guid="810159cb-d0da-4ea6-8c7c-3d59fa41cb60" /><DocumentWindow Key="C:\Users\suhas\OneDrive\Documents\PSoC Creator\060_Autonomous.cydsn\source\asw\CTRL_autonomous.c" Guid="7fad2e77-8191-4b2f-b62e-fe1ab4eb4ced" /><DocumentWindow Key="C:\Users\suhas\OneDrive\Documents\PSoC Creator\060_Autonomous.cydsn\source\asw\CTRL_manual.c" Guid="a3ab8f4d-1fb9-4a21-bba9-d9ad917fd706" /><DocumentWindow Key="C:\Users\suhas\OneDrive\Documents\PSoC Creator\060_Autonomous.cydsn\source\bsw\cdd\ultrasonic_cfg.c" Guid="a61c0a04-e7d9-4977-b6f5-a270a1c1004e" /><DocumentWindow Key="C:\Users\suhas\OneDrive\Documents\PSoC Creator\060_Autonomous.cydsn\source\rte\sc_carerrorstate_type.c" Guid="29010cb3-ef48-4aab-a8ee-b37eef77735b" /><DocumentWindow Key="C:\Users\suhas\OneDrive\Documents\PSoC Creator\060_Autonomous.cydsn\source\rte\sc_carerrorstate_type.h" Guid="67398ddf-e05b-4ab8-a37e-df20a03be719" /><DocumentWindow Key="C:\Users\suhas\OneDrive\Documents\PSoC Creator\060_Autonomous.cydsn\source\rte\sc_ultrasonicarray_type.h" Guid="35d8dc9d-f8c8-4835-9fb1-9df01cb5319a" /><DocumentWindow Key="C:\Users\suhas\OneDrive\Documents\PSoC Creator\060_Autonomous.cydsn\source\rte\sc_ultrasonicarray_type.c" Guid="058fd0b7-a514-4118-b9e0-3f43787a309e" /><DocumentWindow Key="C:\Users\suhas\OneDrive\Documents\PSoC Creator\060_Autonomous.cydsn\TopDesign\TopDesign.cysch" Guid="e7cec1fe-e95e-4eb2-8151-a01fbe60350c" /><DocumentWindow Key="C:\Users\suhas\OneDrive\Documents\PSoC Creator\060_Autonomous.cydsn\source\asw\tsk_control.c" Guid="da15f1fc-867c-436e-a92c-68599a676259" /><DocumentWindow Key="C:\Users\suhas\OneDrive\Documents\PSoC Creator\060_Autonomous.cydsn\source\asw\swc_sensor.c" Guid="df26befd-62dc-43c2-9013-70fd7d0b3708" /><DocumentWindow Key="C:\Users\suhas\OneDrive\Documents\PSoC Creator\060_Autonomous.cydsn\source\asw\main.c" Guid="3a1d68c4-7e72-4015-b702-9a3f7acc5e0f" /><DocumentWindow Key="C:\Users\suhas\OneDrive\Documents\PSoC Creator\060_Autonomous.cydsn\source\asw\tsk_io.c" Guid="2c79753d-326c-4ab3-85b4-75dbcd6523eb" /><DocumentWindow Key="C:\Users\suhas\OneDrive\Documents\PSoC Creator\060_Autonomous.cydsn\source\bsw\cdd\ultrasonic.c" Guid="7127bc11-a593-42da-ba5a-929ea3c6b509" /><DocumentWindow Key="C:\Users\suhas\OneDrive\Documents\PSoC Creator\060_Autonomous.cydsn\source\asw\swc_engine.c" Guid="26f02472-7d5c-4279-a6bd-7f99f63676ef" /><DocumentWindow Key="C:\Users\suhas\OneDrive\Documents\PSoC Creator\060_Autonomous.cydsn\source\rte\sc_ultrasonicarray.c" Guid="8f8127ad-b80a-4bd2-8641-2a3ee0d9b9ce" /><DocumentWindow Key="C:\Users\suhas\OneDrive\Documents\PSoC Creator\060_Autonomous.cydsn\source\bsw\cdd\ultrasonic_type.h" Guid="b17afa8a-ccf4-44fb-830f-fda56f9f5bb2" /><DocumentWindow Key="C:\Users\suhas\OneDrive\Documents\PSoC Creator\060_Autonomous.cydsn\Generated_Source\PSoC5\US_left_trigger.c" Guid="5abdb531-7a15-494b-a614-9c6644af0bfb" /><DocumentWindow Key="C:\Users\suhas\OneDrive\Documents\PSoC Creator\060_Autonomous.cydsn\060_Autonomous.cydwr" Guid="8d5e3c1b-3e73-4098-93fe-f87688fb89f0" /><DocumentWindow Key="C:\Users\suhas\OneDrive\Documents\PSoC Creator\060_Autonomous.cydsn\source\asw\statemachine.c" Guid="2904b163-25b5-42f1-9ff5-84bd18cd7146" /><DocumentWindow Key="C:\Users\suhas\OneDrive\Documents\PSoC Creator\060_Autonomous.cydsn\source\asw\swc_control.h" Guid="6cfcd8a0-10ad-4a1f-bc3e-6b9bb957442d" /><DocumentWindow Key="C:\Users\suhas\OneDrive\Documents\PSoC Creator\060_Autonomous.cydsn\source\asw\swc_engine.h" Guid="b8fca5be-3a3d-445a-9f2a-08e0fb300066" /><DocumentWindow Key="C:\Users\suhas\OneDrive\Documents\PSoC Creator\060_Autonomous.cydsn\source\bsw\cdd\engine_cfg.c" Guid="b3218fcb-26ab-49f1-b7a4-3a69e06d477f" /><DocumentWindow Key="C:\Users\suhas\OneDrive\Documents\PSoC Creator\060_Autonomous.cydsn\source\bsw\cdd\engine_cfg.h" Guid="344c69a7-3580-4e23-8d7a-c2aeec9a2c29" /><DocumentWindow Key="C:\Users\suhas\OneDrive\Documents\PSoC Creator\060_Autonomous.cydsn\source\bsw\cdd\ultrasonic_cfg.h" Guid="2d98d036-5051-4ff2-9a0f-715a9aea2444" /><DocumentWindow Key="C:\Users\suhas\OneDrive\Documents\PSoC Creator\060_Autonomous.cydsn\source\rte\sc_carspeed_type.h" Guid="bf41f04a-2ca7-4ec0-bfd8-a85e000b9489" /><DocumentWindow Key="C:\Users\suhas\OneDrive\Documents\PSoC Creator\060_Autonomous.cydsn\source\rte\sc_carstate_type.h" Guid="2e2ad7ec-378c-489f-9c1e-b42a08c276bf" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+<config v="" />
+<AutoUpdate v="true" />
+</CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
+</CyXmlSerializer>

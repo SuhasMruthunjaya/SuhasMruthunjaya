@@ -1,0 +1,68 @@
+package idb3yyxkod0ge25kod0gevo;
+
+/**
+@version 2.0
+@physicalPackage
+@__modelType diagram 
+*/
+class diagram {
+/**
+@__ref <oiref:design#Class#idb1oopkod0ge25kod0gf8r.diagram:oiref><oihard>
+@__modelType reference
+@__fqn <oiref:#Package#uml:oiref> 
+*/
+class reference {
+}
+/**
+@__ref <oiref:design#Class#idh09mxkod0ge25kod0gf7q.diagram:oiref><oihard>
+@__modelType reference
+@__fqn <oiref:#Package#design:oiref> 
+*/
+class reference1 {
+}
+/**
+@__ref <oiref:design#Class#ida30aokod0ge25kod0gf8e.diagram:oiref><oihard>
+@__modelType reference
+@__fqn <oiref:#Package#rte:oiref> 
+*/
+class reference2 {
+}
+/**
+@__ref <oiref:design#Class#idber58kod0ge25kod0gf78.diagram:oiref><oihard>
+@__modelType reference
+@__fqn <oiref:#Package#bsw:oiref> 
+*/
+class reference3 {
+}
+/**
+@__ref <oiref:design#Class#id3pzftkod0ge25kod0geyp.diagram:oiref><oihard>
+@__modelType reference
+@__fqn <oiref:#Package#asw:oiref> 
+*/
+class reference4 {
+}
+}/**
+@__tags
+@shapeType ClassDiagram
+@changelog rO0ABXNyABFqYXZhLnV0aWwuSGFzaE1hcAUH2sHDFmDRAwACRgAKbG9hZEZhY3RvckkACXRocmVz
+aG9sZHhwP0AAAAAAAAx3CAAAABAAAAABc3IADmphdmEubGFuZy5Mb25nO4vkkMyPI98CAAFKAAV2
+YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAAAXk++VwAc3IAE2phdmEudXRp
+bC5BcnJheUxpc3R4gdIdmcdhnQMAAUkABHNpemV4cAAAAAF3BAAAAApzcgAlZGUubW5sLmRvY2Jv
+b2s0VEEuaW1wbC5DaGFuZ2VMb2dFbnRyeQeNjrX5qiSfAgADTAAIaG9zdG5hbWV0ABJMamF2YS9s
+YW5nL1N0cmluZztMAARuYW1lcQB+AAhMAAR1c2VycQB+AAh4cHQACUZST01NLU5CMnQACTxkZWZh
+dWx0PnQABUZyb21teHg= 
+*/
+class __tags {
+}/**
+@__options 
+*/
+class __options {
+}/**
+@__positions <oigroup:<oiref:design#Class#idb1oopkod0ge25kod0gf8r.diagram:oiref>=10,10,83,95,1:oigroup>
+<oigroup:<oiref:design#Class#ida30aokod0ge25kod0gf8e.diagram:oiref>=10,150,127,232,1:oigroup>
+<oigroup:<oiref:design#Class#idber58kod0ge25kod0gf78.diagram:oiref>=216,10,85,113,1:oigroup>
+<oigroup:<oiref:design#Class#id3pzftkod0ge25kod0geyp.diagram:oiref>=113,10,83,95,1:oigroup>
+<oigroup:<oiref:design#Class#idh09mxkod0ge25kod0gf7q.diagram:oiref>=157,150,83,104,1:oigroup> 
+*/
+class __positions {
+}

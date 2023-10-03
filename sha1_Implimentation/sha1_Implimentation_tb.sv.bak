@@ -1,0 +1,228 @@
+
+
+`timescale 1ns/1ps
+
+`define HALF_CLOCK_PERIOD   10
+`define RESET_PERIOD 	   100
+`define DELAY 	    	   	200
+`define SIM_DURATION 	  10000
+
+module sha1_Implimentation_tb();
+
+	// ### signals that should get monitored ... 
+	logic tb_q_start, tb_q_done;
+	logic [1:0] tb_q_state;
+	logic [1:0] tb_q_control;
+	
+	logic [511:0] tb_data;
+	
+	logic [31:0] tb_W_data [0:79];
+	
+	logic [31:0]tb_q0;
+	logic [31:0]tb_q1; 
+	logic [31:0]tb_q2; 
+	logic [31:0]tb_q3; 
+	logic [31:0]tb_q4; 
+	
+//	logic [159:0]tb_q_data;
+
+	// ### clock generation process ...
+   logic tb_local_clock = 0;
+ 	initial 
+		begin: clock_generation_process
+			tb_local_clock = 0;
+				forever begin
+					#`HALF_CLOCK_PERIOD tb_local_clock = ~tb_local_clock;
+				end
+		end	
+
+	logic tb_local_reset_n = 0;
+	
+	initial 
+		begin: reset_generation_process
+			$display ("Simulation starts ...");
+			// reset assertion ... 
+			#`RESET_PERIOD tb_local_reset_n = 1'b1;
+			#`SIM_DURATION
+			$display ("Simulation done ...");
+			$stop();
+		end
+		
+	logic [9:0] counter = 0;
+	
+	always_ff@(posedge tb_local_clock)
+		counter = counter + 1;
+		
+	// if counter is equal to 255, tb_start is set to one ... 
+	logic tb_start; assign tb_start = (counter >  128) ? 1'b1 : 1'b0;
+	
+
+	
+	
+	
+	
+  assign	tb_data = 512'b01000110010100110100111101000011001100100011001000101111001100100011001100100000011010010111001100100000011001100111010101101110001000011000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010001000;
+	
+	
+	/*logic [31:0] tb_W_data [0:79];
+	logic [31:0] number = 32'b11111111111111111111111111111111;
+	logic [6:0] i_row = 15;	
+	logic [7:0] data_register = 1;
+	logic [31:0] temp;
+	
+
+	always_ff@(posedge tb_local_clock)
+	begin
+	tb_W_data[0] = (tb_data>>480) & number;
+	if(i_row > 0)
+		begin
+			tb_W_data[i_row] <= (tb_data>>32*(15-i_row)) & number;
+			i_row <= i_row - 1;
+			data_register <=  data_register + 1;
+		end
+   if((data_register>=16) && (data_register<80))
+		begin
+			temp= (tb_W_data[data_register-3]^tb_W_data[data_register-8]^tb_W_data[data_register-14]^tb_W_data[data_register-16]);
+			tb_W_data[data_register] =((temp << 1)|(temp >> (32 - 1))); 
+			data_register <= data_register+1;
+		end
+	end 
+
+
+			
+	logic [31:0]a = 32'h67452301;
+	logic [31:0]b = 32'hEFCDAB89;
+	logic [31:0]c = 32'h98BADCFE;
+	logic [31:0]d = 32'h10325476;
+	logic [31:0]e = 32'hC3D2E1F0;
+	logic [31:0] compression_temp;
+	
+	
+	logic [31:0]h0 = 32'h67452301;
+	logic [31:0]h1 = 32'hEFCDAB89;
+	logic [31:0]h2 = 32'h98BADCFE;
+	logic [31:0]h3 = 32'h10325476;
+	logic [31:0]h4 = 32'hC3D2E1F0;
+	
+	logic [1:0] control = 0;	
+		
+	//localparam LOOP_ITERATIONS = 120;
+	localparam ITERATIONS      = 80;
+	
+	
+	logic [6:0] state_counter = 'd0;
+			
+	
+	always_ff@(posedge tb_local_clock)
+	begin
+							if((data_register>=80))
+							begin
+								if(state_counter < 20)
+									//control <= 2'b01;
+									begin	
+										
+										e <= d;
+										d <= c;
+										c <= (((b<<30) | (b >> (32-30))));
+										b <= a;
+										a <=  ((a<<5) | (a >> (32-5))) + ((b&c)|((~b)&d)) + e + tb_W_data[state_counter] + 32'h5A827999;
+										data_register <= data_register+1;
+										control <= 2'b00;
+										state_counter <= state_counter + 1;
+										
+									end	
+									
+								else if(state_counter >= 20 && state_counter < 40)
+									//control <= 2'b10;
+									begin	
+										
+										e <= d;
+										d <= c;
+										c <= (((b<<30) | (b >> (32-30))));
+										b <= a;
+										a <= ((a<<5) | (a >> (32-5))) + (b^c^d) + e + tb_W_data[state_counter] + 32'h6ED9EBA1;;
+										data_register <= data_register+1;
+										control <= 2'b01;
+									
+									end	
+									
+								else if(state_counter >= 40 && state_counter < 60)
+									//control <= 2'b00;
+									
+									begin
+										 
+										e <= d;
+										d <= c;
+										c <= (((b<<30) | (b >> (32-30))));
+										b <= a;
+										a <= ((a<<5) | (a >> (32-5))) + ((b&c)|(b&d)|(c&d)) + e + tb_W_data[state_counter] + 32'h8F1BBCDC;;
+										data_register <= data_register+1;
+										control <= 2'b10;
+									
+									end
+								
+								else if(state_counter >= 60 && state_counter < 80)
+									//control <= 2'b00;
+									
+									begin
+										
+										e <= d;
+										d <= c;
+										c <= (((b<<30) | (b >> (32-30))));
+										b <= a;
+										a <= ((a<<5) | (a >> (32-5))) + (b^c^d) + e + tb_W_data[state_counter] + 32'hCA62C1D6;;
+										data_register <= data_register+1;
+										control <= 2'b11;
+										
+									end
+								
+									
+									
+							
+								if(state_counter == ITERATIONS)
+									begin
+										data_register = data_register+1;
+										//state_counter <= 0;
+										control = 2'b01;
+										h0 = h0 + a;
+										h1 = h1 + b;
+										h2 = h2 + c;
+										h3 = h3 + d;
+										h4 = h4 + e;
+										
+										
+									//	state         <= __DONE;
+									end
+								else 
+									begin
+										data_register = data_register+1;
+										state_counter <= state_counter + 1;
+									//	state         <= __PROC;
+									end	
+								end
+						 end
+*/
+	
+//logic [6:0] tb_q_state_counter;
+
+
+	
+sha1_Implimentation dut_0 (.clk(tb_local_clock),
+									  .reset_n(tb_local_reset_n),
+									  .start(tb_start),
+									  .q_start(tb_q_start),
+									  .q_done(tb_q_done),
+									  .q_control(tb_q_control),
+									  .q_state(tb_q_state),
+									  .W_data(tb_W_data),
+									  .data(tb_data),
+									  .q0(tb_q0),
+									  .q1(tb_q1),
+									  .q2(tb_q2),
+									  .q3(tb_q3),
+									  .q4(tb_q4)
+									//  .q_data(tb_q_data),
+									 // .q_state_counter(tb_q_state_counter)
+								 );
+	
+endmodule 

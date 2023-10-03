@@ -1,0 +1,281 @@
+package idfqbeukod0ge25kod0gvxj;
+
+/**
+@version 2.0
+@__modelType diagram 
+*/
+class diagram {
+/**
+@__ref <oiref:design#Class#idfqbeukod0ge25kod0gvxj.nodeidhqmonkod0ge25kod0hz6y:oiref><oihard>
+@__modelType reference 
+*/
+class reference {
+}
+/**
+@__ref <oiref:design#Class#idfqbeukod0ge25kod0gvxj.nodeidg48dmkod0ge25kod0i6df:oiref><oihard>
+@__modelType reference 
+*/
+class reference13 {
+}
+/**
+@__ref <oiref:design#Class#idfqbeukod0ge25kod0gvxj.nodeidd6diikod0ge25kod0ighh:oiref><oihard>
+@__modelType reference 
+*/
+class reference14 {
+}
+/**
+@__ref <oiref:design#Class#idfqbeukod0ge25kod0gvxj.nodeidibf5vkod0ge25kod0kq8w:oiref><oihard>
+@__modelType reference 
+*/
+class reference15 {
+}
+/**
+@__ref <oiref:design#Class#idfqbeukod0ge25kod0gvxj.nodeidc18qokod0ge25kod0ufvx:oiref><oihard>
+@__modelType reference 
+*/
+class reference16 {
+}
+}/**
+
+@__tags
+@shapeType UseCaseDiagram
+@changelog rO0ABXNyABFqYXZhLnV0aWwuSGFzaE1hcAUH2sHDFmDRAwACRgAKbG9hZEZhY3RvckkACXRocmVz
+aG9sZHhwP0AAAAAAAAx3CAAAABAAAAABc3IADmphdmEubGFuZy5Mb25nO4vkkMyPI98CAAFKAAV2
+YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAAAXk++VwAc3IAE2phdmEudXRp
+bC5BcnJheUxpc3R4gdIdmcdhnQMAAUkABHNpemV4cAAAAAF3BAAAAApzcgAlZGUubW5sLmRvY2Jv
+b2s0VEEuaW1wbC5DaGFuZ2VMb2dFbnRyeQeNjrX5qiSfAgADTAAIaG9zdG5hbWV0ABJMamF2YS9s
+YW5nL1N0cmluZztMAARuYW1lcQB+AAhMAAR1c2VycQB+AAh4cHQACUZST01NLU5CMnQACXVjX2Vu
+Z2luZXQABUZyb21teHg= 
+*/
+class __tags {
+}/**
+@__options 
+*/
+class __options {
+}/**
+@__positions <oigroup:<oiref:design#Class#idfqbeukod0ge25kod0gvxj.nodeidc18qokod0ge25kod0ufvx:oiref>=1075,365,161,40,1:oigroup>
+<oigroup:<oiref:design#Class#idfqbeukod0ge25kod0gvxj.nodeidg48dmkod0ge25kod0i6df.nodeiddsfxqkod0ge25kod0iobc.linkid8855zkod0ge25kod0k4lv:oiref>=580,118,798,150:oigroup>
+<oigroup:<oiref:design#Class#idfqbeukod0ge25kod0gvxj.nodeidg48dmkod0ge25kod0i6df.nodeid6g090kod0ge25kod0ryqe:oiref>=536,220,171,26,1:oigroup>
+<oigroup:<oiref:design#Class#idfqbeukod0ge25kod0gvxj.nodeidibf5vkod0ge25kod0kq8w.nodeid14h6ikod0ge25kod0lj1q:oiref>=360,730,286,26,1:oigroup>
+<oigroup:<oiref:design#Class#idfqbeukod0ge25kod0gvxj.nodeidibf5vkod0ge25kod0kq8w.nodeidj74v6kod0ge25kod0kv74:oiref>=580,680,204,26,1:oigroup>
+<oigroup:<oiref:design#Class#idfqbeukod0ge25kod0gvxj.nodeidd6diikod0ge25kod0ighh.nodeid3514ikod0ge25kod16mnl:oiref>=360,330,151,26,1:oigroup>
+<oigroup:<oiref:design#Class#idfqbeukod0ge25kod0gvxj.nodeidd6diikod0ge25kod0ighh.nodeid6oc24kod0ge25kod0p6vl.linkidc1efdkod0ge25kod0r1hm:oiref>=787,408,787,640:oigroup>
+<oigroup:<oiref:design#Class#idfqbeukod0ge25kod0gvxj.nodeidc18qokod0ge25kod0ufvx.linkid5qmjlkod0ge25kod0uosc:oiref>=1075,385,950,385:oigroup>
+<oigroup:<oiref:design#Class#idfqbeukod0ge25kod0gvxj.nodeidibf5vkod0ge25kod0kq8w:oiref>=344,614,608,176,0:oigroup>
+<oigroup:<oiref:design#Class#idfqbeukod0ge25kod0gvxj.nodeidg48dmkod0ge25kod0i6df.nodeid3r897kod0ge25kod0jnnk:oiref>=706,70,202,26,1:oigroup>
+<oigroup:<oiref:design#Class#idfqbeukod0ge25kod0gvxj.nodeidd6diikod0ge25kod0ighh.nodeidb0mmokod0ge25kod0npfb.linkidb1b9ckod0ge25kod0qo3p:oiref>=500,518,500,550,500,610,500,730:oigroup>
+<oigroup:<oiref:design#Class#idfqbeukod0ge25kod0gvxj.nodeidhqmonkod0ge25kod0hz6y.linkidiv58qkod0ge25kod0k6yw:oiref>=87,290,437,118:oigroup>
+<oigroup:Composite#<<extend>>#<oiref:design#Class#idfqbeukod0ge25kod0gvxj.nodeidg48dmkod0ge25kod0i6df.nodeiddsfxqkod0ge25kod0iobc.linkid8855zkod0ge25kod0k4lv:oiref>=693,114,72,16,0:oigroup>
+<oigroup:<oiref:design#Class#idfqbeukod0ge25kod0gvxj.nodeidg48dmkod0ge25kod0i6df.nodeiddsfxqkod0ge25kod0iobc.linkidcbsdpkod0ge25kod0k2cf:oiref>=652,83,706,83:oigroup>
+<oigroup:<oiref:design#Class#idfqbeukod0ge25kod0gvxj.nodeidg48dmkod0ge25kod0i6df.nodeid6g090kod0ge25kod0ryqe.linkidaow1akod0ge25kod0s91u:oiref>=680,246,680,382:oigroup>
+<oigroup:<oiref:design#Class#idfqbeukod0ge25kod0gvxj.nodeidibf5vkod0ge25kod0kq8w.nodeid2eusnkod0ge25kod0l8pw:oiref>=702,640,248,26,1:oigroup>
+<oigroup:Composite#<<extend>>#<oiref:design#Class#idfqbeukod0ge25kod0gvxj.nodeidg48dmkod0ge25kod0i6df.nodeiddsfxqkod0ge25kod0iobc.linkidcbsdpkod0ge25kod0k2cf:oiref>=643,63,72,16,0:oigroup>
+<oigroup:<oiref:design#Class#idfqbeukod0ge25kod0gvxj.nodeidg48dmkod0ge25kod0i6df:oiref>=340,29,610,267,0:oigroup>
+<oigroup:<oiref:design#Class#idfqbeukod0ge25kod0gvxj.nodeidhqmonkod0ge25kod0hz6y:oiref>=70,290,52,77,1:oigroup>
+<oigroup:<oiref:design#Class#idfqbeukod0ge25kod0gvxj.nodeidd6diikod0ge25kod0ighh.nodeidb0mmokod0ge25kod0npfb:oiref>=370,470,286,48,1:oigroup>
+<oigroup:<oiref:design#Class#idfqbeukod0ge25kod0gvxj.nodeidhqmonkod0ge25kod0hz6y.linkid7u87gkod0ge25kod0sc3m:oiref>=104,290,608,246:oigroup>
+<oigroup:<oiref:design#Class#idfqbeukod0ge25kod0gvxj.nodeidhqmonkod0ge25kod0hz6y.linkideqawgkod0ge25kod16umw:oiref>=122,343,360,343:oigroup>
+<oigroup:<oiref:design#Class#idfqbeukod0ge25kod0gvxj.nodeidibf5vkod0ge25kod0kq8w.nodeid2eusnkod0ge25kod0l8pw.linkidg40tkkod0ge25kod0qtwm:oiref>=744,640,636,518:oigroup>
+<oigroup:<oiref:design#Class#idfqbeukod0ge25kod0gvxj.nodeidd6diikod0ge25kod0ighh:oiref>=344,310,606,289,0:oigroup>
+<oigroup:<oiref:design#Class#idfqbeukod0ge25kod0gvxj.nodeidd6diikod0ge25kod0ighh.nodeidb0mmokod0ge25kod0npfb.linkidwy4vkod0ge25kod0qhvv:oiref>=608,518,608,680:oigroup>
+<oigroup:<oiref:design#Class#idfqbeukod0ge25kod0gvxj.nodeidd6diikod0ge25kod0ighh.nodeid6oc24kod0ge25kod0p6vl:oiref>=654,382,219,26,1:oigroup>
+<oigroup:Composite#<<extend>>#<oiref:design#Class#idfqbeukod0ge25kod0gvxj.nodeidibf5vkod0ge25kod0kq8w.nodeid2eusnkod0ge25kod0l8pw.linkidg40tkkod0ge25kod0qtwm:oiref>=614,579,72,16,0:oigroup>
+<oigroup:<oiref:design#Class#idfqbeukod0ge25kod0gvxj.nodeidg48dmkod0ge25kod0i6df.nodeid5o910kod0ge25kod0jgbu:oiref>=686,150,224,26,1:oigroup>
+<oigroup:<oiref:design#Class#idfqbeukod0ge25kod0gvxj.nodeidg48dmkod0ge25kod0i6df.nodeiddsfxqkod0ge25kod0iobc:oiref>=366,70,286,48,1:oigroup>
+<oigroup:<oiref:design#Class#idfqbeukod0ge25kod0gvxj.nodeidg48dmkod0ge25kod0i6df.nodeiddsfxqkod0ge25kod0iobc.linkidixk6akod0ge25kod0rsvk:oiref>=508,118,508,470:oigroup> 
+*/
+class __positions {
+}
+/**
+@shapeType Actor
+@__modelType node
+@name User 
+*/
+class nodeidhqmonkod0ge25kod0hz6y {
+/**
+@shapeType CommunicatesLink
+@__modelType link
+@__ref <oiref:design#Class#idfqbeukod0ge25kod0gvxj.nodeidg48dmkod0ge25kod0i6df.nodeiddsfxqkod0ge25kod0iobc:oiref><oihard> 
+*/
+class linkidiv58qkod0ge25kod0k6yw {
+}
+/**
+@shapeType CommunicatesLink
+@__modelType link
+@__ref <oiref:design#Class#idfqbeukod0ge25kod0gvxj.nodeidg48dmkod0ge25kod0i6df.nodeid6g090kod0ge25kod0ryqe:oiref><oihard> 
+*/
+class linkid7u87gkod0ge25kod0sc3m {
+}
+/**
+@shapeType CommunicatesLink
+@__modelType link
+@__ref <oiref:design#Class#idfqbeukod0ge25kod0gvxj.nodeidd6diikod0ge25kod0ighh.nodeid3514ikod0ge25kod16mnl:oiref><oihard> 
+*/
+class linkideqawgkod0ge25kod16umw {
+}
+}
+/**
+@shapeType SystemBoundary
+@__modelType node
+@name Application Level
+@backgroundColor 200,200,200 
+*/
+class nodeidg48dmkod0ge25kod0i6df {
+/**
+@shapeType UseCase
+@__modelType node
+@name Drive the car with a specific speed and direction 
+*/
+class nodeiddsfxqkod0ge25kod0iobc {
+/**
+@shapeType ExtendsLink
+@__modelType link
+@__ref <oiref:design#Class#idfqbeukod0ge25kod0gvxj.nodeidg48dmkod0ge25kod0i6df.nodeid3r897kod0ge25kod0jnnk:oiref><oihard> 
+*/
+class linkidcbsdpkod0ge25kod0k2cf {
+}
+/**
+@shapeType ExtendsLink
+@__modelType link
+@__ref <oiref:design#Class#idfqbeukod0ge25kod0gvxj.nodeidg48dmkod0ge25kod0i6df.nodeid5o910kod0ge25kod0jgbu:oiref><oihard> 
+*/
+class linkid8855zkod0ge25kod0k4lv {
+}
+/**
+@shapeType IncludesLink
+@__modelType link
+@__ref <oiref:design#Class#idfqbeukod0ge25kod0gvxj.nodeidd6diikod0ge25kod0ighh.nodeidb0mmokod0ge25kod0npfb:oiref><oihard> 
+*/
+class linkidixk6akod0ge25kod0rsvk {
+}
+}
+/**
+@shapeType UseCase
+@__modelType node
+@name Rotate by a specific degree 
+*/
+class nodeid5o910kod0ge25kod0jgbu {
+}
+/**
+@shapeType UseCase
+@__modelType node
+@name Drive a specific distance 
+*/
+class nodeid3r897kod0ge25kod0jnnk {
+}
+/**
+@shapeType UseCase
+@__modelType node
+@name Get car replacement 
+*/
+class nodeid6g090kod0ge25kod0ryqe {
+/**
+@shapeType IncludesLink
+@__modelType link
+@__ref <oiref:design#Class#idfqbeukod0ge25kod0gvxj.nodeidd6diikod0ge25kod0ighh.nodeid6oc24kod0ge25kod0p6vl:oiref><oihard> 
+*/
+class linkidaow1akod0ge25kod0s91u {
+}
+}
+}
+/**
+@shapeType SystemBoundary
+@__modelType node
+@name Complex Device Driver
+@backgroundColor 200,200,200 
+*/
+class nodeidd6diikod0ge25kod0ighh {
+/**
+@shapeType UseCase
+@__modelType node
+@name Drive a single engine with a specific target speed 
+*/
+class nodeidb0mmokod0ge25kod0npfb {
+/**
+@shapeType IncludesLink
+@__modelType link
+@__ref <oiref:design#Class#idfqbeukod0ge25kod0gvxj.nodeidibf5vkod0ge25kod0kq8w.nodeidj74v6kod0ge25kod0kv74:oiref><oihard> 
+*/
+class linkidwy4vkod0ge25kod0qhvv {
+}
+/**
+@shapeType IncludesLink
+@__modelType link
+@__ref <oiref:design#Class#idfqbeukod0ge25kod0gvxj.nodeidibf5vkod0ge25kod0kq8w.nodeid14h6ikod0ge25kod0lj1q:oiref><oihard> 
+*/
+class linkidb1b9ckod0ge25kod0qo3p {
+}
+}
+/**
+@shapeType UseCase
+@__modelType node
+@name Read delta single decoder 
+*/
+class nodeid6oc24kod0ge25kod0p6vl {
+/**
+@shapeType IncludesLink
+@__modelType link
+@__ref <oiref:design#Class#idfqbeukod0ge25kod0gvxj.nodeidibf5vkod0ge25kod0kq8w.nodeid2eusnkod0ge25kod0l8pw:oiref><oihard> 
+*/
+class linkidc1efdkod0ge25kod0r1hm {
+}
+}
+/**
+@shapeType UseCase
+@__modelType node
+@name Initialise a engine 
+*/
+class nodeid3514ikod0ge25kod16mnl {
+}
+}
+/**
+@shapeType SystemBoundary
+@__modelType node
+@name MCAL
+@backgroundColor 200,200,200 
+*/
+class nodeidibf5vkod0ge25kod0kq8w {
+/**
+@shapeType UseCase
+@__modelType node
+@name Set PWM FR, FL, RL, RR 
+*/
+class nodeidj74v6kod0ge25kod0kv74 {
+}
+/**
+@shapeType UseCase
+@__modelType node
+@name Read Decoder FR, FL, RR, RL 
+*/
+class nodeid2eusnkod0ge25kod0l8pw {
+/**
+@shapeType ExtendsLink
+@__modelType link
+@__ref <oiref:design#Class#idfqbeukod0ge25kod0gvxj.nodeidd6diikod0ge25kod0ighh.nodeidb0mmokod0ge25kod0npfb:oiref><oihard> 
+*/
+class linkidg40tkkod0ge25kod0qtwm {
+}
+}
+/**
+@shapeType UseCase
+@__modelType node
+@name Set driving direction FR, FL, RR, RL 
+*/
+class nodeid14h6ikod0ge25kod0lj1q {
+}
+}
+/**
+@shapeType Note
+@__modelType node
+@name Note1
+@text Create 4 engine objects 
+*/
+class nodeidc18qokod0ge25kod0ufvx {
+/**
+@shapeType NoteLink
+@__modelType link
+@__ref <oiref:design#Class#idfqbeukod0ge25kod0gvxj.nodeidd6diikod0ge25kod0ighh:oiref><oihard> 
+*/
+class linkid5qmjlkod0ge25kod0uosc {
+}
+}
