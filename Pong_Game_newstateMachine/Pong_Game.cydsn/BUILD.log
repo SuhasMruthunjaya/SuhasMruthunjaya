@@ -1,0 +1,62 @@
+--------------- Build Started: 10/06/2023 19:57:22 Project: Pong_Game, Configuration: ARM GCC 5.4-2016-q2-update Debug ---------------
+The code generation step is up to date.
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\labboard -I.\source\bsw\Services -I.\source\bsw\tft -I.\source\bsw\tft\fonts -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/soccer.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -Wreturn-type -c source\asw\soccer.c -o .\CortexM3\ARM_GCC_541\Debug\soccer.o
+In file included from Generated_Source\PSoC5/ErikaOS_1_ee_api.inc:73:0,
+                 from Generated_Source\PSoC5/ErikaOS_1_ee.h:129,
+                 from Generated_Source\PSoC5/project.h:41,
+                 from source\asw\soccer.c:35:
+.\source\bsw\Services/ringbuffer.h: In function 'Ringbuffer_Write':
+Generated_Source\PSoC5/ErikaOS_1_ee_oo_api.inc:136:35: warning: implicit declaration of function 'EE_oo_GetResource' [-Wimplicit-function-declaration]
+ #define GetResource               EE_oo_GetResource
+                                   ^
+.\source\bsw\Services/ringbuffer.h:78:9: note: in expansion of macro 'GetResource'
+         GetResource(rb->erika_ressource);
+         ^
+Generated_Source\PSoC5/ErikaOS_1_ee_oo_api.inc:140:35: warning: implicit declaration of function 'EE_oo_ReleaseResource' [-Wimplicit-function-declaration]
+ #define ReleaseResource           EE_oo_ReleaseResource
+                                   ^
+.\source\bsw\Services/ringbuffer.h:99:9: note: in expansion of macro 'ReleaseResource'
+         ReleaseResource(rb->erika_ressource);
+         ^
+source\asw\soccer.c: In function 'SOCCER__control':
+source\asw\soccer.c:188:14: warning: unused variable 'ret' [-Wunused-variable]
+         RC_t ret = RB_get(&soccer__ringbuffer,&data); 
+              ^
+source\asw\soccer.c: In function 'SOCCER_object_init':
+source\asw\soccer.c:303:26: warning: missing braces around initializer [-Wmissing-braces]
+     SPEED_t ball_speed = {1,1};
+                          ^
+source\asw\soccer.c:303:26: note: (near initialization for 'ball_speed')
+source\asw\soccer.c: In function 'SOCCER__CANtransmit_ballinfo':
+source\asw\soccer.c:387:34: warning: missing braces around initializer [-Wmissing-braces]
+     CAN_DATA_BYTES_MSG payload = {0,0,0,0,0,0};
+                                  ^
+source\asw\soccer.c:387:34: note: (near initialization for 'payload')
+source\asw\soccer.c: In function 'SOCCER_can_recieve':
+source\asw\soccer.c:457:34: warning: missing braces around initializer [-Wmissing-braces]
+     CAN_DATA_BYTES_MSG payload = {0,0,0,0,0,0};
+                                  ^
+source\asw\soccer.c:457:34: note: (near initialization for 'payload')
+source\asw\soccer.c: In function 'SOCCER_init':
+source\asw\soccer.c:294:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+source\asw\soccer.c: In function 'SOCCER_cyclic':
+source\asw\soccer.c:372:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+source\asw\soccer.c: In function 'SOCCER_loosing_menu':
+source\asw\soccer.c:566:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+arm-none-eabi-ar.exe -rs .\CortexM3\ARM_GCC_541\Debug\Pong_Game.a .\CortexM3\ARM_GCC_541\Debug\CyDmac.o .\CortexM3\ARM_GCC_541\Debug\CyFlash.o .\CortexM3\ARM_GCC_541\Debug\CyLib.o .\CortexM3\ARM_GCC_541\Debug\cyPm.o .\CortexM3\ARM_GCC_541\Debug\CySpc.o .\CortexM3\ARM_GCC_541\Debug\cyutils.o .\CortexM3\ARM_GCC_541\Debug\cy_em_eeprom.o .\CortexM3\ARM_GCC_541\Debug\TFT_SPI.o .\CortexM3\ARM_GCC_541\Debug\TFT_SPI_PM.o .\CortexM3\ARM_GCC_541\Debug\TFT_SPI_INT.o .\CortexM3\ARM_GCC_541\Debug\wTFT_SCL.o .\CortexM3\ARM_GCC_541\Debug\wTFT_SDA.o .\CortexM3\ARM_GCC_541\Debug\TFT_SPI_IntClock.o .\CortexM3\ARM_GCC_541\Debug\TFT_RES.o .\CortexM3\ARM_GCC_541\Debug\TFT_CS.o .\CortexM3\ARM_GCC_541\Debug\TFT_DC.o .\CortexM3\ARM_GCC_541\Debug\TFT_LED.o .\CortexM3\ARM_GCC_541\Debug\Clock_1.o .\CortexM3\ARM_GCC_541\Debug\TFT_BackLight.o .\CortexM3\ARM_GCC_541\Debug\TFT_BackLight_PM.o .\CortexM3\ARM_GCC_541\Debug\UART_LOG.o .\CortexM3\ARM_GCC_541\Debug\UART_LOG_PM.o .\CortexM3\ARM_GCC_541\Debug\UART_LOG_INT.o .\CortexM3\ARM_GCC_541\Debug\UART_LOG_BOOT.o .\CortexM3\ARM_GCC_541\Debug\UART_LOG_IntClock.o .\CortexM3\ARM_GCC_541\Debug\JOYSTICK_ADC_XY.o .\CortexM3\ARM_GCC_541\Debug\JOYSTICK_ADC_XY_PM.o .\CortexM3\ARM_GCC_541\Debug\JOYSTICK_ADC_XY_INT.o .\CortexM3\ARM_GCC_541\Debug\JOYSTICK_ADC_XY_SAR.o .\CortexM3\ARM_GCC_541\Debug\JOYSTICK_ADC_XY_SAR_INT.o .\CortexM3\ARM_GCC_541\Debug\JOYSTICK_ADC_XY_SAR_PM.o .\CortexM3\ARM_GCC_541\Debug\JOYSTICK_ADC_XY_IntClock.o .\CortexM3\ARM_GCC_541\Debug\JOYSTICK_ADC_XY_TempBuf_dma.o .\CortexM3\ARM_GCC_541\Debug\JOYSTICK_ADC_XY_FinalBuf_dma.o .\CortexM3\ARM_GCC_541\Debug\JOYSTICK_ADC_XY_IRQ.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_activate.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_alcancel.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_alget.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_algetbase.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_alsetabs.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_alsetrel.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_altick.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_chaintas.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_evclear.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_evget.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_evset.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_evwait.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_force_schedule.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_getcountervalue.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_getelapsedvalue.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_gettaskid.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_gettaskstate.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_iparam.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_irqendin.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_lockres.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_lookup.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_rq_exchg.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_rq_first.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_rq_inser.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_schedule.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_semgetvalue.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_sempost.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_semtrywait.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_semwait.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_shtdown.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_startos.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_terminat.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_thendin.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_tnterm.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_tstub.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_ulockallres.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_ulockres.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_cortex_mx_ee_context.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_cortex_mx_ee_system_timer.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_cortex_mx_ee_utils.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_common_ee_hal_structs.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_eecfg.o .\CortexM3\ARM_GCC_541\Debug\JOYSTICK_ADC_Y.o .\CortexM3\ARM_GCC_541\Debug\JOYSTICK_ADC_X.o .\CortexM3\ARM_GCC_541\Debug\seg_A.o .\CortexM3\ARM_GCC_541\Debug\seg_B.o .\CortexM3\ARM_GCC_541\Debug\seg_C.o .\CortexM3\ARM_GCC_541\Debug\seg_D.o .\CortexM3\ARM_GCC_541\Debug\seg_E.o .\CortexM3\ARM_GCC_541\Debug\seg_F.o .\CortexM3\ARM_GCC_541\Debug\seg_G.o .\CortexM3\ARM_GCC_541\Debug\isr_Button.o .\CortexM3\ARM_GCC_541\Debug\BUTTON_1.o .\CortexM3\ARM_GCC_541\Debug\BUTTON_2.o .\CortexM3\ARM_GCC_541\Debug\BUTTON_3.o .\CortexM3\ARM_GCC_541\Debug\BUTTON_4.o .\CortexM3\ARM_GCC_541\Debug\SEVEN_DP.o .\CortexM3\ARM_GCC_541\Debug\SEVEN_SELECT.o .\CortexM3\ARM_GCC_541\Debug\SEVEN_reg.o .\CortexM3\ARM_GCC_541\Debug\SEVEN_reg_PM.o .\CortexM3\ARM_GCC_541\Debug\CAN_RX.o .\CortexM3\ARM_GCC_541\Debug\CAN_TX.o .\CortexM3\ARM_GCC_541\Debug\CAN.o .\CortexM3\ARM_GCC_541\Debug\CAN_INT.o .\CortexM3\ARM_GCC_541\Debug\CAN_PM.o .\CortexM3\ARM_GCC_541\Debug\CAN_TX_RX_func.o .\CortexM3\ARM_GCC_541\Debug\CyBootAsmGnu.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_gnu_change_context_isr.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_gnu_irq_stack.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_gnu_multi_context.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_gnu_oo.o
+arm-none-eabi-ar.exe: creating .\CortexM3\ARM_GCC_541\Debug\Pong_Game.a
+arm-none-eabi-gcc.exe -Wl,--start-group -o C:\Users\suhas\OneDrive\Documents\Pong_Game_newstateMachine\Pong_Game.cydsn\CortexM3\ARM_GCC_541\Debug\Pong_Game.elf .\CortexM3\ARM_GCC_541\Debug\main.o .\CortexM3\ARM_GCC_541\Debug\screen.o .\CortexM3\ARM_GCC_541\Debug\joystick.o .\CortexM3\ARM_GCC_541\Debug\bat.o .\CortexM3\ARM_GCC_541\Debug\ball.o .\CortexM3\ARM_GCC_541\Debug\pong.o .\CortexM3\ARM_GCC_541\Debug\game.o .\CortexM3\ARM_GCC_541\Debug\menu.o .\CortexM3\ARM_GCC_541\Debug\statemachine.o .\CortexM3\ARM_GCC_541\Debug\game_cfg.o .\CortexM3\ARM_GCC_541\Debug\soccer.o .\CortexM3\ARM_GCC_541\Debug\joystick_adc.o .\CortexM3\ARM_GCC_541\Debug\seven.o .\CortexM3\ARM_GCC_541\Debug\button.o .\CortexM3\ARM_GCC_541\Debug\tft.o .\CortexM3\ARM_GCC_541\Debug\logging.o .\CortexM3\ARM_GCC_541\Debug\Event_Ringbuffer.o .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o .\CortexM3\ARM_GCC_541\Debug\cymetadata.o .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o .\CortexM3\ARM_GCC_541\Debug\Pong_Game.a "C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CortexM3\ARM_GCC_541\Debug\CyComponentLibrary.a" -mcpu=cortex-m3 -mthumb -L Generated_Source\PSoC5 -Wl,-Map,.\CortexM3\ARM_GCC_541\Debug/Pong_Game.map -T Generated_Source\PSoC5\cm3gcc.ld -specs=nano.specs -Wl,--gc-sections -g -ffunction-sections -Og -ffat-lto-objects -Wl,--end-group
+cyelftool.exe -C C:\Users\suhas\OneDrive\Documents\Pong_Game_newstateMachine\Pong_Game.cydsn\CortexM3\ARM_GCC_541\Debug\Pong_Game.elf --flash_row_size 256 --flash_size 262144 --flash_offset 0x00000000
+No ELF section .cychecksum found, creating one
+Application checksum calculated and stored in ELF section .cychecksum
+Checksum calculated and stored in ELF section .cymeta
+cyelftool.exe -S C:\Users\suhas\OneDrive\Documents\Pong_Game_newstateMachine\Pong_Game.cydsn\CortexM3\ARM_GCC_541\Debug\Pong_Game.elf
+Flash used: 24310 of 262144 bytes (9.3%).
+SRAM used: 5881 of 65536 bytes (9.0%). Stack: 2048 bytes. Heap: 128 bytes.
+--------------- Build Succeeded: 10/06/2023 19:57:25 ---------------
