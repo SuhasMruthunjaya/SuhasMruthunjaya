@@ -1,0 +1,41 @@
+Sequence:
+->Settings:
+-->Param:  Type: Duration Unit: ns Value: 0
+-->Param:  Type: Frequency Unit: Hz Value: 0
+-->Param:  Type: Power Unit: mW Value: 0
+
+->Loop: ID: SeqLoopM Duration: 0 Unit:
+-->Param:  Type: Count Value: 10 EditField: Repetitions
+
+-->Param:  Type: Averaging Value: 10 EditField: Averaging
+-->Loop: ID: SeqLoopN Duration: 17500 Unit: ns
+--->Param:  Type:  Count Value: 100 EditField: count
+
+--->Channel: Name:McwFrequ
+-->Pulse:
+--->Param:  Type: Duration Unit: ns Value: 5000
+--->Param:  Type: Frequency Unit: Hz Value: 2500000 EditField: McwFrequ_Frequency
+---->Increment: ValueNGain: 10000 LoopID: SeqLoopN EditField: McwFrequ_FrequencyGain
+
+--->Channel: Name:LaserPwr
+-->Pulse:
+--->Param:  Type: Duration Unit: ns Value: 17500
+--->Param:  Type: Power Unit: mW Value: 87
+
+--->Channel: Name:LaserAct
+-->Pulse:
+--->Param:  Type: Duration Unit: ns Value: 5000 EditField: LaserAct_Duration
+--->Param:  Type: Power Unit: mW Value: 1
+
+--->Channel: Name:Phodiod1
+-->Pulse:
+--->Param:  Type: Duration Unit: ns Value: 2000
+--->Param:  Type: Power Unit: mW Value: 1
+
+--->Channel: Name:Phodiod2
+-->Delay:
+--->Param:  Type: Duration Unit: ns Value: 3000
+
+-->Pulse:
+--->Param:  Type: Duration Unit: ns Value: 2000
+--->Param:  Type: Power Unit: mW Value: 1

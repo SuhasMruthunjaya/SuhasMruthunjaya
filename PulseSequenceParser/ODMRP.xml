@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Sequence name ="ODMRP">
+	<Settings>
+		<Param Type="Duration" Unit="ns"/>
+		<Param Type="Frequency" Unit="Hz"/>
+		<Param Type="Power" Unit="mW"/>
+	</Settings>
+	<!-- Outer SeqLoopM loop -->
+	<Loop ID="SeqLoopM"> <!-- Given random max values for every edit attribute -->
+		<Param Type="Count" Value="edit:10:10:100" EditField="Repetitions" />
+		<Param Type="Averaging" Value="edit:10:0:10" EditField="Averaging" />
+		<!-- Inner SeqLoopN loop -->
+		<Loop ID="SeqLoopN" Duration="17500" Unit="ns">
+			<Param Type =" Count" Value ="edit:100:0:100000" EditField="count"> </Param>
+			<Channel Name="McwFrequ">
+				<Pulse>
+					<Param Type ="Duration"  Value ="5000"/>
+					<Param Type ="Frequency" Value ="edit:2500000:0:10000000" EditField ="McwFrequ_Frequency">
+						<Increment ValueNgain="edit:10000:0:50000" LoopId="SeqLoopN" EditField="McwFrequ_FrequencyGain"/>
+					</Param>
+				</Pulse>
+			</Channel>
+			<Channel Name = "LaserPwr">
+				<Pulse>
+					<Param Type ="Duration"  Value ="17500"/>
+					<Param Type ="Power" Value ="87"  />
+				</Pulse>
+			</Channel>
+			<Channel Name = "LaserAct">
+				<Pulse>
+					<Param Type ="Duration"  Value ="edit:5000:0:17500" EditField="LaserAct_Duration"/>
+					<Param Type ="Power" Value ="1"/>
+				</Pulse>
+			</Channel>
+			<Channel Name = "Phodiod1">
+				<Pulse>
+					<Param Type ="Duration"  Value ="2000"/>
+					<Param Type ="Power" Value ="1"/>
+				</Pulse>
+			</Channel>
+			<Channel Name = "Phodiod2">
+				<Delay>
+					<Param Type ="Duration"  Value ="3000"/>
+				</Delay>
+				<Pulse>
+					<Param Type ="Duration"  Value ="2000"/>
+					<Param Type ="Power" Value ="1"/>
+				</Pulse>
+			</Channel>
+
+		</Loop>
+		<!-- ... (Outer loop content repeated 100 times) -->
+	</Loop>
+	<!-- ... (Outer loop content repeated 1 times) -->		
+</Sequence>

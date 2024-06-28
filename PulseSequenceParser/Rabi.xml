@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Sequence name =" RABI">
+	<Settings>
+		<Param Type="Duration" Unit="ns"/>
+		<Param Type="Frequency" Unit="Hz"/>
+	</Settings>
+	<!-- Outer SeqLoopM loop -->
+	<Loop ID="SeqLoopM">
+		<Param Type ="Count" Value  ="1000"></Param>
+		<!-- Inner SeqLoopN loop -->
+		<Loop ID="SeqLoopN" Duration="17500" Unit="ns"> <!--No count given in the pdf, considered the previous one (100)-->
+			<Param Type ="Count" Value ="100"></Param>
+			<Channel Name = "LaserAct">
+				<Pulse>
+					<Param Type ="Duration"  Value ="5000"/>
+					<Param Type ="Frequency" Value ="1"/>
+				</Pulse>
+			</Channel>
+			<Channel Name = "Phodiod1">
+				<Pulse>
+					<Param Type ="Duration"  Value ="2000"/>
+					<Param Type ="Frequency" Value ="1"/>
+				</Pulse>
+			</Channel>
+			<Channel Name = "Phodiod2">
+				<Delay>
+					<Param Type ="Duration"  Value ="3000"/>
+				</Delay>
+				<Pulse>
+					<Param Type ="Duration"  Value ="2000"/>
+					<Param Type ="Frequency" Value ="1"/>
+				</Pulse>
+			</Channel>
+			<Channel Name = "LaserPwr">		<!-- No Duration given in the pdf, took the previous one, which is high for the whole period-->
+				<Pulse>
+					<Param Type ="Duration"  Value ="17500"/>
+					<Param Type ="Power" Value ="87"  />
+				</Pulse>
+			</Channel>
+			<Channel Name="McwFrequ">
+				<Pulse>
+					<Param Type ="Duration"  Value ="5000"/>  <!-- No duration given in the pdf -->
+					<Param Type ="Frequency" Value ="2500000" >
+						<Increment ValueNgain="10000" LoopId="SeqLoopN"/>
+					</Param>
+				</Pulse>
+			</Channel>
+			<Channel Name = "McwActiv">
+				<Delay>
+					<Param Type ="Duration"  Value ="8750">
+						<!-- starts at 1750 count -> 1750 * 5 = 8750 ns-->
+						<Increment ValueNgain="-1" LoopId="SeqLoopN"/>
+					</Param>
+				</Delay>
+				<Pulse>
+					<Param Type ="Duration"  Value ="1">
+						<Increment ValueNgain="1" LoopId="SeqLoopN"/>
+					</Param>
+					<Param Type ="Frequency" Value ="1"/>
+					</Pulse>
+			</Channel>
+		</Loop>
+	</Loop>
+</Sequence>

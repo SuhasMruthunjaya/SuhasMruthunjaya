@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Sequence name="ODMR" >
+	<Settings>
+		<Param Type="Duration" Unit="ns"/>
+		<Param Type="Frequency" Unit="Hz"/>
+	</Settings>
+</Sequence>

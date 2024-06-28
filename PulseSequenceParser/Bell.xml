@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Sequence Name =" BELL" >
+	<Settings>
+		<Param Type="Duration" Unit="us"/>
+		<Param Type="Power" Unit="mW"/>
+		<Const Type="Value" ConstId="Positioning" Value="300000" />
+		<Const Type="Value" ConstId="ExposureTime" Value="1000000" />
+		<Const Type="Value" ConstId="LaserActivation" Value="$/(+(Positioning,ExposureTime),2)$"/>
+		<Const Type="LUT" ConstId="lut_1" Value="0,45,90,135" />
+		<Const Type="LUT" ConstId="lut_2" Value="22.5,67.5,112.5,157.5"/>
+	</Settings>
+	<Channel Name = "LaserAct">
+		<Action>
+			<Param Type ="State" Value ="1"/>
+		</Action>
+	</Channel>
+	<!-- Outer SeqLoopM loop -->
+	<Loop ID="SeqLoopM" Count = "10">
+		<!-- Inner SeqLoopN loop -->
+		<Loop ID="Motor 1 Position" Count = "4">
+			<Loop ID="Motor 2 Positions" Count="4">
+				<Channel Name = "LaserPwr">
+					<Pulse>
+						<Param Type ="Duration"  Reference="LaserActivation"/>
+						<Param Type ="Power" Value ="87"  />
+					</Pulse>
+				</Channel>
+				<Channel Name = "APD1">
+					<Delay Id="Delay_1">
+						<Param Type ="Duration"  Reference="Positioning"/>
+					</Delay>
+					<Action>
+						<Param Type="State" Value="1" />
+					</Action>
+					<Delay>
+						<Param Type ="Duration"  Reference="ExposureTime"/>
+					</Delay>
+					<Action >
+						<Param Type="State" Value="0"/>
+					</Action>
+				</Channel>
+				<Channel Name = "MotAngl1">
+					<Action Type ="Motor">
+						<!-- Duration not given-->
+						<Param Type="Position" Reference="lut_1">
+							<Increment LoopId="Motor 1 Positions"/>
+						</Param>	
+					</Action>
+				</Channel>
+				<Channel Name = "MotAngl2">
+					<Action Type ="Motor" >
+						<!-- Duration not given-->
+						<Param Type="Position" Reference="lut_2">
+							<Increment LoopId="Motor 2 Positions"/>
+						</Param>
+					</Action>
+				</Channel>
+
+			</Loop>
+		</Loop>
+	</Loop>
+	<Channel Name = "LaserAct">
+		<Action>
+			<Param Type ="State" Value ="0"/>
+		</Action>
+	</Channel>
+</Sequence>

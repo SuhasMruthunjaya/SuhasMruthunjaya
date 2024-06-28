@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Sequence name="ODMR" >
+	<Settings>
+		<Param Type="Duration" Unit="ns"/>
+		<Param Type="Frequency" Unit="Hz"/>
+		<Param Type="Power" Unit="mW"/>
+	</Settings>
+	<Channel Name = "LaserAct">
+		<Action>
+			<Param Type ="State" Value ="1"/>
+		</Action>
+	</Channel>
+	<!-- Outer SeqLoopM loop -->
+	<Loop ID="SeqLoopM" count = "1">
+		<!-- Inner SeqLoopN loop -->
+		<Loop ID="SeqLoopN" count = "100" Duration="17500" Unit="ns">	<!-- Duration 17500 =  3500 count * 5ns timebase -->
+				<Channel Name = "LaserPwr">
+					<Pulse>
+						<Param Type ="Duration"  Value ="17500"/>
+						<Param Type ="Power" Value ="87"  />
+					</Pulse>
+				</Channel>
+					<Channel Name = "McwActiv">
+						<Pulse>
+							<Param Type ="Duration"  Value ="17500"/>
+							<Param Type ="Frequency" Value ="1"/>
+						</Pulse>
+					</Channel>
+				<Channel Name = "McwFrequ">
+					<Pulse>
+						<Param Type ="Duration"  Value ="5000"/>
+						<Param Type ="Frequency" Value ="2500000">
+							<Increment ValueNgain="10000" LoopId="SeqLoopN" />
+						</Param>
+					</Pulse>
+				</Channel>
+				<Channel Name = "Phodiod1">
+					<Delay>
+						<Param Type ="Duration"  Value ="2500"/>
+					</Delay>
+					<Pulse>
+						<Param Type ="Duration"  Value ="2500"/>
+						<Param Type ="Power" Value ="1"/>
+					</Pulse>
+				</Channel>
+				<Channel Name = "Phodiod2">
+					<Delay>
+						<Param Type ="Duration"  Value ="12500"/>
+					</Delay>
+					<Pulse>
+						<Param Type ="Duration"  Value ="2500"/>
+						<Param Type ="Power" Value ="1"/>
+					</Pulse>
+				</Channel>
+			</Loop>
+			<!-- ... (Outer loop content repeated 100 times) -->
+		</Loop>
+		<!-- ... (Outer loop content repeated 1 times) -->
+
+	<Channel Name = "LaserAct">
+		<Action>
+			<Param Type ="State" Value ="0"/>
+		</Action>
+	</Channel>
+</Sequence>
+
