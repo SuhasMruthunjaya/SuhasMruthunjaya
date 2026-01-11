@@ -1,9 +1,6 @@
 - 👋 Hi, I’m @SuhasMruthunjaya
-- 👀 I’m interested in Embedded Software Development
-- 🌱 I’m currently learning Embedded Systems at Hochschule Darmstadt
+- 👀 I’m interested in FPGA Design and Development.
+- 🌱 I’m currently pursuing masters in Electrical Engineering and Informational Technology at Hochschule Darmstadt
 - 📫 How to reach me: suhasbangalore2209@gmail.com
+- Although I have extensive experience in embedded development, my primary passion lies in FPGA design and development.
 
-<!---
-SuhasMruthunjaya/SuhasMruthunjaya is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
