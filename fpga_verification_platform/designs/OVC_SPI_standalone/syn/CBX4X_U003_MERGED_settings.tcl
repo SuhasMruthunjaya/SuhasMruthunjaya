@@ -1,0 +1,2 @@
+add_files -norecurse -fileset constrs_1 [subst {$ROOT_FOLDER/designs/$project_name/syn/constraints/ovc_spi_CBX4X.xdc}]
+set_property generic {BOARD_REV="CBX4X"} [current_fileset]

@@ -1,0 +1,10 @@
+
+
+OPTION psf_version = 2.1;
+
+BEGIN DRIVER OVC_PROTECT_IP
+	OPTION supported_peripherals = (OVC_PROTECT_IP);
+	OPTION copyfiles = all;
+	OPTION VERSION = 1.0;
+	OPTION NAME = OVC_PROTECT_IP;
+END DRIVER
