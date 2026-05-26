@@ -1,0 +1,29 @@
+{
+  "version": "2021.2",
+  "applications": [],
+  "platforms": [
+    {
+      "name": "4EV_HandsOn_platt"
+    }
+  ],
+  "systems": [
+    {
+      "name": "4EV_HandsOn_app_system",
+      "platform": "C:/Users/SESA630813/work-2/4EV_HandsOn_platt/export/4EV_HandsOn_platt/4EV_HandsOn_platt.xpfm",
+      "sysConfig": "4EV_HandsOn_platt",
+      "buildConfig": "Debug",
+      "applications": [
+        {
+          "name": "4EV_HandsOn_app",
+          "platform": "C:/Users/SESA630813/work-2/4EV_HandsOn_platt/export/4EV_HandsOn_platt/4EV_HandsOn_platt.xpfm",
+          "platformPath": "C:\\Users\\SESA630813\\work-2\\4EV_HandsOn_platt\\export\\4EV_HandsOn_platt",
+          "sysConfig": "4EV_HandsOn_platt",
+          "domain": "standalone_domain",
+          "system": "4EV_HandsOn_app_system"
+        }
+      ],
+      "platformPath": "C:\\Users\\SESA630813\\work-2\\4EV_HandsOn_platt\\export\\4EV_HandsOn_platt"
+    }
+  ],
+  "others": []
+}

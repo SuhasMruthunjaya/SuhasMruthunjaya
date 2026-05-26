@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ASCII"?>
+<systemproject:SystemProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdsproject="http://www.xilinx.com/sdsproject" xmlns:systemproject="http://www.xilinx.com/systemproject" name="4EV_HandsOn_app_system" platform="C:/Users/SESA630813/work-2/4EV_HandsOn_platt/export/4EV_HandsOn_platt/4EV_HandsOn_platt.xpfm" platformUID="xilinx:::0.0(custom)" sysConfig="4EV_HandsOn_platt" runtime="C/C++" rootFSLocation="" linuxImage="" sysroot="">
+  <configuration name="Debug" id="com.xilinx.sdx.system.managedbuilder.debugConfiguration.219429330">
+    <configBuildOptions xsi:type="systemproject:SystemOptions">
+      <applications name="4EV_HandsOn_app" domainName="standalone_domain" domainPrettyName="standalone on psu_cortexa53_0" appBuildConfig="Debug"/>
+      <options xsi:type="sdsproject:Option" gensdcard="true" dmclkid="0"/>
+    </configBuildOptions>
+  </configuration>
+  <configuration name="Release" id="com.xilinx.sdx.system.managedbuilder.releaseConfiguration.585695352">
+    <configBuildOptions xsi:type="systemproject:SystemOptions">
+      <applications name="4EV_HandsOn_app" domainName="standalone_domain" domainPrettyName="standalone on psu_cortexa53_0" appBuildConfig="Release"/>
+      <options xsi:type="sdsproject:Option" gensdcard="true" dmclkid="0"/>
+    </configBuildOptions>
+  </configuration>
+</systemproject:SystemProject>

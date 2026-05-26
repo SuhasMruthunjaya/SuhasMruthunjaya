@@ -1,0 +1,71 @@
+RTE Generator  Erika 3
+Processing:  in/ecu.xml  based on version  Erika 3
+Checking the configuration...
+Creating the signalclasses...
+    class:  .\out\pedal_signal.h
+    class:  .\out\pedal_type.h
+    class:  .\out\pedal_type.c
+    class:  .\out\speed_signal.h
+    class:  .\out\speed_type.h
+    class:  .\out\speed_type.c
+    class:  .\out\button_signal.h
+    class:  .\out\button_type.h
+    class:  .\out\button_type.c
+    class:  .\out\carstate_signal.h
+    class:  .\out\carstate_type.h
+    class:  .\out\carstate_type.c
+    class:  .\out\drivingparam_signal.h
+    class:  .\out\drivingparam_type.h
+    class:  .\out\drivingparam_type.c
+    class:  .\out\pwm_signal.h
+    class:  .\out\pwm_type.h
+    class:  .\out\pwm_type.c
+    class:  .\out\event_signal.h
+    class:  .\out\event_type.h
+    class:  .\out\event_type.c
+    class:  .\out\led_signal.h
+    class:  .\out\led_type.h
+    class:  .\out\led_type.c
+    class:  .\out\dip_signal.h
+    class:  .\out\dip_type.h
+    class:  .\out\dip_type.c
+    class:  .\out\uartprot_signal.h
+    class:  .\out\uartprot_type.h
+    class:  .\out\uartprot_type.c
+Creating the signal object pool...
+   Writing Header File...
+      Object:  so_pedalPosition
+      Object:  so_brakeButton
+      Object:  so_ignitionButton
+      Object:  so_directionButton
+      Object:  so_targetSpeed
+      Object:  so_currentSpeed
+      Object:  so_controlSpeed
+      Object:  so_carState
+      Object:  so_event
+      Object:  so_drivingParam
+      Object:  so_led
+      Object:  so_dip
+      Object:  so_uartprot_tx
+   Writing Source File...
+      Object so_pedalPosition
+      Object so_brakeButton
+      Object so_ignitionButton
+      Object so_directionButton
+      Object so_targetSpeed
+      Object so_currentSpeed
+      Object so_controlSpeed
+      Object so_carState
+      Object so_event
+      Object so_drivingParam
+      Object so_led
+      Object so_dip
+      Object so_uartprot_tx
+Creating the signal activation engine...
+   Writing Source File...
+Creating the software components...
+   Creating SWC:  SWC_Pedal
+   Creating SWC:  SWC_Control
+   Creating SWC:  SWC_Engine
+   Creating SWC:  SWC_HMI
+   Creating SWC:  SWC_COM

@@ -1,0 +1,443 @@
+package idfsr0kb50fkbdkb50fzdg;
+
+/**
+@version 2.0
+@__modelType diagram 
+*/
+class diagram {
+/**
+@__ref <oiref:design#Class#idfsr0kb50fkbdkb50fzdg.nodeidhu7fbkb50fkbdkb50g1rg:oiref><oihard>
+@__modelType reference 
+*/
+class reference {
+}
+/**
+@__ref <oiref:design#Class#idfsr0kb50fkbdkb50fzdg.nodeid9v2egkb50fkbdkb50g37i:oiref><oihard>
+@__modelType reference 
+*/
+class reference1 {
+}
+/**
+@__ref <oiref:design#Class#idfsr0kb50fkbdkb50fzdg.nodeidfkft8kb50fkbdkb50gzas:oiref><oihard>
+@__modelType reference 
+*/
+class reference2 {
+}
+/**
+@__ref <oiref:design#Class#idfsr0kb50fkbdkb50fzdg.nodeidi438bkb50fkbdkb50hrwf:oiref><oihard>
+@__modelType reference 
+*/
+class reference3 {
+}
+/**
+@__ref <oiref:design#Class#idfsr0kb50fkbdkb50fzdg.nodeidef8xikb50fkbdkb50uv32:oiref><oihard>
+@__modelType reference 
+*/
+class reference7 {
+}
+/**
+@__ref <oiref:design#Class#idfsr0kb50fkbdkb50fzdg.nodeidclfkxkb50fkbdkb50xpjy:oiref><oihard>
+@__modelType reference 
+*/
+class reference8 {
+}
+/**
+@__ref <oiref:design#Class#idfsr0kb50fkbdkb50fzdg.nodeidckpr9kb50zpddkb52b47w:oiref><oihard>
+@__modelType reference 
+*/
+class reference4 {
+}
+}/**
+
+@__tags
+@shapeType StateDiagram
+@changelog rO0ABXNyABFqYXZhLnV0aWwuSGFzaE1hcAUH2sHDFmDRAwACRgAKbG9hZEZhY3RvckkACXRocmVz
+aG9sZHhwP0AAAAAAAAx3CAAAABAAAAACc3IADmphdmEubGFuZy5Mb25nO4vkkMyPI98CAAFKAAV2
+YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAAAXKWYGgAc3IAE2phdmEudXRp
+bC5BcnJheUxpc3R4gdIdmcdhnQMAAUkABHNpemV4cAAAAAF3BAAAAApzcgAlZGUubW5sLmRvY2Jv
+b2s0VEEuaW1wbC5DaGFuZ2VMb2dFbnRyeQeNjrX5qiSfAgADTAAIaG9zdG5hbWV0ABJMamF2YS9s
+YW5nL1N0cmluZztMAARuYW1lcQB+AAhMAAR1c2VycQB+AAh4cHQACUZST01NLU5CMnQACXN0X2Vu
+Z2luZXQABUZyb21teHNxAH4AAgAAAXKME7AAc3EAfgAFAAAAAXcEAAAACnNxAH4AB3QACUZST01N
+LU5CMnQACXN0X2VuZ2luZXQABUZyb21teHg=
+*/
+class __tags {
+}/**
+@__options 
+*/
+class __options {
+}/**
+@__positions <oigroup:<oiref:design#Class#idfsr0kb50fkbdkb50fzdg.nodeidckpr9kb50zpddkb52b47w.linkidd7dz4kb50zpddkb533gqd:oiref>=194,250,230,250,230,210,184,210,184,230:oigroup>
+<oigroup:<oiref:design#Class#idfsr0kb50fkbdkb50fzdg.nodeidi438bkb50fkbdkb50hrwf.linkidcugknkb50zpddkb58ullc:oiref>=226,560,246,560,246,590,216,590,216,570:oigroup>
+<oigroup:Composite#$transitionInplaceEditing#<oiref:design#Class#idfsr0kb50fkbdkb50fzdg.nodeidclfkxkb50fkbdkb50xpjy.nodeid6rjw2kb50fkbdkb50iwtp.linkid13l5jkb50zpddkb525zyk:oiref>=1090,340,200,32,1:oigroup>
+<oigroup:Composite#$transitionInplaceEditing#<oiref:design#Class#idfsr0kb50fkbdkb50fzdg.nodeidfkft8kb50fkbdkb50gzas.linkid7s898kb50zpddkb58srbu:oiref>=-50,182,122,16,1:oigroup>
+<oigroup:Composite#$transitionInplaceEditing#<oiref:design#Class#idfsr0kb50fkbdkb50fzdg.nodeidclfkxkb50fkbdkb50xpjy.nodeidhvfpxkb50fkbdkb50m56a.linkidefoxukb50fkbdkb50otym:oiref>=870,512,121,16,1:oigroup>
+<oigroup:Composite#$transitionInplaceEditing#<oiref:design#Class#idfsr0kb50fkbdkb50fzdg.nodeidclfkxkb50fkbdkb50xpjy.linkidht9uhkb50fkbdkb50z67n:oiref>=937,188,54,16,1:oigroup>
+<oigroup:Composite#$transitionInplaceEditing#<oiref:design#Class#idfsr0kb50fkbdkb50fzdg.nodeidclfkxkb50fkbdkb50xpjy.nodeid6rjw2kb50fkbdkb50iwtp.linkid8l1kqkb50fkbdkb50mate:oiref>=1016,507,106,16,1:oigroup>
+<oigroup:Composite#$transitionInplaceEditing#<oiref:design#Class#idfsr0kb50fkbdkb50fzdg.nodeidckpr9kb50zpddkb52b47w.linkid61r7vkb50zpddkb52bvmu:oiref>=150,150,129,16,1:oigroup>
+<oigroup:<oiref:design#Class#idfsr0kb50fkbdkb50fzdg.nodeidfkft8kb50fkbdkb50gzas.linkid7s898kb50zpddkb58srbu:oiref>=106,390,-60,300,-60,80,70,80:oigroup>
+<oigroup:Composite#$transitionInplaceEditing#<oiref:design#Class#idfsr0kb50fkbdkb50fzdg.nodeidclfkxkb50fkbdkb50xpjy.nodeid6rjw2kb50fkbdkb50iwtp.linkidei3vnkb50zpddkb510g2j:oiref>=1140,400,148,16,1:oigroup>
+<oigroup:<oiref:design#Class#idfsr0kb50fkbdkb50fzdg.nodeidclfkxkb50fkbdkb50xpjy.linkidht9uhkb50fkbdkb50z67n:oiref>=927,280,927,112:oigroup>
+<oigroup:<oiref:design#Class#idfsr0kb50fkbdkb50fzdg.nodeidckpr9kb50zpddkb52b47w:oiref>=50,230,144,46,1:oigroup>
+<oigroup:<oiref:design#Class#idfsr0kb50fkbdkb50fzdg.nodeid9v2egkb50fkbdkb50g37i.linkid1pycckb50fkbdkb50gt18:oiref>=136,32,136,60:oigroup>
+<oigroup:Composite#$transitionInplaceEditing#<oiref:design#Class#idfsr0kb50fkbdkb50fzdg.nodeidhu7fbkb50fkbdkb50g1rg.linkid9notukb50fkbdkb50hhy4:oiref>=-50,140,149,16,1:oigroup>
+<oigroup:<oiref:design#Class#idfsr0kb50fkbdkb50fzdg.nodeidckpr9kb50zpddkb52b47w.linkid61r7vkb50zpddkb52bvmu:oiref>=146,230,146,122:oigroup>
+<oigroup:<oiref:design#Class#idfsr0kb50fkbdkb50fzdg.nodeidhu7fbkb50fkbdkb50g1rg:oiref>=70,60,135,62,1:oigroup>
+<oigroup:<oiref:design#Class#idfsr0kb50fkbdkb50fzdg.nodeidclfkxkb50fkbdkb50xpjy.nodeid6rjw2kb50fkbdkb50iwtp.linkid13l5jkb50zpddkb525zyk:oiref>=1046,340,1340,340,1340,380,1046,380:oigroup>
+<oigroup:<oiref:design#Class#idfsr0kb50fkbdkb50fzdg.nodeidclfkxkb50fkbdkb50xpjy.nodeide067ekb50fkbdkb50ygh1.linkid7yz1lkb50fkbdkb50yj3k:oiref>=848,349,950,349:oigroup>
+<oigroup:<oiref:design#Class#idfsr0kb50fkbdkb50fzdg.nodeidclfkxkb50fkbdkb50xpjy.nodeid6rjw2kb50fkbdkb50iwtp:oiref>=950,320,96,110,0:oigroup>
+<oigroup:Composite#$transitionInplaceEditing#<oiref:design#Class#idfsr0kb50fkbdkb50fzdg.nodeidckpr9kb50zpddkb52b47w.linkidcokakb50zpddkb52gquk:oiref>=137,325,114,16,1:oigroup>
+<oigroup:Composite#$transitionInplaceEditing#<oiref:design#Class#idfsr0kb50fkbdkb50fzdg.nodeidclfkxkb50fkbdkb50xpjy.nodeidhvfpxkb50fkbdkb50m56a.linkidgdwvzkb50fkbdkb50n90w:oiref>=958,694,183,16,1:oigroup>
+<oigroup:<oiref:design#Class#idfsr0kb50fkbdkb50fzdg.nodeidhu7fbkb50fkbdkb50g1rg.linkid9notukb50fkbdkb50hhy4:oiref>=108,122,108,230:oigroup>
+<oigroup:<oiref:design#Class#idfsr0kb50fkbdkb50fzdg.nodeid9v2egkb50fkbdkb50g37i:oiref>=130,20,12,12,1:oigroup>
+<oigroup:Composite#$transitionInplaceEditing#<oiref:design#Class#idfsr0kb50fkbdkb50fzdg.nodeidi438bkb50fkbdkb50hrwf.linkid4szbgkb50zpddkb58uab6:oiref>=-70,370,122,16,1:oigroup>
+<oigroup:<oiref:design#Class#idfsr0kb50fkbdkb50fzdg.nodeidclfkxkb50fkbdkb50xpjy.nodeidhvfpxkb50fkbdkb50m56a.linkidefoxukb50fkbdkb50otym:oiref>=950,630,860,630,860,410,950,410:oigroup>
+<oigroup:<oiref:design#Class#idfsr0kb50fkbdkb50fzdg.nodeidckpr9kb50zpddkb52b47w.linkidcokakb50zpddkb52gquk:oiref>=127,276,127,390:oigroup>
+<oigroup:<oiref:design#Class#idfsr0kb50fkbdkb50fzdg.nodeidclfkxkb50fkbdkb50xpjy.nodeid6rjw2kb50fkbdkb50iwtp.linkid8l1kqkb50fkbdkb50mate:oiref>=1006,430,1006,600:oigroup>
+<oigroup:<oiref:design#Class#idfsr0kb50fkbdkb50fzdg.nodeidclfkxkb50fkbdkb50xpjy.nodeid6rjw2kb50fkbdkb50iwtp.linkidei3vnkb50zpddkb510g2j:oiref>=1046,420,1340,420,1340,390,1046,390:oigroup>
+<oigroup:<oiref:design#Class#idfsr0kb50fkbdkb50fzdg.nodeidi438bkb50fkbdkb50hrwf.linkid4szbgkb50zpddkb58uab6:oiref>=119,530,-80,390,-80,70,70,70:oigroup>
+<oigroup:Composite#$transitionInplaceEditing#<oiref:design#Class#idfsr0kb50fkbdkb50fzdg.nodeidclfkxkb50fkbdkb50xpjy.linkid3iy73kb50zpddkb5985wq:oiref>=335,120,114,16,1:oigroup>
+<oigroup:Composite#$transitionInplaceEditing#<oiref:design#Class#idfsr0kb50fkbdkb50fzdg.nodeidef8xikb50fkbdkb50uv32.linkidf4yonkb50zpddkb511i75:oiref>=225,90,193,16,1:oigroup>
+<oigroup:<oiref:design#Class#idfsr0kb50fkbdkb50fzdg.nodeidclfkxkb50fkbdkb50xpjy.nodeidhvfpxkb50fkbdkb50m56a.linkidgdwvzkb50fkbdkb50n90w:oiref>=1045,650,1067,650,1067,684,1033,684,1033,662:oigroup>
+<oigroup:<oiref:design#Class#idfsr0kb50fkbdkb50fzdg.nodeidi438bkb50fkbdkb50hrwf:oiref>=70,530,156,40,1:oigroup>
+<oigroup:<oiref:design#Class#idfsr0kb50fkbdkb50fzdg.nodeidfkft8kb50fkbdkb50gzas:oiref>=60,390,156,62,1:oigroup>
+<oigroup:Composite#$transitionInplaceEditing#<oiref:design#Class#idfsr0kb50fkbdkb50fzdg.nodeidi438bkb50fkbdkb50hrwf.linkid72hfhkb50fkbdkb50jb7t:oiref>=378,555,200,32,1:oigroup>
+<oigroup:Composite#$transitionInplaceEditing#<oiref:design#Class#idfsr0kb50fkbdkb50fzdg.nodeidfkft8kb50fkbdkb50gzas.linkid62q80kb50zpddkb58rkmt:oiref>=260,417,147,16,1:oigroup>
+<oigroup:<oiref:design#Class#idfsr0kb50fkbdkb50fzdg.nodeidef8xikb50fkbdkb50uv32:oiref>=860,50,135,62,1:oigroup>
+<oigroup:<oiref:design#Class#idfsr0kb50fkbdkb50fzdg.nodeidclfkxkb50fkbdkb50xpjy.linkid3iy73kb50zpddkb5985wq:oiref>=828,280,580,110,205,110:oigroup>
+<oigroup:<oiref:design#Class#idfsr0kb50fkbdkb50fzdg.nodeidef8xikb50fkbdkb50uv32.linkidf4yonkb50zpddkb511i75:oiref>=860,80,205,80:oigroup>
+<oigroup:Composite#$transitionInplaceEditing#<oiref:design#Class#idfsr0kb50fkbdkb50fzdg.nodeidfkft8kb50fkbdkb50gzas.linkid63o51kb50fkbdkb50i3pl:oiref>=153,483,106,16,1:oigroup>
+<oigroup:<oiref:design#Class#idfsr0kb50fkbdkb50fzdg.nodeidclfkxkb50fkbdkb50xpjy:oiref>=730,280,840,460,0:oigroup>
+<oigroup:<oiref:design#Class#idfsr0kb50fkbdkb50fzdg.nodeidi438bkb50fkbdkb50hrwf.linkid72hfhkb50fkbdkb50jb7t:oiref>=226,545,730,545:oigroup>
+<oigroup:<oiref:design#Class#idfsr0kb50fkbdkb50fzdg.nodeidfkft8kb50fkbdkb50gzas.linkid62q80kb50zpddkb58rkmt:oiref>=216,410,250,410,250,440,240,440,216,440:oigroup>
+<oigroup:<oiref:design#Class#idfsr0kb50fkbdkb50fzdg.nodeidclfkxkb50fkbdkb50xpjy.nodeide067ekb50fkbdkb50ygh1:oiref>=836,343,12,12,1:oigroup>
+<oigroup:<oiref:design#Class#idfsr0kb50fkbdkb50fzdg.nodeidfkft8kb50fkbdkb50gzas.linkid63o51kb50fkbdkb50i3pl:oiref>=143,452,143,530:oigroup>
+<oigroup:<oiref:design#Class#idfsr0kb50fkbdkb50fzdg.nodeidclfkxkb50fkbdkb50xpjy.nodeidhvfpxkb50fkbdkb50m56a:oiref>=950,600,95,62,1:oigroup>
+<oigroup:<oiref:design#Class#idfsr0kb50fkbdkb50fzdg.nodeidclfkxkb50fkbdkb50xpjy.nodeid6rjw2kb50fkbdkb50iwtp.memberidgfy0gkb50fkbdkb50srqs:oiref>=762,482,90,16,1:oigroup>
+<oigroup:Composite#$transitionInplaceEditing#<oiref:design#Class#idfsr0kb50fkbdkb50fzdg.nodeidckpr9kb50zpddkb52b47w.linkidd7dz4kb50zpddkb533gqd:oiref>=240,222,140,16,1:oigroup>
+<oigroup:Composite#$transitionInplaceEditing#<oiref:design#Class#idfsr0kb50fkbdkb50fzdg.nodeidi438bkb50fkbdkb50hrwf.linkidcugknkb50zpddkb58ullc:oiref>=208,600,147,16,1:oigroup>
+
+
+
+*/
+class __positions {
+}
+/**
+@shapeType State
+@__modelType node
+@name ISIDLE 
+*/
+class nodeidhu7fbkb50fkbdkb50g1rg {
+/**
+@shapeType InternalTransition
+@__modelType member
+@name entry
+@eventArguments
+@action engineStopped 
+*/
+class memberidz8rzkb50fkbdkb50gfcj {
+}
+/**
+@shapeType TransitionLink
+@__modelType link
+@__ref <oiref:design#Class#idfsr0kb50fkbdkb50fzdg.nodeidckpr9kb50zpddkb52b47w:oiref><oihard>
+@event ev_ignitionButtonPressed 
+*/
+class linkid9notukb50fkbdkb50hhy4 {
+}
+/**
+@shapeType InternalTransition
+@__modelType member
+@name entry
+@action ClearLED(ALL) 
+*/
+class memberidff68akb50zpddkb58v7en {
+}
+}
+/**
+@shapeType StartState
+@__modelType node
+@name StartState1
+@backgroundColor 0,0,0 
+*/
+class nodeid9v2egkb50fkbdkb50g37i {
+/**
+@shapeType TransitionLink
+@__modelType link
+@__ref <oiref:design#Class#idfsr0kb50fkbdkb50fzdg.nodeidhu7fbkb50fkbdkb50g1rg:oiref><oihard> 
+*/
+class linkid1pycckb50fkbdkb50gt18 {
+}
+}
+/**
+@shapeType State
+@__modelType node
+@name ISIGNITIONSELFTEST_1 
+*/
+class nodeidfkft8kb50fkbdkb50gzas {
+/**
+@shapeType TransitionLink
+@__modelType link
+@__ref <oiref:design#Class#idfsr0kb50fkbdkb50fzdg.nodeidi438bkb50fkbdkb50hrwf:oiref><oihard>
+@event ev_BrakePressed 
+*/
+class linkid63o51kb50fkbdkb50i3pl {
+}
+/**
+@shapeType InternalTransition
+@__modelType member
+@name entry
+@action setLed(1) 
+*/
+class memberid2i24lkb50fkbdkb50i88i {
+}
+/**
+@shapeType InternalTransition
+@__modelType member
+@name entry
+@action tartTimer(10000) 
+*/
+class memberidbs375kb50zpddkb58r34f {
+}
+/**
+@shapeType TransitionLink
+@__modelType link
+@__ref <oiref:design#Class#idfsr0kb50fkbdkb50fzdg.nodeidfkft8kb50fkbdkb50gzas:oiref><oihard>
+@event ev_tick
+@action decrementTimer()
+*/
+class linkid62q80kb50zpddkb58rkmt {
+}
+/**
+@shapeType TransitionLink
+@__modelType link
+@__ref <oiref:design#Class#idfsr0kb50fkbdkb50fzdg.nodeidhu7fbkb50fkbdkb50g1rg:oiref><oihard>
+@event ev_tick
+@condition timerIsZero() 
+*/
+class linkid7s898kb50zpddkb58srbu {
+}
+}
+/**
+@shapeType State
+@__modelType node
+@name ISIGNITIONSELFTEST_2 
+*/
+class nodeidi438bkb50fkbdkb50hrwf {
+/**
+@shapeType TransitionLink
+@__modelType link
+@__ref <oiref:design#Class#idfsr0kb50fkbdkb50fzdg.nodeidclfkxkb50fkbdkb50xpjy:oiref><oihard>
+@event ev_BrakeDepressed
+@action enableEngine() 
+*/
+class linkid72hfhkb50fkbdkb50jb7t {
+}
+/**
+@shapeType TransitionLink
+@__modelType link
+@__ref <oiref:design#Class#idfsr0kb50fkbdkb50fzdg.nodeidhu7fbkb50fkbdkb50g1rg:oiref><oihard>
+@event ev_tick
+@condition timerIsZero() 
+*/
+class linkid4szbgkb50zpddkb58uab6 {
+}
+/**
+@shapeType TransitionLink
+@__modelType link
+@__ref <oiref:design#Class#idfsr0kb50fkbdkb50fzdg.nodeidi438bkb50fkbdkb50hrwf:oiref><oihard>
+@event ev_tick
+@action decrementTimer() 
+*/
+class linkidcugknkb50zpddkb58ullc {
+}
+}
+/**
+@shapeType State
+@__modelType node
+@name ISERROR 
+*/
+class nodeidef8xikb50fkbdkb50uv32 {
+/**
+@shapeType InternalTransition
+@__modelType member
+@name entry
+@action engineStopped() 
+*/
+class memberiddzyuukb50fkbdkb50vek4 {
+}
+/**
+@shapeType InternalTransition
+@__modelType member
+@name entry
+@action setLed(4) 
+*/
+class memberidfpn4ekb50fkbdkb50vy6d {
+}
+/**
+@shapeType TransitionLink
+@__modelType link
+@__ref <oiref:design#Class#idfsr0kb50fkbdkb50fzdg.nodeidhu7fbkb50fkbdkb50g1rg:oiref><oihard>
+@event ev_BrakePressed
+@condition carIsStopped() 
+*/
+class linkidf4yonkb50zpddkb511i75 {
+}
+}
+/**
+@shapeType State
+@__modelType node
+@name DrivingCycle 
+*/
+class nodeidclfkxkb50fkbdkb50xpjy {
+/**
+@shapeType State
+@__modelType node
+@name ISBRAKING 
+*/
+class nodeidhvfpxkb50fkbdkb50m56a {
+/**
+@shapeType TransitionLink
+@__modelType link
+@__ref <oiref:design#Class#idfsr0kb50fkbdkb50fzdg.nodeidclfkxkb50fkbdkb50xpjy.nodeidhvfpxkb50fkbdkb50m56a:oiref><oihard>
+@event ev_Tick
+@action decreaseTargetSpeed() 
+*/
+class linkidgdwvzkb50fkbdkb50n90w {
+}
+/**
+@shapeType TransitionLink
+@__modelType link
+@__ref <oiref:design#Class#idfsr0kb50fkbdkb50fzdg.nodeidclfkxkb50fkbdkb50xpjy.nodeid6rjw2kb50fkbdkb50iwtp:oiref><oihard>
+@event ev_BrakeDepressed 
+*/
+class linkidefoxukb50fkbdkb50otym {
+}
+/**
+@shapeType InternalTransition
+@__modelType member
+@name entry
+@action etLed(3) 
+*/
+class memberid7ez8dkb50zpddkb594953 {
+}
+/**
+@shapeType InternalTransition
+@__modelType member
+@name exit
+@action learLED(3) 
+*/
+class memberidfs0onkb50zpddkb594l0l {
+}
+}/**
+@shapeType State
+@__modelType node
+@name ISDRIVING 
+*/
+class nodeid6rjw2kb50fkbdkb50iwtp {
+/**
+@shapeType TransitionLink
+@__modelType link
+@__ref <oiref:design#Class#idfsr0kb50fkbdkb50fzdg.nodeidclfkxkb50fkbdkb50xpjy.nodeidhvfpxkb50fkbdkb50m56a:oiref><oihard>
+@event ev_BrakePressed 
+*/
+class linkid8l1kqkb50fkbdkb50mate {
+}
+/**
+@shapeType InternalTransition
+@__modelType member
+@name entry
+@action setLed(2) 
+*/
+class memberidgfy0gkb50fkbdkb50srqs {
+}
+/**
+@shapeType TransitionLink
+@__modelType link
+@__ref <oiref:design#Class#idfsr0kb50fkbdkb50fzdg.nodeidclfkxkb50fkbdkb50xpjy.nodeid6rjw2kb50fkbdkb50iwtp:oiref><oihard>
+@event ev_Tick
+@action setTargetSpeed() 
+*/
+class linkidei3vnkb50zpddkb510g2j {
+}
+/**
+@shapeType TransitionLink
+@__modelType link
+@__ref <oiref:design#Class#idfsr0kb50fkbdkb50fzdg.nodeidclfkxkb50fkbdkb50xpjy.nodeid6rjw2kb50fkbdkb50iwtp:oiref><oihard>
+@event ev_DirectionPressed
+@condition carIsStopped()
+@action toggleDirection() 
+*/
+class linkid13l5jkb50zpddkb525zyk {
+}
+}
+/**
+@shapeType StartState
+@__modelType node
+@name StartState2 
+*/
+class nodeide067ekb50fkbdkb50ygh1 {
+/**
+@shapeType TransitionLink
+@__modelType link
+@__ref <oiref:design#Class#idfsr0kb50fkbdkb50fzdg.nodeidclfkxkb50fkbdkb50xpjy.nodeid6rjw2kb50fkbdkb50iwtp:oiref><oihard> 
+*/
+class linkid7yz1lkb50fkbdkb50yj3k {
+}
+}
+/**
+@shapeType TransitionLink
+@__modelType link
+@__ref <oiref:design#Class#idfsr0kb50fkbdkb50fzdg.nodeidef8xikb50fkbdkb50uv32:oiref><oihard>
+@event ev_Error 
+*/
+class linkidht9uhkb50fkbdkb50z67n {
+}
+/**
+@shapeType TransitionLink
+@__modelType link
+@__ref <oiref:design#Class#idfsr0kb50fkbdkb50fzdg.nodeidhu7fbkb50fkbdkb50g1rg:oiref><oihard>
+@event ev_IgnitionPressed 
+*/
+class linkid3iy73kb50zpddkb5985wq {
+}
+}
+/**
+@shapeType State
+@__modelType node
+@name ISPRESSINGIGNITION 
+*/
+class nodeidckpr9kb50zpddkb52b47w {
+/**
+@shapeType TransitionLink
+@__modelType link
+@__ref <oiref:design#Class#idfsr0kb50fkbdkb50fzdg.nodeidhu7fbkb50fkbdkb50g1rg:oiref><oihard>
+@event ev_ignitionDepressed 
+*/
+class linkid61r7vkb50zpddkb52bvmu {
+}
+/**
+@shapeType InternalTransition
+@__modelType member
+@name entry
+@action startTimer(1000) 
+*/
+class memberid9j7ytkb50zpddkb52gcg2 {
+}
+/**
+@shapeType TransitionLink
+@__modelType link
+@__ref <oiref:design#Class#idfsr0kb50fkbdkb50fzdg.nodeidfkft8kb50fkbdkb50gzas:oiref><oihard>
+@event ev_tick
+@condition timerIsZero
+*/
+class linkidcokakb50zpddkb52gquk {
+}
+/**
+@shapeType TransitionLink
+@__modelType link
+@__ref <oiref:design#Class#idfsr0kb50fkbdkb50fzdg.nodeidckpr9kb50zpddkb52b47w:oiref><oihard>
+@event ev_tick
+@action ecrementTimer()*/
+class linkidd7dz4kb50zpddkb533gqd {
+}
+}

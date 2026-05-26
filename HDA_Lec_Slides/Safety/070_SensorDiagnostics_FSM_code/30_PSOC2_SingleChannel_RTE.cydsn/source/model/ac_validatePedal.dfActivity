@@ -1,0 +1,378 @@
+package id4z980kb7mmbcckb7sx1jz;
+
+/**
+@version 2.0
+@__modelType diagram 
+*/
+class diagram {
+/**
+@__ref <oiref:design#Class#id4z980kb7mmbcckb7sx1jz.nodeid2znd7kb7mmbcckb7sx5ew:oiref><oihard>
+@__modelType reference 
+*/
+class reference {
+}
+/**
+@__ref <oiref:design#Class#id4z980kb7mmbcckb7sx1jz.nodeidism3rkb7mmbcckb7t0nsa:oiref><oihard>
+@__modelType reference 
+*/
+class reference1 {
+}
+/**
+@__ref <oiref:design#Class#id4z980kb7mmbcckb7sx1jz.nodeidism3rkb7mmbcckb7t0nsa2:oiref><oihard>
+@__modelType reference 
+*/
+class reference3 {
+}
+/**
+@__ref <oiref:design#Class#id4z980kb7mmbcckb7sx1jz.nodeidfezfxkb7mmbcckb7t1hwh:oiref><oihard>
+@__modelType reference 
+*/
+class reference4 {
+}
+/**
+@__ref <oiref:design#Class#id4z980kb7mmbcckb7sx1jz.nodeid9wme1kb7mmbcckb7t1ki1:oiref><oihard>
+@__modelType reference 
+*/
+class reference5 {
+}
+/**
+@__ref <oiref:design#Class#id4z980kb7mmbcckb7sx1jz.nodeidar50nkb7mmbcckb7t314s:oiref><oihard>
+@__modelType reference 
+*/
+class reference6 {
+}
+/**
+@__ref <oiref:design#Class#id4z980kb7mmbcckb7sx1jz.nodeid9vs6wkb7mmbcckb7t3rus:oiref><oihard>
+@__modelType reference 
+*/
+class reference7 {
+}
+/**
+@__ref <oiref:design#Class#id4z980kb7mmbcckb7sx1jz.nodeidbjuikb7mmbcckb7t45vm:oiref><oihard>
+@__modelType reference 
+*/
+class reference8 {
+}
+/**
+@__ref <oiref:design#Class#id4z980kb7mmbcckb7sx1jz.nodeid2ewtekb7mmbcckb7t6bhq:oiref><oihard>
+@__modelType reference 
+*/
+class reference9 {
+}
+/**
+@__ref <oiref:design#Class#id4z980kb7mmbcckb7sx1jz.nodeid7vcdjkb7mmbcckb7t6xnm:oiref><oihard>
+@__modelType reference 
+*/
+class reference10 {
+}
+/**
+@__ref <oiref:design#Class#id4z980kb7mmbcckb7sx1jz.nodeide2khgkb7mmbcckb7vxzew:oiref><oihard>
+@__modelType reference 
+*/
+class reference11 {
+}
+/**
+@__ref <oiref:design#Class#id4z980kb7mmbcckb7sx1jz.nodeide7z3mkb7mmbcckb84w7ip:oiref><oihard>
+@__modelType reference 
+*/
+class reference13 {
+}
+/**
+@__ref <oiref:design#Class#id4z980kb7mmbcckb7sx1jz.nodeid31qx1kb7mmbcckb84x65f:oiref><oihard>
+@__modelType reference 
+*/
+class reference14 {
+}
+/**
+@__ref <oiref:design#Class#id4z980kb7mmbcckb7sx1jz.nodeidejfujkb7mmbcckb84xpl8:oiref><oihard>
+@__modelType reference 
+*/
+class reference15 {
+}
+/**
+@__ref <oiref:design#Class#id4z980kb7mmbcckb7sx1jz.nodeidf3449kb7mmbcckb84ygjq:oiref><oihard>
+@__modelType reference 
+*/
+class reference16 {
+}
+}/**
+
+@__tags
+@shapeType ActivityDiagram
+@changelog rO0ABXNyABFqYXZhLnV0aWwuSGFzaE1hcAUH2sHDFmDRAwACRgAKbG9hZEZhY3RvckkACXRocmVz
+aG9sZHhwP0AAAAAAAAx3CAAAABAAAAABc3IADmphdmEubGFuZy5Mb25nO4vkkMyPI98CAAFKAAV2
+YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAAAXKWYGgAc3IAE2phdmEudXRp
+bC5BcnJheUxpc3R4gdIdmcdhnQMAAUkABHNpemV4cAAAAAF3BAAAAApzcgAlZGUubW5sLmRvY2Jv
+b2s0VEEuaW1wbC5DaGFuZ2VMb2dFbnRyeQeNjrX5qiSfAgADTAAIaG9zdG5hbWV0ABJMamF2YS9s
+YW5nL1N0cmluZztMAARuYW1lcQB+AAhMAAR1c2VycQB+AAh4cHQACUZST01NLU5CMnQAEGFjX3Zh
+bGlkYXRlUGVkYWx0AAVGcm9tbXh4*/
+class __tags {
+}/**
+@__options 
+*/
+class __options {
+}/**
+@__positions <oigroup:<oiref:design#Class#id4z980kb7mmbcckb7sx1jz.nodeidar50nkb7mmbcckb7t314s:oiref>=610,220,240,35,0:oigroup>
+<oigroup:<oiref:design#Class#id4z980kb7mmbcckb7sx1jz.nodeid2ewtekb7mmbcckb7t6bhq.linkidtte0kb7mmbcckb7t71og:oiref>=250,375,250,420:oigroup>
+<oigroup:<oiref:design#Class#id4z980kb7mmbcckb7sx1jz.nodeidfezfxkb7mmbcckb7t1hwh:oiref>=230,170,60,20,1:oigroup>
+<oigroup:<oiref:design#Class#id4z980kb7mmbcckb7sx1jz.nodeidfezfxkb7mmbcckb7t1hwh.linkid149s3kb7mmbcckb7t2rlm:oiref>=260,190,260,210:oigroup>
+<oigroup:<oiref:design#Class#id4z980kb7mmbcckb7sx1jz.nodeid31qx1kb7mmbcckb84x65f.linkidcsrd2kb7mmbcckb84yec7:oiref>=254,575,254,630:oigroup>
+<oigroup:<oiref:design#Class#id4z980kb7mmbcckb7sx1jz.nodeid9vs6wkb7mmbcckb7t3rus:oiref>=620,279,230,23,0:oigroup>
+<oigroup:Composite#$transitionInplaceEditing#<oiref:design#Class#id4z980kb7mmbcckb7sx1jz.nodeid9wme1kb7mmbcckb7t1ki1.linkid4njelkb7mmbcckb7t4ezd:oiref>=380,250,73,16,1:oigroup>
+<oigroup:<oiref:design#Class#id4z980kb7mmbcckb7sx1jz.nodeid7vcdjkb7mmbcckb7t6xnm:oiref>=220,420,60,20,1:oigroup>
+<oigroup:<oiref:design#Class#id4z980kb7mmbcckb7sx1jz.nodeidism3rkb7mmbcckb7t0nsa:oiref>=170,130,195,23,1:oigroup>
+<oigroup:<oiref:design#Class#id4z980kb7mmbcckb7sx1jz.nodeid31qx1kb7mmbcckb84x65f:oiref>=140,540,228,35,1:oigroup>
+<oigroup:<oiref:design#Class#id4z980kb7mmbcckb7sx1jz.nodeidism3rkb7mmbcckb7t0nsa2:oiref>=170,210,195,23,1:oigroup>
+<oigroup:<oiref:design#Class#id4z980kb7mmbcckb7sx1jz.nodeidf3449kb7mmbcckb84ygjq:oiref>=240,700,15,15,1:oigroup>
+<oigroup:Composite#$transitionInplaceEditing#<oiref:design#Class#id4z980kb7mmbcckb7sx1jz.nodeid7vcdjkb7mmbcckb7t6xnm.linkid7b6r3kb7mmbcckb7t74mi:oiref>=320,410,193,16,1:oigroup>
+<oigroup:<oiref:design#Class#id4z980kb7mmbcckb7sx1jz.nodeidism3rkb7mmbcckb7t0nsa.linkid5nngqkb7mmbcckb7t2no6:oiref>=260,153,260,170:oigroup>
+<oigroup:<oiref:design#Class#id4z980kb7mmbcckb7sx1jz.nodeid9wme1kb7mmbcckb7t1ki1.linkid4njelkb7mmbcckb7t4ezd:oiref>=290,270,490,270,490,190,790,190,790,220:oigroup>
+<oigroup:<oiref:design#Class#id4z980kb7mmbcckb7sx1jz.nodeide2khgkb7mmbcckb7vxzew:oiref>=580,110,272,40,0:oigroup>
+<oigroup:<oiref:design#Class#id4z980kb7mmbcckb7sx1jz.nodeid9wme1kb7mmbcckb7t1ki1:oiref>=230,260,60,20,1:oigroup>
+<oigroup:Composite#$transitionInplaceEditing#<oiref:design#Class#id4z980kb7mmbcckb7sx1jz.nodeide7z3mkb7mmbcckb84w7ip.linkidd994lkb7mmbcckb84wff9:oiref>=320,450,200,32,1:oigroup>
+<oigroup:<oiref:design#Class#id4z980kb7mmbcckb7sx1jz.nodeid7vcdjkb7mmbcckb7t6xnm.linkidj5dd1kb7mmbcckb84wccc:oiref>=250,440,250,480:oigroup>
+<oigroup:<oiref:design#Class#id4z980kb7mmbcckb7sx1jz.nodeid7vcdjkb7mmbcckb7t6xnm.linkid7b6r3kb7mmbcckb7t74mi:oiref>=280,430,530,430,530,230,610,230:oigroup>
+<oigroup:<oiref:design#Class#id4z980kb7mmbcckb7sx1jz.nodeidejfujkb7mmbcckb84xpl8.linkidhuyvukb7mmbcckb84ylq0:oiref>=248,665,248,700:oigroup>
+<oigroup:<oiref:design#Class#id4z980kb7mmbcckb7sx1jz.nodeide7z3mkb7mmbcckb84w7ip.linkidd994lkb7mmbcckb84wff9:oiref>=280,490,570,490,570,240,610,240:oigroup>
+<oigroup:Composite#$transitionInplaceEditing#<oiref:design#Class#id4z980kb7mmbcckb7sx1jz.nodeidfezfxkb7mmbcckb7t1hwh.linkid8zg60kb7mmbcckb7t4911:oiref>=380,160,73,16,1:oigroup>
+<oigroup:<oiref:design#Class#id4z980kb7mmbcckb7sx1jz.nodeid2ewtekb7mmbcckb7t6bhq:oiref>=140,340,228,35,1:oigroup>
+<oigroup:<oiref:design#Class#id4z980kb7mmbcckb7sx1jz.nodeidar50nkb7mmbcckb7t314s.linkid3m26ikb7mmbcckb7t7s00:oiref>=735,255,735,279:oigroup>
+<oigroup:<oiref:design#Class#id4z980kb7mmbcckb7sx1jz.nodeid2znd7kb7mmbcckb7sx5ew:oiref>=250,60,12,12,1:oigroup>
+<oigroup:<oiref:design#Class#id4z980kb7mmbcckb7sx1jz.nodeidejfujkb7mmbcckb84xpl8:oiref>=140,630,228,35,1:oigroup>
+<oigroup:<oiref:design#Class#id4z980kb7mmbcckb7sx1jz.nodeid9vs6wkb7mmbcckb7t3rus.linkid3o5d2kb7mmbcckb7t7v63:oiref>=725,302,725,343:oigroup>
+<oigroup:<oiref:design#Class#id4z980kb7mmbcckb7sx1jz.nodeidism3rkb7mmbcckb7t0nsa2.linkidr6zkb7mmbcckb7t2udg:oiref>=260,233,260,260:oigroup>
+<oigroup:<oiref:design#Class#id4z980kb7mmbcckb7sx1jz.nodeid2znd7kb7mmbcckb7sx5ew.linkid4zt6dkb7mmbcckb7t2krr:oiref>=256,72,256,130:oigroup>
+<oigroup:<oiref:design#Class#id4z980kb7mmbcckb7sx1jz.nodeidfezfxkb7mmbcckb7t1hwh.linkid8zg60kb7mmbcckb7t4911:oiref>=290,180,820,180,820,220:oigroup>
+<oigroup:<oiref:design#Class#id4z980kb7mmbcckb7sx1jz.nodeid9wme1kb7mmbcckb7t1ki1.linkidht9v5kb7mmbcckb7t6ujl:oiref>=260,280,260,340:oigroup>
+<oigroup:<oiref:design#Class#id4z980kb7mmbcckb7sx1jz.nodeidbjuikb7mmbcckb7t45vm:oiref>=717,343,15,15,1:oigroup>
+<oigroup:<oiref:design#Class#id4z980kb7mmbcckb7sx1jz.nodeide7z3mkb7mmbcckb84w7ip:oiref>=220,480,60,20,1:oigroup>
+<oigroup:<oiref:design#Class#id4z980kb7mmbcckb7sx1jz.nodeide7z3mkb7mmbcckb84w7ip.linkid5g0p6kb7mmbcckb84xmg6:oiref>=250,500,250,540:oigroup>
+*/
+class __positions {
+}
+/**
+@shapeType StartState
+@__modelType node
+@name StartState1
+@backgroundColor 0,0,0 
+*/
+class nodeid2znd7kb7mmbcckb7sx5ew {
+/**
+@shapeType TransitionLink
+@__modelType link
+@__ref <oiref:design#Class#id4z980kb7mmbcckb7sx1jz.nodeidism3rkb7mmbcckb7t0nsa:oiref><oihard> 
+*/
+class linkid4zt6dkb7mmbcckb7t2krr {
+}
+}
+/**
+@shapeType Activity
+@__modelType node
+@name Read potentimeter channel 1 
+*/
+class nodeidism3rkb7mmbcckb7t0nsa {
+/**
+@shapeType TransitionLink
+@__modelType link
+@__ref <oiref:design#Class#id4z980kb7mmbcckb7sx1jz.nodeidfezfxkb7mmbcckb7t1hwh:oiref><oihard> 
+*/
+class linkid5nngqkb7mmbcckb7t2no6 {
+}
+}
+/**
+@shapeType Activity
+@__modelType node
+@name Read potentimeter channel 2
+*/
+class nodeidism3rkb7mmbcckb7t0nsa2 {
+/**
+@shapeType TransitionLink
+@__modelType link
+@__ref <oiref:design#Class#id4z980kb7mmbcckb7sx1jz.nodeid9wme1kb7mmbcckb7t1ki1:oiref><oihard> 
+*/
+class linkidr6zkb7mmbcckb7t2udg {
+}
+}
+/**
+@shapeType Decision
+@__modelType node
+@name Decision1 
+*/
+class nodeidfezfxkb7mmbcckb7t1hwh {
+/**
+@shapeType TransitionLink
+@__modelType link
+@__ref <oiref:design#Class#id4z980kb7mmbcckb7sx1jz.nodeidism3rkb7mmbcckb7t0nsa2:oiref><oihard> 
+*/
+class linkid149s3kb7mmbcckb7t2rlm {
+}
+/**
+@shapeType TransitionLink
+@__modelType link
+@__ref <oiref:design#Class#id4z980kb7mmbcckb7sx1jz.nodeidar50nkb7mmbcckb7t314s:oiref><oihard>
+@condition driver error 
+*/
+class linkid8zg60kb7mmbcckb7t4911 {
+}
+}
+/**
+@shapeType Decision
+@__modelType node
+@name Decision2 
+*/
+class nodeid9wme1kb7mmbcckb7t1ki1 {
+/**
+@shapeType TransitionLink
+@__modelType link
+@__ref <oiref:design#Class#id4z980kb7mmbcckb7sx1jz.nodeidar50nkb7mmbcckb7t314s:oiref><oihard>
+@condition driver error 
+*/
+class linkid4njelkb7mmbcckb7t4ezd {
+}
+/**
+@shapeType TransitionLink
+@__modelType link
+@__ref <oiref:design#Class#id4z980kb7mmbcckb7sx1jz.nodeid2ewtekb7mmbcckb7t6bhq:oiref><oihard> 
+*/
+class linkidht9v5kb7mmbcckb7t6ujl {
+}
+}
+/**
+@shapeType Activity
+@__modelType node
+@name Invalidate potentiometer signal 
+*/
+class nodeidar50nkb7mmbcckb7t314s {
+/**
+@shapeType TransitionLink
+@__modelType link
+@__ref <oiref:design#Class#id4z980kb7mmbcckb7sx1jz.nodeid9vs6wkb7mmbcckb7t3rus:oiref><oihard> 
+*/
+class linkid3m26ikb7mmbcckb7t7s00 {
+}
+}
+/**
+@shapeType Activity
+@__modelType node
+@name Return error code 
+*/
+class nodeid9vs6wkb7mmbcckb7t3rus {
+/**
+@shapeType TransitionLink
+@__modelType link
+@__ref <oiref:design#Class#id4z980kb7mmbcckb7sx1jz.nodeidbjuikb7mmbcckb7t45vm:oiref><oihard> 
+*/
+class linkid3o5d2kb7mmbcckb7t7v63 {
+}
+}
+/**
+@shapeType EndState
+@__modelType node
+@name EndState1
+@backgroundColor 0,0,0 
+*/
+class nodeidbjuikb7mmbcckb7t45vm {
+}
+/**
+@shapeType Activity
+@__modelType node
+@name Check for valid range of ADC value for both channels 
+*/
+class nodeid2ewtekb7mmbcckb7t6bhq {
+/**
+@shapeType TransitionLink
+@__modelType link
+@__ref <oiref:design#Class#id4z980kb7mmbcckb7sx1jz.nodeid7vcdjkb7mmbcckb7t6xnm:oiref><oihard> 
+*/
+class linkidtte0kb7mmbcckb7t71og {
+}
+}
+/**
+@shapeType Decision
+@__modelType node
+@name Decision3 
+*/
+class nodeid7vcdjkb7mmbcckb7t6xnm {
+/**
+@shapeType TransitionLink
+@__modelType link
+@__ref <oiref:design#Class#id4z980kb7mmbcckb7sx1jz.nodeidar50nkb7mmbcckb7t314s:oiref><oihard>
+@condition at least one channel out of range 
+*/
+class linkid7b6r3kb7mmbcckb7t74mi {
+}
+/**
+@shapeType TransitionLink
+@__modelType link
+@__ref <oiref:design#Class#id4z980kb7mmbcckb7sx1jz.nodeide7z3mkb7mmbcckb84w7ip:oiref><oihard> 
+*/
+class linkidj5dd1kb7mmbcckb84wccc {
+}
+}
+/**
+@shapeType Note
+@__modelType node
+@name Note1
+@text Application error handling
+@backgroundColor 255,255,51 
+*/
+class nodeide2khgkb7mmbcckb7vxzew {
+}
+/**
+@shapeType Decision
+@__modelType node
+@name Decision4 
+*/
+class nodeide7z3mkb7mmbcckb84w7ip {
+/**
+@shapeType TransitionLink
+@__modelType link
+@__ref <oiref:design#Class#id4z980kb7mmbcckb7sx1jz.nodeidar50nkb7mmbcckb7t314s:oiref><oihard>
+@condition both signals are not close enough 
+*/
+class linkidd994lkb7mmbcckb84wff9 {
+}
+/**
+@shapeType TransitionLink
+@__modelType link
+@__ref <oiref:design#Class#id4z980kb7mmbcckb7sx1jz.nodeid31qx1kb7mmbcckb84x65f:oiref><oihard> 
+*/
+class linkid5g0p6kb7mmbcckb84xmg6 {
+}
+}
+/**
+@shapeType Activity
+@__modelType node
+@name Create average of both channels and scale to pedal range 
+*/
+class nodeid31qx1kb7mmbcckb84x65f {
+/**
+@shapeType TransitionLink
+@__modelType link
+@__ref <oiref:design#Class#id4z980kb7mmbcckb7sx1jz.nodeidejfujkb7mmbcckb84xpl8:oiref><oihard> 
+*/
+class linkidcsrd2kb7mmbcckb84yec7 {
+}
+}
+/**
+@shapeType Activity
+@__modelType node
+@name Return pedal value and RC_SUCCESS 
+*/
+class nodeidejfujkb7mmbcckb84xpl8 {
+/**
+@shapeType TransitionLink
+@__modelType link
+@__ref <oiref:design#Class#id4z980kb7mmbcckb7sx1jz.nodeidf3449kb7mmbcckb84ygjq:oiref><oihard> 
+*/
+class linkidhuyvukb7mmbcckb84ylq0 {
+}
+}
+/**
+@shapeType EndState
+@__modelType node
+@name EndState2
+@backgroundColor 0,0,0 
+*/
+class nodeidf3449kb7mmbcckb84ygjq {
+}

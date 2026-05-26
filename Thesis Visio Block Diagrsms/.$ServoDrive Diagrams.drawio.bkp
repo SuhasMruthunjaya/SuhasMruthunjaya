@@ -1,0 +1,31 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.8 Chrome/140.0.7339.240 Electron/38.4.0 Safari/537.36" version="28.2.8">
+  <diagram name="Page-1" id="2YmvT2MPX_Ie80zILDma">
+    <mxGraphModel dx="1426" dy="961" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="1">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hYn_uNWS46yMVek6Ti9d-2" value="Motor Control Unit&lt;div&gt;Communication Unit&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
+          <mxGeometry x="133" y="234" width="136" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="hYn_uNWS46yMVek6Ti9d-3" value="Power Supply&lt;div&gt;Inverter&lt;/div&gt;&lt;div&gt;Measurements/ Sensors&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="525" y="234" width="136" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="hYn_uNWS46yMVek6Ti9d-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;shape=flexArrow;fillColor=#b0e3e6;strokeColor=#0e8088;" edge="1" parent="1" source="hYn_uNWS46yMVek6Ti9d-4" target="hYn_uNWS46yMVek6Ti9d-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hYn_uNWS46yMVek6Ti9d-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=flexArrow;fillColor=#f8cecc;strokeColor=#b85450;gradientColor=#ea6b66;" edge="1" parent="1" source="hYn_uNWS46yMVek6Ti9d-4" target="hYn_uNWS46yMVek6Ti9d-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hYn_uNWS46yMVek6Ti9d-4" value="SERVO DRIVE" style="rounded=1;whiteSpace=wrap;html=1;rotation=-90;shadow=1;glass=0;textShadow=0;opacity=50;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" vertex="1" parent="1">
+          <mxGeometry x="323" y="232.5" width="148" height="73" as="geometry" />
+        </mxCell>
+        <mxCell id="hYn_uNWS46yMVek6Ti9d-8" value="Control Electronics" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="142" y="206" width="115" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hYn_uNWS46yMVek6Ti9d-9" value="Power Electronics" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="538.5" y="206" width="109" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

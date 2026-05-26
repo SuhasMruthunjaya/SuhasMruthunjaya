@@ -1,0 +1,340 @@
+--------------- Build Started: 07/05/2020 21:43:18 Project: 50_PSOC2_DualChannel, Configuration: ARM GCC 5.4-2016-q2-update Debug ---------------
+The code generation step is up to date.
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I.\source\bsw\Services -I.\source\bsw\Board -I.\source\rte -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/main.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c source\asw\main.c -o .\CortexM3\ARM_GCC_541\Debug\main.o
+In file included from Generated_Source\PSoC5/ErikaOS_1_ee_api.inc:73:0,
+                 from Generated_Source\PSoC5/ErikaOS_1_ee.h:129,
+                 from Generated_Source\PSoC5/project.h:22,
+                 from source\asw\main.c:32:
+.\source\bsw\Services/ringbuffer.h: In function 'Ringbuffer_Read':
+Generated_Source\PSoC5/ErikaOS_1_ee_oo_api.inc:136:35: warning: implicit declaration of function 'EE_oo_GetResource' [-Wimplicit-function-declaration]
+ #define GetResource               EE_oo_GetResource
+                                   ^
+.\source\bsw\Services/ringbuffer.h:111:9: note: in expansion of macro 'GetResource'
+         GetResource(rb->erika_ressource);
+         ^
+Generated_Source\PSoC5/ErikaOS_1_ee_oo_api.inc:140:35: warning: implicit declaration of function 'EE_oo_ReleaseResource' [-Wimplicit-function-declaration]
+ #define ReleaseResource           EE_oo_ReleaseResource
+                                   ^
+.\source\bsw\Services/ringbuffer.h:132:9: note: in expansion of macro 'ReleaseResource'
+         ReleaseResource(rb->erika_ressource);
+         ^
+source\asw\main.c: In function 'Functsk_Init':
+source\asw\main.c:108:10: warning: unused variable 'result' [-Wunused-variable]
+     RC_t result;
+          ^
+source\asw\main.c: In function 'Functsk_EventDispatcher':
+source\asw\main.c:183:9: warning: implicit declaration of function 'WD_hitCheckpoint' [-Wimplicit-function-declaration]
+         WD_hitCheckpoint(0);
+         ^
+source\asw\main.c: In function 'Functsk_Background':
+source\asw\main.c:215:25: warning: implicit declaration of function 'WD_allCheckpointsHit' [-Wimplicit-function-declaration]
+             if (TRUE == WD_allCheckpointsHit())
+                         ^
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I.\source\bsw\Services -I.\source\bsw\Board -I.\source\rte -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/swc_control.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c source\asw\swc_control.c -o .\CortexM3\ARM_GCC_541\Debug\swc_control.o
+In file included from Generated_Source\PSoC5/ErikaOS_1_ee_api.inc:73:0,
+                 from Generated_Source\PSoC5/ErikaOS_1_ee.h:129,
+                 from Generated_Source\PSoC5/project.h:22,
+                 from .\source\bsw/global.h:66,
+                 from .\source\rte/rte.h:80,
+                 from source\asw\swc_control.c:6:
+.\source\bsw\Services/ringbuffer.h: In function 'Ringbuffer_Read':
+Generated_Source\PSoC5/ErikaOS_1_ee_oo_api.inc:136:35: warning: implicit declaration of function 'EE_oo_GetResource' [-Wimplicit-function-declaration]
+ #define GetResource               EE_oo_GetResource
+                                   ^
+.\source\bsw\Services/ringbuffer.h:111:9: note: in expansion of macro 'GetResource'
+         GetResource(rb->erika_ressource);
+         ^
+Generated_Source\PSoC5/ErikaOS_1_ee_oo_api.inc:140:35: warning: implicit declaration of function 'EE_oo_ReleaseResource' [-Wimplicit-function-declaration]
+ #define ReleaseResource           EE_oo_ReleaseResource
+                                   ^
+.\source\bsw\Services/ringbuffer.h:132:9: note: in expansion of macro 'ReleaseResource'
+         ReleaseResource(rb->erika_ressource);
+         ^
+source\asw\swc_control.c: In function 'CTRL_checkUserInput_run':
+source\asw\swc_control.c:60:10: warning: variable 'result' set but not used [-Wunused-but-set-variable]
+     RC_t result = RC_SUCCESS;
+          ^
+source\asw\swc_control.c: In function 'CTRL__engineStop':
+source\asw\swc_control.c:314:10: warning: variable 'result' set but not used [-Wunused-but-set-variable]
+     RC_t result = RC_SUCCESS;
+          ^
+source\asw\swc_control.c: In function 'CTRL__setTargetSpeed':
+source\asw\swc_control.c:346:10: warning: variable 'result' set but not used [-Wunused-but-set-variable]
+     RC_t result = RC_SUCCESS;
+          ^
+source\asw\swc_control.c: In function 'CTRL__reduceTargetSpeed':
+source\asw\swc_control.c:393:10: warning: variable 'result' set but not used [-Wunused-but-set-variable]
+     RC_t result = RC_SUCCESS;
+          ^
+source\asw\swc_control.c: In function 'CTRL__engineIsStopped':
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I.\source\bsw\Services -I.\source\bsw\Board -I.\source\rte -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/swc_pedal.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c source\asw\swc_pedal.c -o .\CortexM3\ARM_GCC_541\Debug\swc_pedal.o
+source\asw\swc_control.c:481:10: warning: unused variable 'result' [-Wunused-variable]
+     RC_t result = RC_SUCCESS;
+          ^
+In file included from Generated_Source\PSoC5/ErikaOS_1_ee_api.inc:73:0,
+                 from Generated_Source\PSoC5/ErikaOS_1_ee.h:129,
+                 from Generated_Source\PSoC5/project.h:22,
+                 from .\source\bsw/global.h:66,
+                 from .\source\rte/rte.h:80,
+                 from source\asw\swc_pedal.c:6:
+.\source\bsw\Services/ringbuffer.h: In function 'Ringbuffer_Read':
+Generated_Source\PSoC5/ErikaOS_1_ee_oo_api.inc:136:35: warning: implicit declaration of function 'EE_oo_GetResource' [-Wimplicit-function-declaration]
+ #define GetResource               EE_oo_GetResource
+                                   ^
+.\source\bsw\Services/ringbuffer.h:111:9: note: in expansion of macro 'GetResource'
+         GetResource(rb->erika_ressource);
+         ^
+Generated_Source\PSoC5/ErikaOS_1_ee_oo_api.inc:140:35: warning: implicit declaration of function 'EE_oo_ReleaseResource' [-Wimplicit-function-declaration]
+ #define ReleaseResource           EE_oo_ReleaseResource
+                                   ^
+.\source\bsw\Services/ringbuffer.h:132:9: note: in expansion of macro 'ReleaseResource'
+         ReleaseResource(rb->erika_ressource);
+         ^
+source\asw\swc_pedal.c: In function 'PEDAL_init_run':
+source\asw\swc_pedal.c:19:10: warning: unused variable 'result' [-Wunused-variable]
+     RC_t result = POTI_Init();
+          ^
+source\asw\swc_pedal.c: In function 'PEDAL_readCheckAdc_run':
+source\asw\swc_pedal.c:26:10: warning: variable 'result' set but not used [-Wunused-but-set-variable]
+     RC_t result = RC_SUCCESS;
+          ^
+In file included from source\asw\swc_pedal.c:9:0:
+source\asw\swc_pedal.c: In function 'PEDAL_errorHandler_run':
+source\asw\swc_pedal.c:56:40: warning: format '%d' expects argument of type 'int', but argument 3 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+         LOG_I("PEDAL_errorHandler_run","ERROR - wrong data from ADC : %d",pedalAge);
+                                        ^
+.\source\bsw\Services/logging.h:97:31: note: in definition of macro 'LOG'
+         sprintf (msg.message, __VA_ARGS__);         \
+                               ^
+source\asw\swc_pedal.c:56:9: note: in expansion of macro 'LOG_I'
+         LOG_I("PEDAL_errorHandler_run","ERROR - wrong data from ADC : %d",pedalAge);
+         ^
+source\asw\swc_pedal.c:56:40: warning: format '%d' expects argument of type 'int', but argument 3 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+         LOG_I("PEDAL_errorHandler_run","ERROR - wrong data from ADC : %d",pedalAge);
+                                        ^
+.\source\bsw\Services/logging.h:97:31: note: in definition of macro 'LOG'
+         sprintf (msg.message, __VA_ARGS__);         \
+                               ^
+source\asw\swc_pedal.c:56:9: note: in expansion of macro 'LOG_I'
+         LOG_I("PEDAL_errorHandler_run","ERROR - wrong data from ADC : %d",pedalAge);
+         ^
+source\asw\swc_pedal.c:39:10: warning: variable 'result' set but not used [-Wunused-but-set-variable]
+     RC_t result = RC_SUCCESS;
+          ^
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I.\source\bsw\Services -I.\source\bsw\Board -I.\source\rte -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/swc_engine.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c source\asw\swc_engine.c -o .\CortexM3\ARM_GCC_541\Debug\swc_engine.o
+In file included from Generated_Source\PSoC5/ErikaOS_1_ee_api.inc:73:0,
+                 from Generated_Source\PSoC5/ErikaOS_1_ee.h:129,
+                 from Generated_Source\PSoC5/project.h:22,
+                 from .\source\bsw/global.h:66,
+                 from .\source\rte/rte.h:80,
+                 from source\asw\swc_engine.c:6:
+.\source\bsw\Services/ringbuffer.h: In function 'Ringbuffer_Read':
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I.\source\bsw\Services -I.\source\bsw\Board -I.\source\rte -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/swc_hmi.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c source\asw\swc_hmi.c -o .\CortexM3\ARM_GCC_541\Debug\swc_hmi.o
+Generated_Source\PSoC5/ErikaOS_1_ee_oo_api.inc:136:35: warning: implicit declaration of function 'EE_oo_GetResource' [-Wimplicit-function-declaration]
+ #define GetResource               EE_oo_GetResource
+                                   ^
+.\source\bsw\Services/ringbuffer.h:111:9: note: in expansion of macro 'GetResource'
+         GetResource(rb->erika_ressource);
+         ^
+Generated_Source\PSoC5/ErikaOS_1_ee_oo_api.inc:140:35: warning: implicit declaration of function 'EE_oo_ReleaseResource' [-Wimplicit-function-declaration]
+ #define ReleaseResource           EE_oo_ReleaseResource
+                                   ^
+.\source\bsw\Services/ringbuffer.h:132:9: note: in expansion of macro 'ReleaseResource'
+         ReleaseResource(rb->erika_ressource);
+         ^
+source\asw\swc_engine.c: In function 'ENGINE_init_run':
+source\asw\swc_engine.c:21:10: warning: unused variable 'result' [-Wunused-variable]
+     RC_t result = ENG_Init();
+          ^
+source\asw\swc_engine.c: In function 'ENGINE_setControlSpeed_run':
+source\asw\swc_engine.c:40:9: warning: implicit declaration of function 'abs' [-Wimplicit-function-declaration]
+     if (abs(targetSpeed.m_rpm) > allowedTargetSpeed.m_maxSpeed)
+         ^
+source\asw\swc_engine.c: In function 'ENGINE_errorHandler_run':
+source\asw\swc_engine.c:111:14: warning: variable 'result' set but not used [-Wunused-but-set-variable]
+         RC_t result = RTE_PWM_set(&SO_CONTROLSPEED_signal, controlSpeed);
+              ^
+In file included from Generated_Source\PSoC5/ErikaOS_1_ee_api.inc:73:0,
+                 from Generated_Source\PSoC5/ErikaOS_1_ee.h:129,
+                 from Generated_Source\PSoC5/project.h:22,
+                 from .\source\bsw/global.h:66,
+                 from .\source\rte/rte.h:80,
+                 from source\asw\swc_hmi.c:6:
+.\source\bsw\Services/ringbuffer.h: In function 'Ringbuffer_Read':
+Generated_Source\PSoC5/ErikaOS_1_ee_oo_api.inc:136:35: warning: implicit declaration of function 'EE_oo_GetResource' [-Wimplicit-function-declaration]
+ #define GetResource               EE_oo_GetResource
+                                   ^
+.\source\bsw\Services/ringbuffer.h:111:9: note: in expansion of macro 'GetResource'
+         GetResource(rb->erika_ressource);
+         ^
+Generated_Source\PSoC5/ErikaOS_1_ee_oo_api.inc:140:35: warning: implicit declaration of function 'EE_oo_ReleaseResource' [-Wimplicit-function-declaration]
+ #define ReleaseResource           EE_oo_ReleaseResource
+                                   ^
+.\source\bsw\Services/ringbuffer.h:132:9: note: in expansion of macro 'ReleaseResource'
+         ReleaseResource(rb->erika_ressource);
+         ^
+source\asw\swc_hmi.c: In function 'HMI_init_run':
+source\asw\swc_hmi.c:18:10: warning: variable 'result' set but not used [-Wunused-but-set-variable]
+     RC_t result = RC_ERROR;
+          ^
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I.\source\bsw\Services -I.\source\bsw\Board -I.\source\rte -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/error.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c source\asw\error.c -o .\CortexM3\ARM_GCC_541\Debug\error.o
+In file included from Generated_Source\PSoC5/ErikaOS_1_ee_api.inc:73:0,
+                 from Generated_Source\PSoC5/ErikaOS_1_ee.h:129,
+                 from Generated_Source\PSoC5/project.h:22,
+                 from .\source\bsw/global.h:66,
+                 from .\source\rte/rte.h:80,
+                 from source\asw\error.c:24:
+.\source\bsw\Services/ringbuffer.h: In function 'Ringbuffer_Read':
+Generated_Source\PSoC5/ErikaOS_1_ee_oo_api.inc:136:35: warning: implicit declaration of function 'EE_oo_GetResource' [-Wimplicit-function-declaration]
+ #define GetResource               EE_oo_GetResource
+                                   ^
+.\source\bsw\Services/ringbuffer.h:111:9: note: in expansion of macro 'GetResource'
+         GetResource(rb->erika_ressource);
+         ^
+Generated_Source\PSoC5/ErikaOS_1_ee_oo_api.inc:140:35: warning: implicit declaration of function 'EE_oo_ReleaseResource' [-Wimplicit-function-declaration]
+ #define ReleaseResource           EE_oo_ReleaseResource
+                                   ^
+.\source\bsw\Services/ringbuffer.h:132:9: note: in expansion of macro 'ReleaseResource'
+         ReleaseResource(rb->erika_ressource);
+         ^
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I.\source\bsw\Services -I.\source\bsw\Board -I.\source\rte -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/swc_com.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c source\asw\swc_com.c -o .\CortexM3\ARM_GCC_541\Debug\swc_com.o
+In file included from Generated_Source\PSoC5/ErikaOS_1_ee_api.inc:73:0,
+                 from Generated_Source\PSoC5/ErikaOS_1_ee.h:129,
+                 from Generated_Source\PSoC5/project.h:22,
+                 from .\source\bsw/global.h:66,
+                 from .\source\rte/rte.h:80,
+                 from source\asw\swc_com.c:6:
+.\source\bsw\Services/ringbuffer.h: In function 'Ringbuffer_Read':
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I.\source\bsw\Services -I.\source\bsw\Board -I.\source\rte -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/rte_signalpool.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c source\rte\rte_signalpool.c -o .\CortexM3\ARM_GCC_541\Debug\rte_signalpool.o
+Generated_Source\PSoC5/ErikaOS_1_ee_oo_api.inc:136:35: warning: implicit declaration of function 'EE_oo_GetResource' [-Wimplicit-function-declaration]
+ #define GetResource               EE_oo_GetResource
+                                   ^
+.\source\bsw\Services/ringbuffer.h:111:9: note: in expansion of macro 'GetResource'
+         GetResource(rb->erika_ressource);
+         ^
+Generated_Source\PSoC5/ErikaOS_1_ee_oo_api.inc:140:35: warning: implicit declaration of function 'EE_oo_ReleaseResource' [-Wimplicit-function-declaration]
+ #define ReleaseResource           EE_oo_ReleaseResource
+                                   ^
+.\source\bsw\Services/ringbuffer.h:132:9: note: in expansion of macro 'ReleaseResource'
+         ReleaseResource(rb->erika_ressource);
+         ^
+In file included from Generated_Source\PSoC5/ErikaOS_1_ee_api.inc:73:0,
+                 from Generated_Source\PSoC5/ErikaOS_1_ee.h:129,
+                 from Generated_Source\PSoC5/project.h:22,
+                 from source\rte\rte_signalpool.c:5:
+.\source\bsw\Services/ringbuffer.h: In function 'Ringbuffer_Read':
+Generated_Source\PSoC5/ErikaOS_1_ee_oo_api.inc:136:35: warning: implicit declaration of function 'EE_oo_GetResource' [-Wimplicit-function-declaration]
+ #define GetResource               EE_oo_GetResource
+                                   ^
+.\source\bsw\Services/ringbuffer.h:111:9: note: in expansion of macro 'GetResource'
+         GetResource(rb->erika_ressource);
+         ^
+Generated_Source\PSoC5/ErikaOS_1_ee_oo_api.inc:140:35: warning: implicit declaration of function 'EE_oo_ReleaseResource' [-Wimplicit-function-declaration]
+ #define ReleaseResource           EE_oo_ReleaseResource
+                                   ^
+.\source\bsw\Services/ringbuffer.h:132:9: note: in expansion of macro 'ReleaseResource'
+         ReleaseResource(rb->erika_ressource);
+         ^
+In file included from source\rte\carstate_signal.h:20:0,
+                 from source\rte\rte_signalpool.h:13,
+                 from source\rte\rte_signalpool.c:7:
+source\rte\rte_signalpool.c: At top level:
+source\rte\carState_type.h:40:54: warning: excess elements in struct initializer
+ #define CARSTATE_INIT_DATA ((CARSTATE_data_t){ISIDLE,0, DIRECTION_NEUTRAL})
+                                                      ^
+source\rte\rte_signalpool.c:242:25: note: in expansion of macro 'CARSTATE_INIT_DATA'
+    /* init value    */  CARSTATE_INIT_DATA,
+                         ^
+source\rte\carState_type.h:40:54: note: (near initialization for '(anonymous)')
+ #define CARSTATE_INIT_DATA ((CARSTATE_data_t){ISIDLE,0, DIRECTION_NEUTRAL})
+                                                      ^
+source\rte\rte_signalpool.c:242:25: note: in expansion of macro 'CARSTATE_INIT_DATA'
+    /* init value    */  CARSTATE_INIT_DATA,
+                         ^
+source\rte\carState_type.h:40:57: warning: excess elements in struct initializer
+ #define CARSTATE_INIT_DATA ((CARSTATE_data_t){ISIDLE,0, DIRECTION_NEUTRAL})
+                                                         ^
+source\rte\rte_signalpool.c:242:25: note: in expansion of macro 'CARSTATE_INIT_DATA'
+    /* init value    */  CARSTATE_INIT_DATA,
+                         ^
+source\rte\carState_type.h:40:57: note: (near initialization for '(anonymous)')
+ #define CARSTATE_INIT_DATA ((CARSTATE_data_t){ISIDLE,0, DIRECTION_NEUTRAL})
+                                                         ^
+source\rte\rte_signalpool.c:242:25: note: in expansion of macro 'CARSTATE_INIT_DATA'
+    /* init value    */  CARSTATE_INIT_DATA,
+                         ^
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I.\source\bsw\Services -I.\source\bsw\Board -I.\source\rte -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/button_type.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c source\rte\button_type.c -o .\CortexM3\ARM_GCC_541\Debug\button_type.o
+In file included from Generated_Source\PSoC5/ErikaOS_1_ee_api.inc:73:0,
+                 from Generated_Source\PSoC5/ErikaOS_1_ee.h:129,
+                 from Generated_Source\PSoC5/project.h:22,
+                 from source\rte\button_type.c:8:
+.\source\bsw\Services/ringbuffer.h: In function 'Ringbuffer_Read':
+Generated_Source\PSoC5/ErikaOS_1_ee_oo_api.inc:136:35: warning: implicit declaration of function 'EE_oo_GetResource' [-Wimplicit-function-declaration]
+ #define GetResource               EE_oo_GetResource
+                                   ^
+.\source\bsw\Services/ringbuffer.h:111:9: note: in expansion of macro 'GetResource'
+         GetResource(rb->erika_ressource);
+         ^
+Generated_Source\PSoC5/ErikaOS_1_ee_oo_api.inc:140:35: warning: implicit declaration of function 'EE_oo_ReleaseResource' [-Wimplicit-function-declaration]
+ #define ReleaseResource           EE_oo_ReleaseResource
+                                   ^
+.\source\bsw\Services/ringbuffer.h:132:9: note: in expansion of macro 'ReleaseResource'
+         ReleaseResource(rb->erika_ressource);
+         ^
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I.\source\bsw\Services -I.\source\bsw\Board -I.\source\rte -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/drivingparam_type.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c source\rte\drivingparam_type.c -o .\CortexM3\ARM_GCC_541\Debug\drivingparam_type.o
+In file included from Generated_Source\PSoC5/ErikaOS_1_ee_api.inc:73:0,
+                 from Generated_Source\PSoC5/ErikaOS_1_ee.h:129,
+                 from Generated_Source\PSoC5/project.h:22,
+                 from source\rte\drivingparam_type.c:8:
+.\source\bsw\Services/ringbuffer.h: In function 'Ringbuffer_Read':
+Generated_Source\PSoC5/ErikaOS_1_ee_oo_api.inc:136:35: warning: implicit declaration of function 'EE_oo_GetResource' [-Wimplicit-function-declaration]
+ #define GetResource               EE_oo_GetResource
+                                   ^
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\TraceRecorder -I.\source\bsw\TraceRecorder\config -I.\source\bsw\TraceRecorder\include -I.\source\bsw\TraceRecorder\streamport -I.\source\bsw\Services -I.\source\bsw\Board -I.\source\rte -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/uartprot_type.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c source\rte\uartprot_type.c -o .\CortexM3\ARM_GCC_541\Debug\uartprot_type.o
+.\source\bsw\Services/ringbuffer.h:111:9: note: in expansion of macro 'GetResource'
+         GetResource(rb->erika_ressource);
+         ^
+Generated_Source\PSoC5/ErikaOS_1_ee_oo_api.inc:140:35: warning: implicit declaration of function 'EE_oo_ReleaseResource' [-Wimplicit-function-declaration]
+ #define ReleaseResource           EE_oo_ReleaseResource
+                                   ^
+.\source\bsw\Services/ringbuffer.h:132:9: note: in expansion of macro 'ReleaseResource'
+         ReleaseResource(rb->erika_ressource);
+         ^
+source\rte\drivingparam_type.c: In function 'DRIVINGPARAM_driverOut':
+source\rte\drivingparam_type.c:47:9: warning: enumeration value 'ERROR_ALLOK' not handled in switch [-Wswitch]
+         switch (data->m_error)
+         ^
+In file included from Generated_Source\PSoC5/ErikaOS_1_ee_api.inc:73:0,
+                 from Generated_Source\PSoC5/ErikaOS_1_ee.h:129,
+                 from Generated_Source\PSoC5/project.h:22,
+                 from source\rte\uartprot_type.c:8:
+.\source\bsw\Services/ringbuffer.h: In function 'Ringbuffer_Read':
+Generated_Source\PSoC5/ErikaOS_1_ee_oo_api.inc:136:35: warning: implicit declaration of function 'EE_oo_GetResource' [-Wimplicit-function-declaration]
+ #define GetResource               EE_oo_GetResource
+                                   ^
+.\source\bsw\Services/ringbuffer.h:111:9: note: in expansion of macro 'GetResource'
+         GetResource(rb->erika_ressource);
+         ^
+Generated_Source\PSoC5/ErikaOS_1_ee_oo_api.inc:140:35: warning: implicit declaration of function 'EE_oo_ReleaseResource' [-Wimplicit-function-declaration]
+ #define ReleaseResource           EE_oo_ReleaseResource
+                                   ^
+.\source\bsw\Services/ringbuffer.h:132:9: note: in expansion of macro 'ReleaseResource'
+         ReleaseResource(rb->erika_ressource);
+         ^
+In file included from .\source\bsw\Services/logging.h:35:0,
+                 from source\rte\uartprot_type.c:11:
+.\source\bsw\Services/ringbuffer.h: In function 'Ringbuffer_Clear':
+.\source\bsw\Services/ringbuffer.h:176:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+arm-none-eabi-ar.exe -rs .\CortexM3\ARM_GCC_541\Debug\50_PSOC2_DualChannel.a .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_activate.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_alcancel.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_alget.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_algetbase.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_alsetabs.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_alsetrel.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_altick.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_chaintas.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_evclear.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_evget.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_evset.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_evwait.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_force_schedule.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_getcountervalue.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_getelapsedvalue.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_gettaskid.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_gettaskstate.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_iparam.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_irqendin.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_lockres.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_lookup.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_rq_exchg.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_rq_first.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_rq_inser.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_schedule.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_semgetvalue.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_sempost.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_semtrywait.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_semwait.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_shtdown.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_startos.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_terminat.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_thendin.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_tnterm.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_tstub.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_ulockallres.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_ulockres.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_cortex_mx_ee_context.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_cortex_mx_ee_system_timer.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_cortex_mx_ee_utils.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_common_ee_hal_structs.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_eecfg.o .\CortexM3\ARM_GCC_541\Debug\EB_4.o .\CortexM3\ARM_GCC_541\Debug\EB_3.o .\CortexM3\ARM_GCC_541\Debug\EB_2.o .\CortexM3\ARM_GCC_541\Debug\EB_7.o .\CortexM3\ARM_GCC_541\Debug\EB_8.o .\CortexM3\ARM_GCC_541\Debug\EB_9.o .\CortexM3\ARM_GCC_541\Debug\EB_10.o .\CortexM3\ARM_GCC_541\Debug\LED_4.o .\CortexM3\ARM_GCC_541\Debug\EB_1.o .\CortexM3\ARM_GCC_541\Debug\EB_5.o .\CortexM3\ARM_GCC_541\Debug\BUTTON_1.o .\CortexM3\ARM_GCC_541\Debug\isr_Button.o .\CortexM3\ARM_GCC_541\Debug\BUTTON_2.o .\CortexM3\ARM_GCC_541\Debug\BUTTON_3.o .\CortexM3\ARM_GCC_541\Debug\BUTTON_4.o .\CortexM3\ARM_GCC_541\Debug\LED_1.o .\CortexM3\ARM_GCC_541\Debug\LED_3.o .\CortexM3\ARM_GCC_541\Debug\LED_2.o .\CortexM3\ARM_GCC_541\Debug\UART_LOG.o .\CortexM3\ARM_GCC_541\Debug\UART_LOG_PM.o .\CortexM3\ARM_GCC_541\Debug\UART_LOG_INT.o .\CortexM3\ARM_GCC_541\Debug\UART_LOG_BOOT.o .\CortexM3\ARM_GCC_541\Debug\UART_PSOC.o .\CortexM3\ARM_GCC_541\Debug\UART_PSOC_PM.o .\CortexM3\ARM_GCC_541\Debug\UART_PSOC_INT.o .\CortexM3\ARM_GCC_541\Debug\UART_PSOC_BOOT.o .\CortexM3\ARM_GCC_541\Debug\ENGINE_PWM.o .\CortexM3\ARM_GCC_541\Debug\ENGINE_PWM_PM.o .\CortexM3\ARM_GCC_541\Debug\Pin_Safe_1.o .\CortexM3\ARM_GCC_541\Debug\Pin_Safe_2.o .\CortexM3\ARM_GCC_541\Debug\EB_Status_Reg_2.o .\CortexM3\ARM_GCC_541\Debug\EB_6.o .\CortexM3\ARM_GCC_541\Debug\USBUART.o .\CortexM3\ARM_GCC_541\Debug\USBUART_audio.o .\CortexM3\ARM_GCC_541\Debug\USBUART_boot.o .\CortexM3\ARM_GCC_541\Debug\USBUART_cdc.o .\CortexM3\ARM_GCC_541\Debug\USBUART_cls.o .\CortexM3\ARM_GCC_541\Debug\USBUART_descr.o .\CortexM3\ARM_GCC_541\Debug\USBUART_drv.o .\CortexM3\ARM_GCC_541\Debug\USBUART_episr.o .\CortexM3\ARM_GCC_541\Debug\USBUART_hid.o .\CortexM3\ARM_GCC_541\Debug\USBUART_pm.o .\CortexM3\ARM_GCC_541\Debug\USBUART_std.o .\CortexM3\ARM_GCC_541\Debug\USBUART_vnd.o .\CortexM3\ARM_GCC_541\Debug\USBUART_midi.o .\CortexM3\ARM_GCC_541\Debug\USBUART_msc.o .\CortexM3\ARM_GCC_541\Debug\Clock_SR.o .\CortexM3\ARM_GCC_541\Debug\EB_Status_Reg_1.o .\CortexM3\ARM_GCC_541\Debug\Pin_AnalogIN_1.o .\CortexM3\ARM_GCC_541\Debug\Pin_AnalogIN_3.o .\CortexM3\ARM_GCC_541\Debug\SCL.o .\CortexM3\ARM_GCC_541\Debug\SDA.o .\CortexM3\ARM_GCC_541\Debug\I2C.o .\CortexM3\ARM_GCC_541\Debug\I2C_BOOT.o .\CortexM3\ARM_GCC_541\Debug\I2C_INT.o .\CortexM3\ARM_GCC_541\Debug\I2C_PM.o .\CortexM3\ARM_GCC_541\Debug\I2C_SLAVE.o .\CortexM3\ARM_GCC_541\Debug\I2C_MASTER.o .\CortexM3\ARM_GCC_541\Debug\Clock_PWM.o .\CortexM3\ARM_GCC_541\Debug\ENGINE_DECODER.o .\CortexM3\ARM_GCC_541\Debug\ENGINE_DECODER_INT.o .\CortexM3\ARM_GCC_541\Debug\ENGINE_DECODER_PM.o .\CortexM3\ARM_GCC_541\Debug\Pin_Encoder_A.o .\CortexM3\ARM_GCC_541\Debug\Pin_Encoder_B.o .\CortexM3\ARM_GCC_541\Debug\ENGINE_Direction.o .\CortexM3\ARM_GCC_541\Debug\ENGINE_Direction_PM.o .\CortexM3\ARM_GCC_541\Debug\Pin_Engine_Mode_1.o .\CortexM3\ARM_GCC_541\Debug\Pin_Engine_Mode_2.o .\CortexM3\ARM_GCC_541\Debug\Pin_AnalogIN_2.o .\CortexM3\ARM_GCC_541\Debug\Pin_Engine_PWM.o .\CortexM3\ARM_GCC_541\Debug\UART_LOG_IntClock.o .\CortexM3\ARM_GCC_541\Debug\UART_PSOC_IntClock.o .\CortexM3\ARM_GCC_541\Debug\USBUART_Dm.o .\CortexM3\ARM_GCC_541\Debug\USBUART_Dp.o .\CortexM3\ARM_GCC_541\Debug\ENGINE_DECODER_isr.o .\CortexM3\ARM_GCC_541\Debug\ENGINE_DECODER_Cnt16.o .\CortexM3\ARM_GCC_541\Debug\ENGINE_DECODER_Cnt16_PM.o .\CortexM3\ARM_GCC_541\Debug\cy_em_eeprom.o .\CortexM3\ARM_GCC_541\Debug\CyDmac.o .\CortexM3\ARM_GCC_541\Debug\CyFlash.o .\CortexM3\ARM_GCC_541\Debug\CyLib.o .\CortexM3\ARM_GCC_541\Debug\cyPm.o .\CortexM3\ARM_GCC_541\Debug\CySpc.o .\CortexM3\ARM_GCC_541\Debug\cyutils.o .\CortexM3\ARM_GCC_541\Debug\ADC_SAR_1.o .\CortexM3\ARM_GCC_541\Debug\ADC_SAR_1_INT.o .\CortexM3\ARM_GCC_541\Debug\ADC_SAR_1_PM.o .\CortexM3\ARM_GCC_541\Debug\ADC_SAR_2.o .\CortexM3\ARM_GCC_541\Debug\ADC_SAR_2_INT.o .\CortexM3\ARM_GCC_541\Debug\ADC_SAR_2_PM.o .\CortexM3\ARM_GCC_541\Debug\ADC_SAR_1_IRQ.o .\CortexM3\ARM_GCC_541\Debug\ADC_SAR_1_theACLK.o .\CortexM3\ARM_GCC_541\Debug\ADC_SAR_2_IRQ.o .\CortexM3\ARM_GCC_541\Debug\ADC_SAR_2_theACLK.o .\CortexM3\ARM_GCC_541\Debug\Pin_WdgReset.o .\CortexM3\ARM_GCC_541\Debug\Pin_WdgWarn.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_gnu_change_context_isr.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_gnu_irq_stack.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_gnu_multi_context.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_gnu_oo.o .\CortexM3\ARM_GCC_541\Debug\CyBootAsmGnu.o
+arm-none-eabi-ar.exe: creating .\CortexM3\ARM_GCC_541\Debug\50_PSOC2_DualChannel.a
+arm-none-eabi-gcc.exe -Wl,--start-group -o D:\50_HDA\60_Lehre\40_Vorlesungen\17_SECS\20_Lecture\__work\50_PSOC2_DualChannel.cydsn\CortexM3\ARM_GCC_541\Debug\50_PSOC2_DualChannel.elf .\CortexM3\ARM_GCC_541\Debug\main.o .\CortexM3\ARM_GCC_541\Debug\swc_control.o .\CortexM3\ARM_GCC_541\Debug\swc_pedal.o .\CortexM3\ARM_GCC_541\Debug\swc_engine.o .\CortexM3\ARM_GCC_541\Debug\swc_hmi.o .\CortexM3\ARM_GCC_541\Debug\error.o .\CortexM3\ARM_GCC_541\Debug\swc_com.o .\CortexM3\ARM_GCC_541\Debug\trcStreamingPort.o .\CortexM3\ARM_GCC_541\Debug\trcKernelPort.o .\CortexM3\ARM_GCC_541\Debug\trcSnapshotRecorder.o .\CortexM3\ARM_GCC_541\Debug\trcStreamingRecorder.o .\CortexM3\ARM_GCC_541\Debug\button.o .\CortexM3\ARM_GCC_541\Debug\led.o .\CortexM3\ARM_GCC_541\Debug\poti.o .\CortexM3\ARM_GCC_541\Debug\engine.o .\CortexM3\ARM_GCC_541\Debug\SSD1306.o .\CortexM3\ARM_GCC_541\Debug\vI2C_noOS.o .\CortexM3\ARM_GCC_541\Debug\engine_cfg.o .\CortexM3\ARM_GCC_541\Debug\watchdog.o .\CortexM3\ARM_GCC_541\Debug\ex_wdg.o .\CortexM3\ARM_GCC_541\Debug\logging.o .\CortexM3\ARM_GCC_541\Debug\rte.o .\CortexM3\ARM_GCC_541\Debug\rte_activation.o .\CortexM3\ARM_GCC_541\Debug\rte_signalpool.o .\CortexM3\ARM_GCC_541\Debug\speed_type.o .\CortexM3\ARM_GCC_541\Debug\pedal_type.o .\CortexM3\ARM_GCC_541\Debug\button_type.o .\CortexM3\ARM_GCC_541\Debug\pwm_type.o .\CortexM3\ARM_GCC_541\Debug\carstate_type.o .\CortexM3\ARM_GCC_541\Debug\event_type.o .\CortexM3\ARM_GCC_541\Debug\led_type.o .\CortexM3\ARM_GCC_541\Debug\drivingparam_type.o .\CortexM3\ARM_GCC_541\Debug\dip_type.o .\CortexM3\ARM_GCC_541\Debug\uartprot_type.o .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o .\CortexM3\ARM_GCC_541\Debug\cymetadata.o .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o .\CortexM3\ARM_GCC_541\Debug\50_PSOC2_DualChannel.a "C:\tool\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CortexM3\ARM_GCC_541\Debug\CyComponentLibrary.a" -mcpu=cortex-m3 -mthumb -L Generated_Source\PSoC5 -Wl,-Map,.\CortexM3\ARM_GCC_541\Debug/50_PSOC2_DualChannel.map -T Generated_Source\PSoC5\cm3gcc.ld -specs=nano.specs -Wl,--gc-sections -g -ffunction-sections -Og -ffat-lto-objects -Wl,--end-group
+cyelftool.exe -C D:\50_HDA\60_Lehre\40_Vorlesungen\17_SECS\20_Lecture\__work\50_PSOC2_DualChannel.cydsn\CortexM3\ARM_GCC_541\Debug\50_PSOC2_DualChannel.elf --flash_row_size 256 --flash_size 262144 --flash_offset 0x00000000
+No ELF section .cychecksum found, creating one
+Application checksum calculated and stored in ELF section .cychecksum
+Checksum calculated and stored in ELF section .cymeta
+cyelftool.exe -S D:\50_HDA\60_Lehre\40_Vorlesungen\17_SECS\20_Lecture\__work\50_PSOC2_DualChannel.cydsn\CortexM3\ARM_GCC_541\Debug\50_PSOC2_DualChannel.elf
+Flash used: 34142 of 262144 bytes (13,0 %).
+SRAM used: 14465 of 65536 bytes (22,1 %). Stack: 2048 bytes. Heap: 128 bytes.
+--------------- Build Succeeded: 07/05/2020 21:43:22 ---------------

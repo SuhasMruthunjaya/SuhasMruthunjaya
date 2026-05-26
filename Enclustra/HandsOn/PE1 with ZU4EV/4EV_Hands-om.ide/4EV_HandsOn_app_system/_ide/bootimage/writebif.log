@@ -1,0 +1,14 @@
+TRACE::2022-11-21.08:38:21::SCWBifWriter::Found the complete platform C:/Users/SESA630813/work-2/4EV_HandsOn_platt/export/4EV_HandsOn_platt/4EV_HandsOn_platt.xpfm
+TRACE::2022-11-21.08:38:21::SCWBifWriter::hardware databse : Block_4EV_wrapper
+TRACE::2022-11-21.08:38:21::SCWBifWriter::bitstream found in the design
+TRACE::2022-11-21.08:38:21::SCWBifWriter::Found a baremetal domain, proc: psu_cortexa53_0
+TRACE::2022-11-21.08:38:21::SCWBifWriter::proc type : 
+TRACE::2022-11-21.08:38:21::SCWBifWriter::proc[0] : psu_cortexa53_0
+TRACE::2022-11-21.08:38:21::SCWBifWriter::Device type is : zynqMP
+TRACE::2022-11-21.08:38:21::SCWBifWriter::Writing BIF to file : C:/Users/SESA630813/work-2/4EV_HandsOn_app_system/_ide/bootimage/template_4EV_HandsOn_app_system.bif
+TRACE::2022-11-21.08:38:21::SCWBifWriter::Writing the ZynqMP baremetal bif 
+TRACE::2022-11-21.08:38:21::SCWBifWriter::System Command Ran  C:/Xilinx3/Vitis/2021.2/gnu/aarch64/nt/aarch64-none/bin/aarch64-none-elf-readelf -A  C:/Users/SESA630813/work-2/4EV_HandsOn_platt/export/4EV_HandsOn_platt/sw/4EV_HandsOn_platt/boot/fsbl.elf
+TRACE::2022-11-21.08:38:21::SCWBifWriter:: Command Ran  C:/Xilinx3/Vitis/2021.2/gnu/aarch64/nt/aarch64-none/bin/aarch64-none-elf-readelf -A  C:/Users/SESA630813/work-2/4EV_HandsOn_platt/export/4EV_HandsOn_platt/sw/4EV_HandsOn_platt/boot/fsbl.elf
+TRACE::2022-11-21.08:38:21::SCWBifWriter::FSBL processor, command ran C:/Xilinx3/Vitis/2021.2/gnu/aarch64/nt/aarch64-none/bin/aarch64-none-elf-readelf -A  C:/Users/SESA630813/work-2/4EV_HandsOn_platt/export/4EV_HandsOn_platt/sw/4EV_HandsOn_platt/boot/fsbl.elf
+TRACE::2022-11-21.08:38:21::SCWBifWriter::FSBL target processor is a53-0
+TRACE::2022-11-21.08:38:21::SCWBifWriter::Boot processor is :a53-0

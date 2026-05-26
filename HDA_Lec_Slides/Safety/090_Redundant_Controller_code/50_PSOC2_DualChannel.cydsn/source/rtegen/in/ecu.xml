@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<rte>
+	<configset>
+		<config name="version" 			value="Erika 3" />
+		<config name="path_out"			value=".\out" />
+		<config name="timertickperiod"	value="10" />
+		<config name="taskEvent"		value="tsk_EventDispatcher" />
+		<config name="taskCyclic"		value="tsk_CyclicDispatcher" />
+		<!-- filename without extension. Generator will check for .h, .c templates -->
+		<template>
+			<config name="signal" 	value=".\template\signal"  />
+			<config name="type" 	value=".\template\type"  />
+		</template>
+	</configset>
+	
+	<signalclasses>
+		<signalclass name="pedal" />
+		<signalclass name="speed" />
+		<signalclass name="button" />
+		<signalclass name="carState" />
+		<signalclass name="drivingParam" />
+		<signalclass name="pwm" />
+		<signalclass name="event" />
+		<signalclass name="led" />
+		<signalclass name="dip" />
+		<signalclass name="uartprot" />
+    </signalclasses>
+
+	<signalobjects>
+		<signalobject name="so_pedalPosition" description="Input signal for pedal position (ADC), range -100..100" signalclass="pedal" indriver="default" outdriver="0" onDataUpdate="0" onError="ev_pedalPosition_onError"></signalobject>
+		
+		<signalobject name="so_brakeButton" description="Brake Button State" signalclass="button" indriver="BUTTON_2_driverIn" outdriver="0" onDataUpdate="0" onError="0"></signalobject>
+		<signalobject name="so_ignitionButton" description="Ignition Button State" signalclass="button" indriver="BUTTON_1_driverIn" outdriver="0" onDataUpdate="0" onError="0"></signalobject>
+		<signalobject name="so_directionButton" description="Direction Button State" signalclass="button" indriver="BUTTON_3_driverIn" outdriver="0" onDataUpdate="0" onError="0"></signalobject>
+		
+		<signalobject name="so_targetSpeed" description="Target Speed Signal for engine (SPEED), range 0..MAXRPM"  signalclass="speed" indriver="0" outdriver="0" onDataUpdate="0" onError="0"></signalobject>
+		<signalobject name="so_currentSpeed" description="Current Speed Signal for engine (SPEED), range 0..MAXRPM"  signalclass="speed" indriver="default" outdriver="0" onDataUpdate="0" onError="ev_currentSpeed_onError"></signalobject>
+		<signalobject name="so_controlSpeed" description="Output Signal for engine, range 0..MAXPWM"  signalclass="pwm" indriver="0" outdriver="default" onDataUpdate="0" onError="ev_controlSpeed_onError"></signalobject>
+	
+		<signalobject name="so_carState" description="Central state object for properties like ignition state, maxspeed,..."  signalclass="carState" indriver="0" outdriver="0" onDataUpdate="ev_drivingParam_onUpdate" onError="0"></signalobject>
+		<signalobject name="so_event" description="Events fired to the central state machine"  signalclass="event" indriver="0" outdriver="0" onDataUpdate="ev_event_onUpdate" onError="0"></signalobject>
+
+		<signalobject name="so_drivingParam" description="Driving parameters like maxspeed, error...Will also be used for the display"  signalclass="drivingParam" indriver="0" outdriver="default" onDataUpdate="ev_drivingParam_onUpdate" onError="0"></signalobject>
+		<signalobject name="so_led" description="Led Signal"  signalclass="led" indriver="0" outdriver="default" onDataUpdate="0" onError="0"></signalobject>
+
+		<signalobject name="so_dip" description="DIP switch State" signalclass="dip" indriver="default" outdriver="0" onDataUpdate="0" onError="0"></signalobject>
+		
+		<signalobject name="so_uartprot_tx" description="State communication to monitor PSOC" signalclass="uartprot" indriver="0" outdriver="default" onDataUpdate="0" onError="0"></signalobject>
+
+
+	</signalobjects>
+	
+	<runnables>
+		<cyclic>
+			<runnable name="PEDAL_readCheckAdc_run" component="SWC_Pedal" cycletime="10"/>
+			
+			<runnable name="CTRL_checkUserInput_run" component="SWC_Control" cycletime="10"/>
+			
+			<runnable name="ENGINE_setControlSpeed_run" component="SWC_Engine" cycletime="100"/>
+
+			<runnable name="HMI_injectError_run" component="SWC_HMI" cycletime="100"/>
+			
+			<runnable name="COM_send_run" component="SWC_COM" cycletime="100"/>
+			
+			
+		</cyclic>
+		<event>
+			<runnable name="PEDAL_errorHandler_run" component="SWC_Pedal" event="ev_pedalPosition_onError"/>
+			
+			<runnable name="ENGINE_errorHandler_run" component="SWC_Engine" event="ev_currentSpeed_onError"/>
+			<runnable name="ENGINE_errorHandler_run" component="SWC_Engine" event="ev_controlSpeed_onError"/>
+			
+			<runnable name="CTRL_state_run" component="SWC_Control" event="ev_event_onUpdate"/>
+			
+			<runnable name="HMI_display_run" component="SWC_HMI" event="ev_drivingParam_onUpdate"/>
+			
+
+			
+			
+		</event>
+	</runnables>
+</rte>

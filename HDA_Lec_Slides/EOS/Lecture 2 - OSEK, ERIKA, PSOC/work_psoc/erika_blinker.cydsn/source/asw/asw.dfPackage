@@ -1,0 +1,58 @@
+package id3iw4ijnaeblxpjnaebn1k;
+
+/**
+@version 2.0
+@physicalPackage
+@__modelType diagram 
+*/
+class diagram {
+/**
+@__ref <oiref:cpp#Class#sBlinker:oiref><oihard>
+@__modelType reference 
+*/
+class reference {
+}
+/**
+@__ref <oiref:cpp#Class#BLINKER_t:oiref><oihard>
+@__modelType reference 
+*/
+class reference2 {
+}
+/**
+@__ref <oiref:cpp#Class#eBlinker:oiref><oihard>
+@__modelType reference 
+*/
+class reference3 {
+}
+/**
+@__ref <oiref:cpp#Class#BLINKER:oiref><oihard>
+@__modelType reference 
+*/
+class reference4 {
+}
+}/**
+@__tags
+@shapeType ClassDiagram
+@changelog rO0ABXNyABFqYXZhLnV0aWwuSGFzaE1hcAUH2sHDFmDRAwACRgAKbG9hZEZhY3RvckkACXRocmVz
+aG9sZHhwP0AAAAAAAAx3CAAAABAAAAABc3IADmphdmEubGFuZy5Mb25nO4vkkMyPI98CAAFKAAV2
+YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAAAWZ1BbQAc3IAE2phdmEudXRp
+bC5BcnJheUxpc3R4gdIdmcdhnQMAAUkABHNpemV4cAAAAAF3BAAAAApzcgAlZGUubW5sLmRvY2Jv
+b2s0VEEuaW1wbC5DaGFuZ2VMb2dFbnRyeQeNjrX5qiSfAgADTAAIaG9zdG5hbWV0ABJMamF2YS9s
+YW5nL1N0cmluZztMAARuYW1lcQB+AAhMAAR1c2VycQB+AAh4cHQACEZyb21tLU5CdAADYXN3dAAF
+RnJvbW14eA== 
+*/
+class __tags {
+}/**
+@__options 
+*/
+class __options {
+}/**
+@__positions <oigroup:<oiref:cpp#Class#sBlinker:oiref>=10,228,151,139,1:oigroup>
+<oigroup:Autodependency<oiref:cpp#Class#BLINKER:oiref><Autodependency><oiref:cpp#Class#BLINKER_t:oiref>=199,33,119,33:oigroup>
+<oigroup:Autodependency<oiref:cpp#Class#BLINKER_t:oiref><Autodependency><oiref:cpp#Class#sBlinker:oiref>=85,56,85,228:oigroup>
+<oigroup:<oiref:cpp#Class#BLINKER:oiref>=199,10,281,158,0:oigroup>
+<oigroup:<oiref:cpp#Class#eBlinker:oiref>=200,230,133,123,1:oigroup>
+<oigroup:<oiref:cpp#Class#BLINKER_t:oiref>=51,10,68,46,1:oigroup> 
+*/
+class __positions {
+}
