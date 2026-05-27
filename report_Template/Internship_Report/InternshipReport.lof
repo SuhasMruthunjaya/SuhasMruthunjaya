@@ -1,0 +1,34 @@
+\babel@toc {american}{}\relax 
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Pictorial representation of quantum entangled particles\cite {worldsciencefestival2024}}}{5}{figure.caption.46}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Pictorial representation of a lab generating two entangled particle with opposite spin \cite {worldsciencefestival2024}}}{6}{figure.caption.48}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces John Bell \cite {worldsciencefestival2024}}}{7}{figure.caption.50}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Spin Measurement in 3 different Axes of the Entangled pairs\cite {worldsciencefestival2024}}}{8}{figure.caption.51}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Possible outcomes of the spin measurement\cite {worldsciencefestival2024}}}{8}{figure.caption.52}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Quantenkoffer\cite {quantenkoffer}}}{9}{figure.caption.54}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Quantenkoffer(b)\cite {quantenkoffer}}}{10}{figure.caption.56}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces quBricks\cite {quantenkoffer}}}{11}{figure.caption.57}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces The coincidence count values when a Modulo-based counter was used for random event generation (outs\_ values)}}{19}{figure.caption.118}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces The coincidence count values when a LFSR was used for random event generation (outs\_ / counts\_ values)}}{20}{figure.caption.128}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces The coincidence count values when a uniform procedure was used for random event generation (outs\_ values)}}{20}{figure.caption.129}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces \acs {quEDU} \cite {quEDU}}}{22}{figure.caption.152}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces The \acs {quEDU} manages all experiments and gauges their photon output, while an \acs {NV} board explores nitrogen vacancy centers in diamond.\cite {quNV_quEDU}}}{25}{figure.caption.172}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces \acs {quNV}\cite {quNV}}}{25}{figure.caption.177}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces The intensity of the green laser has been measured using Avalanche Photo Diodes (APDs). The recorded spikes indicate that the laser is operating in sequencer mode, characterized by bursts of laser pulses. Conversely, the steady portion reflects the laser's operation in continuous mode, where it remains consistently activated. }}{26}{figure.caption.181}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces This image illustrates the red fluorescence emitted from the diamond as a result of the interaction between the incoming green laser and the diamond.}}{26}{figure.caption.182}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces The GUI controls the coils to create a 3D magnetic field, while a microwave frequency sweep captures the ODMR spectra of the diamond.\cite {quEDU}}}{27}{figure.caption.183}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces quEDU/NV Python Software Block Diagram}}{28}{figure.caption.188}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Home Screen}}{31}{figure.caption.203}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Laser Properties}}{32}{figure.caption.211}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Confocal Alignment}}{33}{figure.caption.221}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Target positions are set based on the Diamond identified pixels}}{34}{figure.caption.222}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces \acs {ODMR} visualization}}{35}{figure.caption.233}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {A.1}{\ignorespaces For the Bell Experiment, put one polarizer in each beam path. You then set the polarizers to different angles and record the coincidence count rate for each setting}}{38}{figure.caption.242}%
+\contentsline {figure}{\numberline {A.2}{\ignorespaces Worksheet}}{38}{figure.caption.243}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

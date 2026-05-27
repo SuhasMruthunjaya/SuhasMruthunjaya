@@ -1,0 +1,96 @@
+% ****************************************************************************************************
+% Master Thesis Template
+% Faculty of Electrical Engineering and Information Technology
+% Darmstadt University of Applied Sciences
+% KU, 15.9.2020
+
+
+% ****************************************************************************************************
+% Set your personel data here
+% ****************************************************************************************************
+
+\newcommand{\myTitle}{Rapid FPGA Verification Strategies for Servo Drives Using MPSoC\xspace}
+\newcommand{\myDegree}{Master of Science (M.Sc.)\xspace}
+\newcommand{\myName}{Suhas Bangalore Mruthunjaya\xspace}
+\newcommand{\myId}{1119281\xspace}
+\newcommand{\myProf}{Prof. Dr.-Ing. Thomas Schumann\xspace}
+\newcommand{\myOtherProf}{Prof. Dr. Georgi Nikolov\xspace}
+\newcommand{\indSup}{André Berger, Marcel Koehler\xspace}
+\newcommand{\myLocation}{Würzburg\xspace}
+\newcommand{\myDate}{30-12-2025\xspace}
+\newcommand{\myCompany}{Schneider Electric Automation GmbH\xspace}
+
+% ****************************************************************************************************
+% Load settings
+% ****************************************************************************************************
+\input{settings}
+
+
+% ****************************************************************************************************
+% Make Titlepage, Declaration, Confidentiality (if required), Abstract, Table of Contents
+% ****************************************************************************************************
+
+% Put this just before \begin{document}
+\makeatletter
+\renewcommand*{\chapterheadstartvskip}{\vspace*{-1.0cm}}
+\makeatother
+
+\begin{document}
+\input{TeX/Titlepage.tex}
+\clearpage
+\pagenumbering{gobble}
+\input{TeX/Pre-Declaration.tex}
+\clearpage
+\input{TeX/declaration.tex} 
+%\clearpage
+%\input{Tex/NDA.tex}
+\clearpage
+\input{Tex/Abstract.tex}
+\clearpage
+\pagenumbering{roman}
+\setcounter{page}{1}
+\clearpage
+\tableofcontents
+\clearpage 
+\listoffigures
+\addcontentsline{toc}{chapter}{\listfigurename}
+\clearpage 
+\listoftables 
+\addcontentsline{toc}{chapter}{\listtablename}
+\clearpage
+\input{Tex/Acronyms.tex}
+\clearpage                 
+\pagestyle{headings}
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+% ****************************************************************************************************
+% Add your Chapters here!
+% ****************************************************************************************************
+\part{Thesis}\label{pt:thesis}
+\include{chapters/chapter_Introduction}
+\include{chapters/chapter_TechnicalBackground}
+\include{chapters/chapter_Modeling}
+\include{chapters/chapter_Implementation}
+\include{chapters/chapter_Results}
+\include{chapters/chapter_Summary}
+
+
+
+\appendix
+
+\part{Appendix}
+%\include{chapters/appendix01}
+\include{chapters/appendix02}
+
+
+
+
+% ****************************************************************************************************
+% Appendix
+% ****************************************************************************************************
+\appendix
+\nocite{*} 
+\bibliographystyle{plaindin}    
+\bibliography{bibliography} 
+\end{document}

@@ -1,0 +1,50 @@
+\babel@toc {american}{}\relax 
+\contentsline {chapter}{List of Figures}{iv}{chapter*.18}%
+\contentsline {chapter}{Acronyms}{v}{chapter*.24}%
+\contentsline {part}{\numberline {I}Internship}{1}{part.25}%
+\contentsline {chapter}{\numberline {1}Introduction}{2}{chapter.26}%
+\contentsline {section}{\numberline {1.1}Motivation}{2}{section.27}%
+\contentsline {chapter}{\numberline {2}ABOUT THE COMPANY}{3}{chapter.33}%
+\contentsline {section}{\numberline {2.1}VISION}{3}{section.34}%
+\contentsline {section}{\numberline {2.2}Company Overview}{3}{section.35}%
+\contentsline {subsection}{\numberline {2.2.1}Optics}{3}{subsection.36}%
+\contentsline {subsection}{\numberline {2.2.2}Electronics}{4}{subsection.37}%
+\contentsline {subsection}{\numberline {2.2.3}Software}{4}{subsection.38}%
+\contentsline {subsection}{\numberline {2.2.4}Embedded Software}{4}{subsection.39}%
+\contentsline {subsection}{\numberline {2.2.5}Construction}{4}{subsection.40}%
+\contentsline {subsection}{\numberline {2.2.6}Production}{4}{subsection.41}%
+\contentsline {chapter}{\numberline {3}BELL INEQUALITY}{5}{chapter.42}%
+\contentsline {section}{\numberline {3.1}Bell's Theorem and the Non-Locality of the universe}{5}{section.43}%
+\contentsline {subsection}{\numberline {3.1.1}\acs {EPR} Paradox}{5}{subsection.44}%
+\contentsline {subsection}{\numberline {3.1.2}John Bell's Experimental Proof Validates Einstein's View of Reality}{7}{subsection.49}%
+\contentsline {section}{\numberline {3.2}Quantenkoffer - Quantum Science Suitcase}{9}{section.53}%
+\contentsline {section}{\numberline {3.3}Realization of Bell's Inequality with the Quantenkoffer}{11}{section.58}%
+\contentsline {subsection}{\numberline {3.3.1}Theoretical background}{11}{subsection.59}%
+\contentsline {subsection}{\numberline {3.3.2}Bell's Inequality Hardware Accelerator}{13}{subsection.65}%
+\contentsline {section}{\numberline {3.4}Random Number Generators}{18}{section.103}%
+\contentsline {chapter}{\numberline {4}Python GUI Using qudi}{22}{chapter.145}%
+\contentsline {section}{\numberline {4.1}Objective}{22}{section.146}%
+\contentsline {section}{\numberline {4.2}\acs {quEDU} - The Science Kit for Quantum Education}{22}{section.149}%
+\contentsline {section}{\numberline {4.3}\acs {quEDU} Key Features}{23}{section.156}%
+\contentsline {section}{\numberline {4.4}quNV - Nitrogen Vacancy Center Board}{24}{section.164}%
+\contentsline {section}{\numberline {4.5}Software Architecture of quEDU-NV Python Software}{27}{section.184}%
+\contentsline {subsection}{\numberline {4.5.1}Standalone Operation Without qudi}{28}{subsection.189}%
+\contentsline {subsection}{\numberline {4.5.2}qudi’s Connector Class for Decoupling and Multithreading}{29}{subsection.191}%
+\contentsline {subsection}{\numberline {4.5.3}Signal-Slot Mechanism Using PySide2}{29}{subsection.192}%
+\contentsline {section}{\numberline {4.6}quEDU-NV Python Graphical User Interface Design}{30}{section.194}%
+\contentsline {subsection}{\numberline {4.6.1}Home Screen}{30}{subsection.202}%
+\contentsline {subsection}{\numberline {4.6.2}Laser properties}{31}{subsection.209}%
+\contentsline {subsection}{\numberline {4.6.3}Confocal Alignment}{32}{subsection.217}%
+\contentsline {subsection}{\numberline {4.6.4}Optically Detected Magnetic Resonance (ODMR)}{34}{subsection.223}%
+\contentsline {part}{\numberline {II}Appendix}{36}{part.238}%
+\contentsline {chapter}{\numberline {A}Experimental Realization of Bell's Inequality with the Quantenkoffer}{37}{appendix.239}%
+\contentsline {section}{\numberline {A.1}Necessary Components}{37}{section.240}%
+\contentsline {section}{\numberline {A.2}Experimental description}{37}{section.241}%
+\contentsline {chapter}{\numberline {B}quEDU Python GUI Software - Setup}{39}{appendix.244}%
+\contentsline {section}{\numberline {B.1}Based on Python Version 3.10}{39}{section.245}%
+\contentsline {section}{\numberline {B.2}Update installation tools}{39}{section.246}%
+\contentsline {section}{\numberline {B.3}qudi framework}{39}{section.247}%
+\contentsline {section}{\numberline {B.4}Continue without qudi framework and virtual python environement}{40}{section.248}%
+\contentsline {section}{\numberline {B.5}Start quEDU Python Software}{40}{section.249}%
+\contentsline {chapter}{\nonumberline Bibliography}{41}{chapter*.250}%
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

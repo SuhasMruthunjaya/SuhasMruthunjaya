@@ -1,0 +1,62 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: MasterThesis.aux
+Reallocating 'name_of_file' (item size: 1) to 23 items.
+A level-1 auxiliary file: chapters/chapter01.aux
+Reallocating 'name_of_file' (item size: 1) to 23 items.
+A level-1 auxiliary file: chapters/chapter04.aux
+Reallocating 'name_of_file' (item size: 1) to 24 items.
+A level-1 auxiliary file: chapters/appendix02.aux
+Reallocating 'name_of_file' (item size: 1) to 9 items.
+The style file: plaindin.bst
+Reallocating 'name_of_file' (item size: 1) to 13 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Database file #1: bibliography.bib
+Warning--entry type for "RANDOM-1998" isn't style-file defined
+--line 5 of file bibliography.bib
+You've used 1 entry,
+            4335 wiz_defined-function locations,
+            836 strings with 6022 characters,
+and the built_in function-call counts, 379 in all, are:
+= -- 32
+> -- 7
+< -- 9
++ -- 11
+- -- 3
+* -- 19
+:= -- 73
+add.period$ -- 1
+call.type$ -- 1
+change.case$ -- 3
+chr.to.int$ -- 0
+cite$ -- 1
+duplicate$ -- 10
+empty$ -- 29
+format.name$ -- 4
+if$ -- 72
+int.to.chr$ -- 0
+int.to.str$ -- 1
+missing$ -- 6
+newline$ -- 15
+num.names$ -- 2
+pop$ -- 7
+preamble$ -- 1
+purify$ -- 3
+quote$ -- 0
+skip$ -- 19
+stack$ -- 0
+substring$ -- 20
+swap$ -- 2
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 4
+warning$ -- 0
+while$ -- 3
+width$ -- 2
+write$ -- 18
+(There was 1 warning)

@@ -1,0 +1,16 @@
+\babel@toc {american}{}\relax 
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {3.1}{\ignorespaces \textbf {CONFIG Register (Address = 0x03, Reset = 0x0000) \cite {TI_DAC80508}}}}{40}{table.caption.427}%
+\contentsline {table}{\numberline {3.2}{\ignorespaces \textbf {GAIN Register (Address = 0x04) \cite {TI_DAC80508}}}}{41}{table.caption.441}%
+\contentsline {table}{\numberline {3.3}{\ignorespaces \textbf {STATUS Register (Address = 0x07, Reset = 0x0000)} \cite {TI_DAC80508}}}{41}{table.caption.443}%
+\contentsline {table}{\numberline {3.4}{\ignorespaces \textbf {DACx Registers (Addresses = 0x08 to 0x0F) \cite {TI_DAC80508}}}}{41}{table.caption.447}%
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {4.1}{\ignorespaces \textbf {\acs {PWM} frequency settings}}}{57}{table.caption.724}%
+\contentsline {table}{\numberline {4.2}{\ignorespaces \textbf {Overview of Control Commands and Corresponding Verification Functions}}}{70}{table.caption.963}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

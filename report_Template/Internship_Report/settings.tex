@@ -1,0 +1,105 @@
+\documentclass[12pt,                       
+               twoside,
+               a4paper,                   
+               BCOR=1.0cm,                 
+               headsepline,
+               openany,              
+               toc = index,            
+               bibliography=totoc,          
+               numbers=noenddot,            
+               ]{scrbook}
+\usepackage[utf8]{inputenc} 
+				
+\usepackage{scrhack}					  
+\frenchspacing     
+\usepackage{graphicx}
+\usepackage[margin=10pt,font=small,labelfont=bf,justification=centering]{caption}
+\usepackage{xcolor}	
+% Define a command for a blue section heading
+\newcommand{\bluesec}[1]{\section{\textcolor{blue}{#1}}}	
+%\usepackage{subfigure}
+\usepackage{subcaption}
+\usepackage[export]{adjustbox}
+\usepackage{float}    
+\usepackage{array}    
+\usepackage{hhline}   
+\usepackage{tabularx} 
+\usepackage{longtable}
+\usepackage[intlimits,sumlimits]{amsmath} 
+\usepackage{amssymb}
+\usepackage{makeidx}
+\usepackage{showidx}
+\usepackage{enumerate}
+\usepackage{multirow}           
+\usepackage[colorlinks,pdfpagelabels,pdfstartview = FitH,bookmarksopen = true,bookmarksnumbered = true,linkcolor = black,plainpages = false,hypertexnames = false,citecolor = black]{hyperref}
+\usepackage{esvect}
+\usepackage{amsthm}
+\usepackage{amsfonts}					
+\usepackage{textgreek}                
+\usepackage{siunitx}           
+\usepackage{xspace}
+\usepackage{ragged2e}
+\makeindex
+
+\pdfsuppresswarningpagegroup=1
+                                
+\PassOptionsToPackage{american}{babel}  
+\usepackage{babel}
+
+\usepackage{listings}
+%\lstset{emph={trueIndex,root},emphstyle=\color{BlueViolet}}%\underbar} % for special keywords
+\lstset{language=[LaTeX]Tex,%C++,
+	morekeywords={PassOptionsToPackage,selectlanguage},
+	keywordstyle=\color{RoyalBlue},%\bfseries,
+	basicstyle=\small\ttfamily,
+	%identifierstyle=\color{NavyBlue},
+	commentstyle=\color{Green}\ttfamily,
+	stringstyle=\rmfamily,
+	numbers=none,%left,%
+	numberstyle=\scriptsize,%\tiny
+	stepnumber=5,
+	numbersep=8pt,
+	showstringspaces=false,
+	breaklines=true,
+	%frameround=ftff,
+	%frame=single,
+	belowcaptionskip=.75\baselineskip
+	%frame=L
+}
+
+% VHDL code formatting settings
+\lstdefinelanguage{VHDL}{
+	keywords=[1]{architecture, signal, component, process, begin, case, when, others, end, entity, port, if, is, else},
+	keywords=[2]{std\_logic, std\_logic\_vector, unsigned, signed, clk},
+	sensitive=false,
+	morecomment=[l]--,       % Single-line comments
+	morestring=[b]",         % Strings in double quotes
+}
+
+% Global lstlisting settings for code formatting
+\lstset{
+	language=VHDL,                   % Set VHDL as the default language for listings
+	basicstyle=\ttfamily\footnotesize,% Code font style and size
+	keywordstyle=\color{blue}\bfseries, % Keywords in blue and bold
+	commentstyle=\color{gray},       % Comments in gray
+	stringstyle=\color{orange},      % Strings in orange
+	numbers=left,                    % Line numbers on the left
+	numberstyle=\tiny\color{gray},   % Line number style
+	stepnumber=1,                    % Increment line numbers by 1
+	frame=single,                    % Frame around the code
+	breaklines=true,                 % Automatically break long lines
+	tabsize=4,                       % Set tab size to 4 spaces
+	captionpos=b                     % Caption at the bottom of listings
+}
+
+
+\usepackage[printonlyused]{acronym}
+\usepackage{csquotes}
+\usepackage{gensymb}
+
+% Adjust paragraph spacing and indentation
+\setlength{\parindent}{0pt} % No paragraph indentation
+\setlength{\parskip}{0.5\baselineskip}   % No extra vertical space between paragraphs
+
+
+					

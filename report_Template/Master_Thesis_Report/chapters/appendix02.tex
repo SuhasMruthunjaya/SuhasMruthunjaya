@@ -1,0 +1,48 @@
+%********************************************************************
+% Appendix
+%*******************************************************
+% If problems with the headers: get headings in appendix etc. right
+%\markboth{\spacedlowsmallcaps{Appendix}}{\spacedlowsmallcaps{Appendix}}
+\chapter{16 kHz PWM With Variable Duty Cycles}
+\label{ch:appendix:PWM_calculations}
+
+An example demonstrates the generation of a 16 kHz PWM signal with duty cycles of 50\% for phase U, 30\% for phase V, and 80\% for phase W. The FPGA on the control board operates at a carrier frequency of 64 MHz.
+
+\begin{equation*}
+	\begin{aligned}
+		\text{pwm\_compare\_values [DEC]} &= \frac{64\,\text{MHz}}{2 \times 16\,\text{kHz}} = 2000
+	\end{aligned}
+\end{equation*}
+
+\begin{equation*}
+	\begin{aligned}
+		\text{50\% Duty Cycle for Phase U} &= \frac{50}{100} \times 2000 = 1000 \\
+		\text{In HEX} &= \text{0x03E8} \\
+		\text{In Binary (13 bits)} &= 0\,0011\,1110\,1000
+	\end{aligned}
+\end{equation*}
+
+\begin{equation*}
+	\begin{aligned}
+		\text{30\% Duty Cycle for Phase V} &= \frac{30}{100} \times 2000 = 600 \\
+		\text{In HEX} &= \text{0x0258} \\
+		\text{In Binary (13 bits)} &= 0\,0010\,0101\,1000
+	\end{aligned}
+\end{equation*}
+
+\begin{equation*}
+	\begin{aligned}
+		\text{80\% Duty Cycle for Phase W} &= \frac{80}{100} \times 2000 = 1600 \\
+		\text{In HEX} &= \text{0x0640} \\
+		\text{In Binary (13 bits)} &= 0\,0110\,0100\,0000
+	\end{aligned}
+\end{equation*}
+
+\begin{equation*}
+	\begin{aligned}
+		\text{Now U/V/W} &= 0000\,1111\,1010\,0000\,0100\,1011\,0000\,0110\,0100\,0000 \\
+		\text{In HEX} &= \text{0x0FA04B0640}
+	\end{aligned}
+\end{equation*}
+
+The calculated values produce six PWM signals with the designated duty cycles. Figure \ref{fig:Implementation:PWM_Generated} presents the resulting PWM waveforms corresponding to these parameters.

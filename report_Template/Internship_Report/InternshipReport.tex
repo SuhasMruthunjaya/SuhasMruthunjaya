@@ -1,0 +1,87 @@
+% ****************************************************************************************************
+% Master Thesis Template
+% Faculty of Electrical Engineering and Information Technology
+% Darmstadt University of Applied Sciences
+% KU, 15.9.2020
+
+
+% ****************************************************************************************************
+% Set your personel data here
+% ****************************************************************************************************
+
+\newcommand{\myTitle}{}
+\newcommand{\myDegree}{Master of Science (M.Sc.)\xspace}
+\newcommand{\myName}{Suhas Bangalore Mruthunjaya\xspace}
+\newcommand{\myId}{1119281\xspace}
+\newcommand{\myProf}{Prof. Dr.-Ing. Thomas Schumann\xspace}
+%\newcommand{\myOtherProf}{Prof. Dr.-Ing.\xspace}
+\newcommand{\indSup}{Björn Habrich\xspace}
+\newcommand{\myLocation}{Darmstadt\xspace}
+\newcommand{\myDate}{31-10-2024\xspace}
+\newcommand{\myCompany}{qu-tools\xspace}
+
+% ****************************************************************************************************
+% Load settings
+% ****************************************************************************************************
+\input{settings}
+
+
+% ****************************************************************************************************
+% Make Titlepage, Declaration, Confidentiality (if required), Abstract, Table of Contents
+% ****************************************************************************************************
+\begin{document}
+\input{TeX/Titlepage.tex}
+\clearpage
+\pagenumbering{gobble}
+\input{TeX/Pre-Declaration.tex}
+\clearpage
+\input{TeX/declaration.tex} 
+\clearpage
+\input{Tex/NDA.tex}
+\clearpage
+\input{Tex/Abstract.tex}
+\clearpage
+\pagenumbering{roman}
+\setcounter{page}{1}
+\clearpage
+\tableofcontents
+\clearpage 
+\listoffigures
+\addcontentsline{toc}{chapter}{\listfigurename}
+\clearpage 
+%\listoftables 
+%\addcontentsline{toc}{chapter}{\listtablename}
+%\clearpage
+\input{Tex/Acronyms.tex}
+\clearpage                 
+\pagestyle{headings}
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+% ****************************************************************************************************
+% Add your Chapters here!
+% ****************************************************************************************************
+\part{Internship}\label{pt:internship}
+\include{chapters/chapter01}
+\include{chapters/chapter02}
+\include{chapters/chapter03}
+\include{chapters/chapter04}
+
+
+\appendix
+
+\part{Appendix}
+%\include{chapters/appendix01}
+\include{chapters/appendix02}
+
+
+
+
+% ****************************************************************************************************
+% Appendix
+% ****************************************************************************************************
+\appendix
+\nocite{*} 
+\bibliographystyle{plaindin}    
+\bibliography{bibliography} 
+\end{document}

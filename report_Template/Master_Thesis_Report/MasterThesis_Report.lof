@@ -1,0 +1,51 @@
+\babel@toc {american}{}\relax 
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Lexium 32 Servo Drive and Servo motor from Schneider Electric \cite {SchneiderElectricLexium32}}}{4}{figure.caption.77}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Control Board Component Diagram}}{7}{figure.caption.95}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces The Xilinx UltraScale \acs {MPSoC} architecture \cite {XilinxUltraScaleMPSoCArchitecture}}}{10}{figure.caption.126}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Clocking Wizard Block Diagram \cite {xilinx_clocking_wizard}}}{11}{figure.caption.141}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces An example illustrating the use of Clocking Wizard and Xilinx \acs {CDC} \acs {IP} Core}}{13}{figure.caption.160}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Types of \acs {FPGA} Simulation Verification}}{14}{figure.caption.181}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces System \acs {ILA} \acs {IP} Core}}{16}{figure.caption.189}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces An example for AXI4 \acs {IP} Core}}{17}{figure.caption.203}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces System \acs {ILA} Symbol \cite {Xilinx_SystemILA}}}{19}{figure.caption.246}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces System \acs {ILA} capture of AXI4 write transaction signals.}}{20}{figure.caption.263}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces The figure illustrates the operation of a write transaction, which utilizes the write request, write data, and write response channels \cite {AXI_INTERFACES}.}}{22}{figure.caption.278}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces The figure depicts a read transaction, demonstrating the use of the read request and read data channels \cite {AXI_INTERFACES}.}}{22}{figure.caption.279}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces PacDrive 3 Platform. ServoDrive - System Architecture}}{26}{figure.caption.295}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Architectural division of Servo Drive Control Board}}{27}{figure.caption.301}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Internal architecture of the servo drive showing separation between control (cold side) and power (hot side) electronics}}{28}{figure.caption.304}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Control Board \acs {MPSoC} View}}{30}{figure.caption.333}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Simplified block representation of the three-phase current-sensing chain within the control board}}{32}{figure.caption.349}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Simplified block representation of the Over-Current Detect path within the control board}}{33}{figure.caption.363}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Simplified block representation of the \acs {PWM} Generation Module within the control board}}{34}{figure.caption.379}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Mercury XU5 SoM Top View Module \cite {Enclustra_XU5_Manual_2019}}}{36}{figure.caption.401}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Mercury PE1 Board Top View \cite {Enclustra_PE1_Manual_2020}}}{36}{figure.caption.408}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces DAC80508-04EVM Evaluation board Top View \cite {TI_DAC80508_EVM_Guide}}}{38}{figure.caption.418}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Block Design of the \acs {FPGA} Verification Flatform \acs {PoC}}}{43}{figure.caption.468}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Block Design of the Current Sense Verification}}{50}{figure.caption.589}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Current MUX algorithm}}{51}{figure.caption.616}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Direct Digital frequency Synthesis}}{52}{figure.caption.622}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Sine wave generated from the \acs {DDFS}}}{55}{figure.caption.682}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces The \acs {PWM} Signals generated at the \acs {CB} with variable duty-cycle values}}{59}{figure.caption.765}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Block diagram depicting the closed-loop \acs {PWM} verification architecture, which demonstrates the interaction among the control board, SoM, and \acs {FPGA} based signal analysis modules}}{60}{figure.caption.783}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces \acs {PWM} Analyzer RTL Block Diagram}}{61}{figure.caption.813}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Dead Time Capture RTL Block Diagram}}{64}{figure.caption.880}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Block diagram of the Overcurrent Protection \acs {FPGA} Implementation in the Control Board}}{65}{figure.caption.902}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Block Design of the Overcurrent Verification setup: Note that apart from the \acs {DDFS}, the same analog path is reused for \acs {OVC} Verification}}{67}{figure.caption.921}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Verification Controller \acs {FSM}}}{71}{figure.caption.973}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Current Sense Static Verification Results}}{83}{figure.caption.1149}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Reconstructed time domain representation and \acs {FFT} of the feedback signal in matlab}}{83}{figure.caption.1154}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Static Reference Voltage Values VS \acs {CB} feedback Voltage Values}}{84}{figure.caption.1164}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Current Sense Dynamic Test Results}}{85}{figure.caption.1168}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces \acs {FFT} comparison of the reference 1 kHz digital signal and the feedback received from the Control Board.}}{85}{figure.caption.1169}%
+\contentsline {figure}{\numberline {5.6}{\ignorespaces \acs {PWM} Verification Results}}{86}{figure.caption.1181}%
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Overcurrent module Verification Results}}{87}{figure.caption.1194}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
