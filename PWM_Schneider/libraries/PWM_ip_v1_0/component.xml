@@ -1,0 +1,1188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spirit:component xmlns:xilinx="http://www.xilinx.com" xmlns:spirit="http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <spirit:vendor>schneider-electric.com</spirit:vendor>
+  <spirit:library>ip</spirit:library>
+  <spirit:name>PWM_ip</spirit:name>
+  <spirit:version>1.0</spirit:version>
+  <spirit:busInterfaces>
+    <spirit:busInterface>
+      <spirit:name>AXI4_Lite</spirit:name>
+      <spirit:busType spirit:vendor="xilinx.com" spirit:library="interface" spirit:name="aximm" spirit:version="1.0"/>
+      <spirit:abstractionType spirit:vendor="xilinx.com" spirit:library="interface" spirit:name="aximm_rtl" spirit:version="1.0"/>
+      <spirit:slave>
+        <spirit:memoryMapRef spirit:memoryMapRef="AXI4_Lite"/>
+      </spirit:slave>
+      <spirit:portMaps>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>AWADDR</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>AXI4_Lite_AWADDR</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>AWVALID</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>AXI4_Lite_AWVALID</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>WDATA</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>AXI4_Lite_WDATA</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>WSTRB</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>AXI4_Lite_WSTRB</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>WVALID</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>AXI4_Lite_WVALID</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>BREADY</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>AXI4_Lite_BREADY</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>ARADDR</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>AXI4_Lite_ARADDR</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>ARVALID</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>AXI4_Lite_ARVALID</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>RREADY</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>AXI4_Lite_RREADY</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>AWREADY</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>AXI4_Lite_AWREADY</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>WREADY</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>AXI4_Lite_WREADY</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>BRESP</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>AXI4_Lite_BRESP</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>BVALID</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>AXI4_Lite_BVALID</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>ARREADY</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>AXI4_Lite_ARREADY</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>RDATA</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>AXI4_Lite_RDATA</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>RRESP</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>AXI4_Lite_RRESP</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>RVALID</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>AXI4_Lite_RVALID</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+      </spirit:portMaps>
+    </spirit:busInterface>
+    <spirit:busInterface>
+      <spirit:name>AXI4_Lite_signal_clock</spirit:name>
+      <spirit:busType spirit:vendor="xilinx.com" spirit:library="signal" spirit:name="clock" spirit:version="1.0"/>
+      <spirit:abstractionType spirit:vendor="xilinx.com" spirit:library="signal" spirit:name="clock_rtl" spirit:version="1.0"/>
+      <spirit:slave/>
+      <spirit:portMaps>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>CLK</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>AXI4_Lite_ACLK</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+      </spirit:portMaps>
+      <spirit:parameters>
+        <spirit:parameter>
+          <spirit:name>ASSOCIATED_BUSIF</spirit:name>
+          <spirit:value spirit:id="BUSIFPARAM_VALUE.AXI4_LITE_SIGNAL_CLOCK.ASSOCIATED_BUSIF">AXI4_Lite</spirit:value>
+        </spirit:parameter>
+        <spirit:parameter>
+          <spirit:name>ASSOCIATED_RESET</spirit:name>
+          <spirit:value spirit:id="BUSIFPARAM_VALUE.AXI4_LITE_SIGNAL_CLOCK.ASSOCIATED_RESET">AXI4_Lite_ARESETN:AXI4_Lite_signal_reset</spirit:value>
+        </spirit:parameter>
+      </spirit:parameters>
+    </spirit:busInterface>
+    <spirit:busInterface>
+      <spirit:name>AXI4_Lite_signal_reset</spirit:name>
+      <spirit:busType spirit:vendor="xilinx.com" spirit:library="signal" spirit:name="reset" spirit:version="1.0"/>
+      <spirit:abstractionType spirit:vendor="xilinx.com" spirit:library="signal" spirit:name="reset_rtl" spirit:version="1.0"/>
+      <spirit:slave/>
+      <spirit:portMaps>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>RST</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>AXI4_Lite_ARESETN</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+      </spirit:portMaps>
+      <spirit:parameters>
+        <spirit:parameter>
+          <spirit:name>POLARITY</spirit:name>
+          <spirit:value spirit:id="BUSIFPARAM_VALUE.AXI4_LITE_SIGNAL_RESET.POLARITY" spirit:choiceRef="choice_list_9d8b0d81">ACTIVE_LOW</spirit:value>
+        </spirit:parameter>
+      </spirit:parameters>
+    </spirit:busInterface>
+    <spirit:busInterface>
+      <spirit:name>IPCORE_CLK</spirit:name>
+      <spirit:busType spirit:vendor="xilinx.com" spirit:library="signal" spirit:name="clock" spirit:version="1.0"/>
+      <spirit:abstractionType spirit:vendor="xilinx.com" spirit:library="signal" spirit:name="clock_rtl" spirit:version="1.0"/>
+      <spirit:slave/>
+      <spirit:portMaps>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>CLK</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>IPCORE_CLK</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+      </spirit:portMaps>
+      <spirit:parameters>
+        <spirit:parameter>
+          <spirit:name>ASSOCIATED_RESET</spirit:name>
+          <spirit:value spirit:id="BUSIFPARAM_VALUE.IPCORE_CLK.ASSOCIATED_RESET">IPCORE_RESETN</spirit:value>
+        </spirit:parameter>
+      </spirit:parameters>
+    </spirit:busInterface>
+    <spirit:busInterface>
+      <spirit:name>IPCORE_RESETN</spirit:name>
+      <spirit:busType spirit:vendor="xilinx.com" spirit:library="signal" spirit:name="reset" spirit:version="1.0"/>
+      <spirit:abstractionType spirit:vendor="xilinx.com" spirit:library="signal" spirit:name="reset_rtl" spirit:version="1.0"/>
+      <spirit:slave/>
+      <spirit:portMaps>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>RST</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>IPCORE_RESETN</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+      </spirit:portMaps>
+      <spirit:parameters>
+        <spirit:parameter>
+          <spirit:name>POLARITY</spirit:name>
+          <spirit:value spirit:id="BUSIFPARAM_VALUE.IPCORE_RESETN.POLARITY" spirit:choiceRef="choice_list_9d8b0d81">ACTIVE_LOW</spirit:value>
+        </spirit:parameter>
+      </spirit:parameters>
+    </spirit:busInterface>
+  </spirit:busInterfaces>
+  <spirit:memoryMaps>
+    <spirit:memoryMap>
+      <spirit:name>AXI4_Lite</spirit:name>
+      <spirit:addressBlock>
+        <spirit:name>reg0</spirit:name>
+        <spirit:baseAddress spirit:format="long">0</spirit:baseAddress>
+        <spirit:range spirit:format="long">65536</spirit:range>
+        <spirit:width spirit:format="long">0</spirit:width>
+      </spirit:addressBlock>
+    </spirit:memoryMap>
+  </spirit:memoryMaps>
+  <spirit:model>
+    <spirit:views>
+      <spirit:view>
+        <spirit:name>xilinx_anylanguagesynthesis</spirit:name>
+        <spirit:displayName>Synthesis</spirit:displayName>
+        <spirit:envIdentifier>:vivado.xilinx.com:synthesis</spirit:envIdentifier>
+        <spirit:language>VHDL</spirit:language>
+        <spirit:modelName>PWM_ip</spirit:modelName>
+        <spirit:fileSetRef>
+          <spirit:localName>xilinx_anylanguagesynthesis_view_fileset</spirit:localName>
+        </spirit:fileSetRef>
+        <spirit:parameters>
+          <spirit:parameter>
+            <spirit:name>viewChecksum</spirit:name>
+            <spirit:value>50e56062</spirit:value>
+          </spirit:parameter>
+        </spirit:parameters>
+      </spirit:view>
+      <spirit:view>
+        <spirit:name>xilinx_anylanguagebehavioralsimulation</spirit:name>
+        <spirit:displayName>Simulation</spirit:displayName>
+        <spirit:envIdentifier>:vivado.xilinx.com:simulation</spirit:envIdentifier>
+        <spirit:language>VHDL</spirit:language>
+        <spirit:modelName>PWM_ip</spirit:modelName>
+        <spirit:fileSetRef>
+          <spirit:localName>xilinx_anylanguagebehavioralsimulation_view_fileset</spirit:localName>
+        </spirit:fileSetRef>
+        <spirit:parameters>
+          <spirit:parameter>
+            <spirit:name>viewChecksum</spirit:name>
+            <spirit:value>50e56062</spirit:value>
+          </spirit:parameter>
+        </spirit:parameters>
+      </spirit:view>
+      <spirit:view>
+        <spirit:name>xilinx_xpgui</spirit:name>
+        <spirit:displayName>UI Layout</spirit:displayName>
+        <spirit:envIdentifier>:vivado.xilinx.com:xgui.ui</spirit:envIdentifier>
+        <spirit:fileSetRef>
+          <spirit:localName>xilinx_xpgui_view_fileset</spirit:localName>
+        </spirit:fileSetRef>
+        <spirit:parameters>
+          <spirit:parameter>
+            <spirit:name>viewChecksum</spirit:name>
+            <spirit:value>f64a5dae</spirit:value>
+          </spirit:parameter>
+        </spirit:parameters>
+      </spirit:view>
+      <spirit:view>
+        <spirit:name>xilinx_productguide</spirit:name>
+        <spirit:displayName>Product Guide</spirit:displayName>
+        <spirit:envIdentifier>:vivado.xilinx.com:docs.productguide</spirit:envIdentifier>
+        <spirit:fileSetRef>
+          <spirit:localName>xilinx_productguide_view_fileset</spirit:localName>
+        </spirit:fileSetRef>
+        <spirit:parameters>
+          <spirit:parameter>
+            <spirit:name>viewChecksum</spirit:name>
+            <spirit:value>ad41e870</spirit:value>
+          </spirit:parameter>
+        </spirit:parameters>
+      </spirit:view>
+      <spirit:view>
+        <spirit:name>xilinx_miscfiles</spirit:name>
+        <spirit:displayName>Miscellaneous</spirit:displayName>
+        <spirit:envIdentifier>:vivado.xilinx.com:misc.files</spirit:envIdentifier>
+        <spirit:fileSetRef>
+          <spirit:localName>xilinx_miscfiles_view_fileset</spirit:localName>
+        </spirit:fileSetRef>
+        <spirit:parameters>
+          <spirit:parameter>
+            <spirit:name>viewChecksum</spirit:name>
+            <spirit:value>aeddd133</spirit:value>
+          </spirit:parameter>
+        </spirit:parameters>
+      </spirit:view>
+    </spirit:views>
+    <spirit:ports>
+      <spirit:port>
+        <spirit:name>IPCORE_CLK</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>IPCORE_RESETN</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>AXI4_Lite_ACLK</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>AXI4_Lite_ARESETN</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>AXI4_Lite_AWADDR</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long">15</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic_vector</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+          <spirit:driver>
+            <spirit:defaultValue spirit:format="long">0</spirit:defaultValue>
+          </spirit:driver>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>AXI4_Lite_AWVALID</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+          <spirit:driver>
+            <spirit:defaultValue spirit:format="long">0</spirit:defaultValue>
+          </spirit:driver>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>AXI4_Lite_WDATA</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long">31</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic_vector</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+          <spirit:driver>
+            <spirit:defaultValue spirit:format="long">0</spirit:defaultValue>
+          </spirit:driver>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>AXI4_Lite_WSTRB</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long">3</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic_vector</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+          <spirit:driver>
+            <spirit:defaultValue spirit:format="long">1</spirit:defaultValue>
+          </spirit:driver>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>AXI4_Lite_WVALID</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+          <spirit:driver>
+            <spirit:defaultValue spirit:format="long">0</spirit:defaultValue>
+          </spirit:driver>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>AXI4_Lite_BREADY</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+          <spirit:driver>
+            <spirit:defaultValue spirit:format="long">0</spirit:defaultValue>
+          </spirit:driver>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>AXI4_Lite_ARADDR</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long">15</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic_vector</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+          <spirit:driver>
+            <spirit:defaultValue spirit:format="long">0</spirit:defaultValue>
+          </spirit:driver>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>AXI4_Lite_ARVALID</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+          <spirit:driver>
+            <spirit:defaultValue spirit:format="long">0</spirit:defaultValue>
+          </spirit:driver>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>AXI4_Lite_RREADY</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+          <spirit:driver>
+            <spirit:defaultValue spirit:format="long">0</spirit:defaultValue>
+          </spirit:driver>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>PWM_Trig</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>PWM_U</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long">1</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic_vector</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>PWM_V</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long">1</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic_vector</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>PWM_W</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long">1</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic_vector</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>AXI4_Lite_AWREADY</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>AXI4_Lite_WREADY</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>AXI4_Lite_BRESP</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long">1</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic_vector</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>AXI4_Lite_BVALID</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>AXI4_Lite_ARREADY</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>AXI4_Lite_RDATA</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long">31</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic_vector</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>AXI4_Lite_RRESP</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long">1</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic_vector</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>AXI4_Lite_RVALID</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+    </spirit:ports>
+  </spirit:model>
+  <spirit:choices>
+    <spirit:choice>
+      <spirit:name>choice_list_9d8b0d81</spirit:name>
+      <spirit:enumeration>ACTIVE_HIGH</spirit:enumeration>
+      <spirit:enumeration>ACTIVE_LOW</spirit:enumeration>
+    </spirit:choice>
+  </spirit:choices>
+  <spirit:fileSets>
+    <spirit:fileSet>
+      <spirit:name>xilinx_anylanguagesynthesis_view_fileset</spirit:name>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/PWM_ip_reset_sync.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/PWM_ip_addr_decoder.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/PWM_ip_axi_lite_module.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/PWM_ip_axi_lite.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>src/pwm.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/PWM_ip_dut.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>src/dead_time.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>src/duty_cycle.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>src/edge_detect.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>src/pwm_carrier.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/PWM_ip.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>CHECKSUM_1421978f</spirit:userFileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+    </spirit:fileSet>
+    <spirit:fileSet>
+      <spirit:name>xilinx_anylanguagebehavioralsimulation_view_fileset</spirit:name>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/PWM_ip_reset_sync.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/PWM_ip_addr_decoder.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/PWM_ip_axi_lite_module.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/PWM_ip_axi_lite.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>src/pwm.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/PWM_ip_dut.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>src/dead_time.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>src/duty_cycle.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>src/edge_detect.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>src/pwm_carrier.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/PWM_ip.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+    </spirit:fileSet>
+    <spirit:fileSet>
+      <spirit:name>xilinx_xpgui_view_fileset</spirit:name>
+      <spirit:file>
+        <spirit:name>xgui/PWM_ip_v1_0.tcl</spirit:name>
+        <spirit:fileType>tclSource</spirit:fileType>
+        <spirit:userFileType>CHECKSUM_f64a5dae</spirit:userFileType>
+        <spirit:userFileType>XGUI_VERSION_2</spirit:userFileType>
+      </spirit:file>
+    </spirit:fileSet>
+    <spirit:fileSet>
+      <spirit:name>xilinx_productguide_view_fileset</spirit:name>
+      <spirit:file>
+        <spirit:name>doc/doc_arch_axi4_lite.jpg</spirit:name>
+        <spirit:userFileType>image</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>doc/free_running.jpg</spirit:name>
+        <spirit:userFileType>image</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>doc/PWM_ip_core_report.html</spirit:name>
+        <spirit:userFileType>html</spirit:userFileType>
+      </spirit:file>
+    </spirit:fileSet>
+    <spirit:fileSet>
+      <spirit:name>xilinx_miscfiles_view_fileset</spirit:name>
+      <spirit:file>
+        <spirit:name>include/PWM_ip_addr.h</spirit:name>
+        <spirit:fileType>cSource</spirit:fileType>
+      </spirit:file>
+    </spirit:fileSet>
+  </spirit:fileSets>
+  <spirit:description>HDL Coder generated IP</spirit:description>
+  <spirit:parameters>
+    <spirit:parameter>
+      <spirit:name>Component_Name</spirit:name>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.Component_Name" spirit:order="1">PWM_ip_v1_0</spirit:value>
+    </spirit:parameter>
+  </spirit:parameters>
+  <spirit:vendorExtensions>
+    <xilinx:coreExtensions>
+      <xilinx:supportedFamilies>
+        <xilinx:family xilinx:lifeCycle="Production">aartix7</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Production">artix7</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Production">artix7l</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Production">azynq</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Production">kintexu</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Production">qartix7</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Production">qzynq</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Production">versal</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Production">virtexuplus</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Production">virtexuplusHBM</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Production">zynq</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Production">zynquplus</xilinx:family>
+      </xilinx:supportedFamilies>
+      <xilinx:taxonomies>
+        <xilinx:taxonomy>/HDL Coder Generated IP</xilinx:taxonomy>
+      </xilinx:taxonomies>
+      <xilinx:displayName>PWM_ip</xilinx:displayName>
+      <xilinx:definitionSource>package_project</xilinx:definitionSource>
+      <xilinx:coreRevision>2112870158</xilinx:coreRevision>
+      <xilinx:coreCreationDateTime>2023-02-28T09:18:13Z</xilinx:coreCreationDateTime>
+      <xilinx:tags>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@2a7663a5_ARCHIVE_LOCATION">c:/Vivado/VoltVec_Vivado/IP_Repository/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@6f640bc4_ARCHIVE_LOCATION">c:/Vivado/VoltVec_Vivado/IP_Repository/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@79f513e3_ARCHIVE_LOCATION">c:/Vivado/VoltVec_Vivado/IP_Repository/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@13fd2551_ARCHIVE_LOCATION">c:/Vivado/VoltVec_Vivado/IP_Repository/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@6509336d_ARCHIVE_LOCATION">c:/Vivado/VoltVec_Vivado/IP_Repository/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@76074d7b_ARCHIVE_LOCATION">c:/Vivado/VoltVec_Vivado/IP_Repository/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@45157d97_ARCHIVE_LOCATION">c:/Vivado/VoltVec_Vivado/IP_Repository/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@16e1d41c_ARCHIVE_LOCATION">c:/Vivado/VoltVec_Vivado/IP_Repository/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@10da8bbe_ARCHIVE_LOCATION">c:/Vivado/VoltVec_Vivado/IP_Repository/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@74e31a38_ARCHIVE_LOCATION">c:/Vivado/VoltVec_Vivado/IP_Repository/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@136db1d_ARCHIVE_LOCATION">c:/Vivado/VoltVec_Vivado/IP_Repository/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@25d1bb6e_ARCHIVE_LOCATION">c:/Vivado/VoltVec_Vivado/IP_Repository/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@4f1adfe8_ARCHIVE_LOCATION">c:/Vivado/VoltVec_Vivado/IP_Repository/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@505221db_ARCHIVE_LOCATION">c:/Vivado/VoltVec_Vivado/IP_Repository/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@5e9daa8f_ARCHIVE_LOCATION">c:/Vivado/VoltVec_Vivado/IP_Repository/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@d8075ff_ARCHIVE_LOCATION">c:/Vivado/VoltVec_Vivado/IP_Repository/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@633fc668_ARCHIVE_LOCATION">c:/Vivado/VoltVec_Vivado/IP_Repository/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@7f95564e_ARCHIVE_LOCATION">c:/Vivado/VoltVec_Vivado/IP_Repository/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@73cd5d1e_ARCHIVE_LOCATION">c:/Vivado/VoltVec_Vivado/IP_Repository/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@219b8ea2_ARCHIVE_LOCATION">c:/Vivado/VoltVec_Vivado/IP_Repository/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@2068a68e_ARCHIVE_LOCATION">c:/Vivado/VoltVec_Vivado/IP_Repository/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@e91c8fe_ARCHIVE_LOCATION">c:/Vivado/VoltVec_Vivado/IP_Repository/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@7bfd45ab_ARCHIVE_LOCATION">c:/Vivado/VoltVec_Vivado/IP_Repository/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@8d4bda3_ARCHIVE_LOCATION">c:/Vivado/VoltVec_Vivado/IP_Repository/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@439d5e57_ARCHIVE_LOCATION">c:/Vivado/VoltVec_Vivado/IP_Repository/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@54052b27_ARCHIVE_LOCATION">c:/Vivado/VoltVec_Vivado/IP_Repository/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@3bea0c5f_ARCHIVE_LOCATION">c:/Vivado/VoltVec_Vivado/IP_Repository/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@7f9b9a4f_ARCHIVE_LOCATION">c:/Vivado/VoltVec_Vivado/IP_Repository/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@3bb1e9a3_ARCHIVE_LOCATION">c:/Vivado/VoltVec_Vivado/IP_Repository/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@2f9dbf27_ARCHIVE_LOCATION">c:/Vivado/VoltVec_Vivado/IP_Repository/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@692bee3f_ARCHIVE_LOCATION">c:/Vivado/VoltVec_Vivado/IP_Repository/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@3cf8551f_ARCHIVE_LOCATION">c:/Vivado/VoltVec_Vivado/IP_Repository/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@3bcd3e2a_ARCHIVE_LOCATION">c:/Vivado/VoltVec_Vivado/IP_Repository/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@4594ff42_ARCHIVE_LOCATION">c:/Vivado/VoltVec_Vivado/IP_Repository/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@89fbad3_ARCHIVE_LOCATION">c:/Vivado/VoltVec_Vivado/IP_Repository/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@6b2465c3_ARCHIVE_LOCATION">c:/Vivado/VoltVec_Vivado/IP_Repository/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@41bc773_ARCHIVE_LOCATION">c:/Vivado/VoltVec_Vivado/IP_Repository/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@3c4520c7_ARCHIVE_LOCATION">c:/Vivado/VoltVec_Vivado/IP_Repository/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@d2b609f_ARCHIVE_LOCATION">c:/Vivado/VoltVec_Vivado/IP_Repository/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@58c53314_ARCHIVE_LOCATION">c:/Vivado/VoltVec_Vivado/IP_Repository/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@80998d_ARCHIVE_LOCATION">c:/Vivado/VoltVec_Vivado/IP_Repository/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@1a3447a2_ARCHIVE_LOCATION">c:/Vivado/VoltVec_Vivado/IP_Repository/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@4e6f0679_ARCHIVE_LOCATION">c:/Vivado/VoltVec_Vivado/IP_Repository/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@4c704c8b_ARCHIVE_LOCATION">c:/Vivado/VoltVec_Vivado/IP_Repository/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@c89659a_ARCHIVE_LOCATION">c:/Vivado/VoltVec_Vivado/IP_Repository/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@6612b119_ARCHIVE_LOCATION">c:/Vivado/VoltVec_Vivado/IP_Repository/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@50672843_ARCHIVE_LOCATION">c:/Vivado/VoltVec_Vivado/IP_Repository/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@63a1a836_ARCHIVE_LOCATION">c:/Vivado/VoltVec_Vivado/IP_Repository/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@d291b22_ARCHIVE_LOCATION">c:/Vivado/VoltVec_Vivado/IP_Repository/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@1160d760_ARCHIVE_LOCATION">c:/Vivado/VoltVec_Vivado/IP_Repository/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@2809d70d_ARCHIVE_LOCATION">c:/Vivado/VoltVec_Vivado/IP_Repository/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@18c0b4b7_ARCHIVE_LOCATION">c:/Vivado/VoltVec_Vivado/IP_Repository/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@259b1f26_ARCHIVE_LOCATION">c:/Vivado/VoltVec_Vivado/IP_Repository/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@4aee3e1f_ARCHIVE_LOCATION">c:/Vivado/VoltVec_Vivado/IP_Repository/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@1211c452_ARCHIVE_LOCATION">c:/Vivado/VoltVec_Vivado/IP_Repository/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@4b4073f9_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@71468890_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@341df831_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@6e6d594c_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@18504695_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@5b4a064b_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@5d2d6d8e_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@7bc4efca_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@53023d73_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@24dfe88f_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@541944ab_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@66a23642_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@1d9713f9_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@105efd75_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@1422e8d_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@7491369a_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@6a3de4f8_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@2ecc347f_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@6bb19a5b_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@75935e29_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@190fbaa8_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@29ca7f52_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@73615a83_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@355ac3bf_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@36614ae3_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@24cde638_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@74ca589d_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@3ca89cc2_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@5156517e_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@b924d6e_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@5d6041b6_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@6ebba5f6_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@21923388_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@3a9f385a_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@32107e5b_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@1b29edfc_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@1ae622fe_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@6a28e682_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@1b860cf1_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@74ff5ce1_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@20ef5623_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@28c4437b_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@681da0b_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@54a49155_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@64e80251_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@3a6dbbe4_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@745e9b1c_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@7b4d5d37_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@4a77e19_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@346a8630_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@9662885_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@36f6f291_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@76f34cf_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@c500d2c_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@332b11c1_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@7c1dc27a_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@2d2e688b_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@186fffa_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@7407c2a1_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@3a46a727_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@6106a1cd_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@1c281632_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@32534b6f_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@18e75f3c_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@2808ec64_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@718600d6_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@18ce9f01_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@32b2b7f4_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@33e5d29e_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@24c5cc8_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@f16d830_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@77384841_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@1c6a1ce_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@5812c7fd_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@73a36928_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@21b3e89e_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@2b875242_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@53e720_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@ee040fc_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@18ab2ca1_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@4af1a8e6_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@73a04d30_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@40bd0edf_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@5b9a811e_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@3a773901_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@26e07ca2_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@26f7a242_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@ca5b55b_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@1adb30f5_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@2b9eb2c2_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@1ade8fae_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@3759b89f_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@1e6c3a06_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@2e72cb2d_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@255337d2_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@494c139a_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@f70d0e2_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@7aa31974_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@1bbcb700_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@472a4758_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@1f700ef2_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@31d9bae8_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@384c311e_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@3719895e_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@7a85843f_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@4ff1166e_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@57b436a5_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@53b419ca_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@64a8fab7_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@1ac2f464_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@7400db2d_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@4888787c_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@33e13f52_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@500cb339_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@69f1f486_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@3271f7a3_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@5b430ecb_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@18b0bbc3_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@3aceae00_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@7617571e_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@28bf40d2_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@4a82707f_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@6f5e56f3_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@17d23628_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@4bdcbfca_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@7012fa7_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@437f2fcb_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@5a34e58f_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@17ceb281_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@5f2211c0_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@7059fec4_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@49f11d40_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@4e1a0491_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@43841c9d_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@4755c6d7_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@6a6e7f3f_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@73b7393f_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@421e3fd0_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@77db39b2_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@8e4e88b_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@77731f79_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@7e928cac_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@4c10b63b_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@f85934a_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@1ebb86a2_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@198c3f54_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@fb19d85_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@d8c1a5_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@aa32e1b_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@36ec487_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@26baa138_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@67b9b2cf_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@633868ab_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@309e759f_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@328590fd_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@9d2dd1_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@30d1e550_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@738854cb_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@1b0a3ef2_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@32cee482_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@4f949836_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@55ae32a4_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@16697d71_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@6d218994_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@2ebed33d_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@3c99e021_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@66a6894a_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@7924a676_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@48b39932_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@3eb0b1b_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@5d49e430_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@22ffc55_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@48de597b_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@110b9000_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@606ea6b_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@68056f1e_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@23a1de56_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@37cdbc94_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@4f798e41_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@6dec60e_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@b15fc47_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@2a9d0ca5_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@4af71921_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@4153f1e7_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@28dbed4d_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@61d3b02b_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@4e18d2f2_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@4d7bb1e1_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@79ee18fb_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@5bd60740_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@5a9b1b0e_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@3761c4ba_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@3f7236cf_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@482fb6ea_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@7de0981b_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@7971495a_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@2e7163e0_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@55e00246_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@312c6204_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@2c57f10e_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@7efd951_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@1f46c671_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@11c532cd_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@5183e9c9_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@2a089e6c_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@79238bdb_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@23365cb2_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@63d84eb3_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@7107c610_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@2cc56caa_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@63fc16b0_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@6e9a33ee_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@20c5e79f_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@698ee4a3_ARCHIVE_LOCATION">c:/Vivado/s4f_fpga/designs/XU5_DS_MFP1/rtl/PWM_ip_v1_0</xilinx:tag>
+      </xilinx:tags>
+    </xilinx:coreExtensions>
+    <xilinx:packagingInfo>
+      <xilinx:xilinxVersion>2021.2</xilinx:xilinxVersion>
+      <xilinx:checksum xilinx:scope="busInterfaces" xilinx:value="5dce1f7d"/>
+      <xilinx:checksum xilinx:scope="memoryMaps" xilinx:value="15176b57"/>
+      <xilinx:checksum xilinx:scope="fileGroups" xilinx:value="1750a9c8"/>
+      <xilinx:checksum xilinx:scope="ports" xilinx:value="b9308f60"/>
+      <xilinx:checksum xilinx:scope="parameters" xilinx:value="46860de2"/>
+    </xilinx:packagingInfo>
+  </spirit:vendorExtensions>
+</spirit:component>

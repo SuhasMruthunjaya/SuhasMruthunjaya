@@ -1,0 +1,203 @@
+timestamp=[2025-10-01 11:35:17], mode=WORKBENCH_START, duration=0:00:21.949, duration_ms=21949, data={}
+timestamp=[2025-10-01 11:35:17], mode=WORKBENCH_UI_INIT, duration=0:00:00.010, duration_ms=10, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2025-10-01 11:35:19], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.423, duration_ms=423, data={}
+timestamp=[2025-10-01 11:38:08], mode=APP_CREATION, duration=0:00:30.933, duration_ms=30933, data={name=ServoDrive_CB_FPGAVerification, project_type=sdk, os=standalone, processor=psu_cortexa53, runtime=cpp, platform=Mercury_XU5_PE1, application_type=application}
+timestamp=[2025-10-01 11:41:34], mode=PLATFORM_GENERATION, duration=0:01:24.594, duration_ms=84594, data={name=Mercury_XU5_PE1}
+timestamp=[2025-10-01 11:41:37], mode=BUILD, duration=0:00:03.119, duration_ms=3119, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=false}
+timestamp=[2025-10-01 11:43:17], mode=BUILD, duration=0:00:02.850, duration_ms=2850, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=false}
+timestamp=[2025-10-01 11:50:25], mode=BUILD, duration=0:00:00.415, duration_ms=415, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=true}
+timestamp=[2025-10-01 11:56:22], mode=BUILD, duration=0:05:56.378, duration_ms=356378, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=false}
+timestamp=[2025-10-01 12:03:34], mode=PLATFORM_GENERATION, duration=0:00:04.018, duration_ms=4018, data={name=Mercury_XU5_PE1}
+timestamp=[2025-10-01 12:03:34], mode=BUILD, duration=0:00:00.509, duration_ms=509, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=true}
+timestamp=[2025-10-01 12:03:38], mode=BUILD, duration=0:00:03.530, duration_ms=3530, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=false}
+timestamp=[2025-10-01 12:06:15], mode=PLATFORM_GENERATION, duration=0:00:59.732, duration_ms=59732, data={name=Mercury_XU5_PE1}
+timestamp=[2025-10-01 12:12:21], mode=BUILD, duration=0:06:05.557, duration_ms=365557, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=false}
+timestamp=[2025-10-01 12:18:07], mode=PLATFORM_GENERATION, duration=0:00:18.666, duration_ms=18666, data={name=Mercury_XU5_PE1}
+timestamp=[2025-10-01 12:18:08], mode=BUILD, duration=0:00:00.515, duration_ms=515, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=true}
+timestamp=[2025-10-01 12:19:30], mode=PLATFORM_GENERATION, duration=0:01:16.550, duration_ms=76550, data={name=Mercury_XU5_PE1}
+timestamp=[2025-10-01 12:19:30], mode=BUILD, duration=0:00:00.558, duration_ms=558, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=true}
+timestamp=[2025-10-01 12:19:33], mode=BUILD, duration=0:00:02.600, duration_ms=2600, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=false}
+timestamp=[2025-10-01 12:22:54], mode=BUILD, duration=0:00:00.620, duration_ms=620, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=true}
+timestamp=[2025-10-01 12:26:11], mode=BUILD, duration=0:03:16.860, duration_ms=196860, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=false}
+timestamp=[2025-10-01 12:27:01], mode=BUILD, duration=0:00:00.583, duration_ms=583, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=true}
+timestamp=[2025-10-01 12:30:14], mode=BUILD, duration=0:03:12.268, duration_ms=192268, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=false}
+timestamp=[2025-10-01 13:22:09], mode=PLATFORM_GENERATION, duration=0:00:22.641, duration_ms=22641, data={name=Mercury_XU5_PE1}
+timestamp=[2025-10-01 13:22:18], mode=BUILD, duration=0:00:08.793, duration_ms=8793, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=false}
+timestamp=[2025-10-01 13:22:33], mode=BUILD, duration=0:00:13.612, duration_ms=13612, data={name=ServoDrive_CB_FPGAVerification_system, configuration=Debug, clean_build=false}
+timestamp=[2025-10-01 14:02:02], mode=BUILD, duration=0:00:03.010, duration_ms=3010, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=false}
+timestamp=[2025-10-01 14:06:06], mode=BUILD, duration=0:00:01.997, duration_ms=1997, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=false}
+timestamp=[2025-10-01 14:07:01], mode=BUILD, duration=0:00:02.050, duration_ms=2050, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=false}
+timestamp=[2025-10-01 14:09:42], mode=BUILD, duration=0:00:02.054, duration_ms=2054, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=false}
+timestamp=[2025-10-01 14:10:37], mode=BUILD, duration=0:00:05.654, duration_ms=5654, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=false}
+timestamp=[2025-10-01 14:10:50], mode=BUILD, duration=0:00:03.638, duration_ms=3638, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=false}
+timestamp=[2025-10-01 14:13:05], mode=BUILD, duration=0:00:03.726, duration_ms=3726, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=false}
+timestamp=[2025-10-01 14:14:55], mode=BUILD, duration=0:00:03.521, duration_ms=3521, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=false}
+timestamp=[2025-10-01 14:18:43], mode=BUILD, duration=0:00:03.676, duration_ms=3676, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=false}
+timestamp=[2025-10-06 09:54:09], mode=BUILD, duration=0:00:04.348, duration_ms=4348, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=false}
+timestamp=[2025-10-06 09:58:30], mode=BUILD, duration=0:00:03.526, duration_ms=3526, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=false}
+timestamp=[2025-10-06 10:01:24], mode=BUILD, duration=0:00:03.714, duration_ms=3714, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=false}
+timestamp=[2025-10-06 10:03:13], mode=BUILD, duration=0:00:03.631, duration_ms=3631, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=false}
+timestamp=[2025-10-06 10:09:04], mode=BUILD, duration=0:00:03.821, duration_ms=3821, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=false}
+timestamp=[2025-10-06 10:19:10], mode=BUILD, duration=0:00:03.722, duration_ms=3722, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=false}
+timestamp=[2025-10-06 10:25:08], mode=BUILD, duration=0:00:04.053, duration_ms=4053, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=false}
+timestamp=[2025-10-06 10:30:03], mode=BUILD, duration=0:00:01.634, duration_ms=1634, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=false}
+timestamp=[2025-10-06 14:16:38], mode=BUILD, duration=0:00:03.839, duration_ms=3839, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=false}
+timestamp=[2025-10-06 14:17:16], mode=BUILD, duration=0:00:01.636, duration_ms=1636, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=false}
+timestamp=[2025-10-06 14:19:35], mode=BUILD, duration=0:00:03.651, duration_ms=3651, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=false}
+timestamp=[2025-10-06 14:20:42], mode=BUILD, duration=0:00:03.658, duration_ms=3658, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=false}
+timestamp=[2025-10-06 14:51:19], mode=BUILD, duration=0:00:02.029, duration_ms=2029, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=false}
+timestamp=[2025-10-06 14:51:53], mode=BUILD, duration=0:00:01.942, duration_ms=1942, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=false}
+timestamp=[2025-10-06 14:52:20], mode=BUILD, duration=0:00:03.659, duration_ms=3659, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=false}
+timestamp=[2025-10-06 14:53:58], mode=BUILD, duration=0:00:01.655, duration_ms=1655, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=false}
+timestamp=[2025-10-06 15:27:10], mode=BUILD, duration=0:00:03.720, duration_ms=3720, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=false}
+timestamp=[2025-10-06 15:29:39], mode=BUILD, duration=0:00:03.589, duration_ms=3589, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=false}
+timestamp=[2025-10-06 15:41:28], mode=BUILD, duration=0:00:02.014, duration_ms=2014, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=false}
+timestamp=[2025-10-06 15:42:47], mode=BUILD, duration=0:00:03.720, duration_ms=3720, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=false}
+timestamp=[2025-10-06 15:54:36], mode=BUILD, duration=0:00:01.949, duration_ms=1949, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=false}
+timestamp=[2025-10-06 15:54:48], mode=BUILD, duration=0:00:03.533, duration_ms=3533, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=false}
+timestamp=[2025-10-06 16:02:18], mode=BUILD, duration=0:00:03.582, duration_ms=3582, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=false}
+timestamp=[2025-10-06 16:09:50], mode=BUILD, duration=0:00:03.789, duration_ms=3789, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=false}
+timestamp=[2025-10-06 16:15:46], mode=BUILD, duration=0:00:03.652, duration_ms=3652, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=false}
+timestamp=[2025-10-07 09:33:21], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.761, duration_ms=761, data={}
+timestamp=[2025-10-07 09:34:17], mode=WORKBENCH_START, duration=0:01:13.248, duration_ms=73248, data={}
+timestamp=[2025-10-07 09:34:18], mode=WORKBENCH_UI_INIT, duration=0:00:01.067, duration_ms=1067, data={editors_count=6, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Mercury_XU5_PE1,RemoteSystemsTempFiles,ServoDrive_CB_FPGAVerification,ServoDrive_CB_FPGAVerification_system}
+timestamp=[2025-10-07 10:00:12], mode=BUILD, duration=0:00:06.480, duration_ms=6480, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=false}
+timestamp=[2025-10-07 10:05:38], mode=BUILD, duration=0:00:06.333, duration_ms=6333, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=false}
+timestamp=[2025-10-07 10:07:50], mode=BUILD, duration=0:00:06.186, duration_ms=6186, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=false}
+timestamp=[2025-10-07 10:19:04], mode=BUILD, duration=0:00:06.418, duration_ms=6418, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=false}
+timestamp=[2025-10-07 10:31:41], mode=BUILD, duration=0:00:03.870, duration_ms=3870, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=false}
+timestamp=[2025-10-07 10:32:20], mode=BUILD, duration=0:00:03.544, duration_ms=3544, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=false}
+timestamp=[2025-10-07 10:32:46], mode=BUILD, duration=0:00:07.170, duration_ms=7170, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=false}
+timestamp=[2025-10-07 10:46:28], mode=BUILD, duration=0:00:06.890, duration_ms=6890, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=false}
+timestamp=[2025-10-07 10:55:23], mode=BUILD, duration=0:00:06.588, duration_ms=6588, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=false}
+timestamp=[2025-10-07 11:02:30], mode=BUILD, duration=0:00:06.619, duration_ms=6619, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=false}
+timestamp=[2025-10-07 11:13:13], mode=BUILD, duration=0:00:06.147, duration_ms=6147, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=false}
+timestamp=[2025-10-07 11:19:09], mode=BUILD, duration=0:00:06.050, duration_ms=6050, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=false}
+timestamp=[2025-10-07 11:20:54], mode=BUILD, duration=0:00:06.021, duration_ms=6021, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=false}
+timestamp=[2025-10-07 11:23:29], mode=BUILD, duration=0:00:06.229, duration_ms=6229, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=false}
+timestamp=[2025-10-07 12:07:30], mode=BUILD, duration=0:00:05.373, duration_ms=5373, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=false}
+timestamp=[2025-10-07 12:15:40], mode=BUILD, duration=0:00:04.459, duration_ms=4459, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=false}
+timestamp=[2025-10-07 12:17:53], mode=BUILD, duration=0:00:04.330, duration_ms=4330, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=false}
+timestamp=[2025-10-07 12:19:25], mode=BUILD, duration=0:00:04.022, duration_ms=4022, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=false}
+timestamp=[2025-10-07 13:04:45], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.350, duration_ms=350, data={}
+timestamp=[2025-10-07 13:04:52], mode=WORKBENCH_START, duration=0:00:14.853, duration_ms=14853, data={}
+timestamp=[2025-10-07 13:04:52], mode=WORKBENCH_UI_INIT, duration=0:00:00.326, duration_ms=326, data={editors_count=6, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Mercury_XU5_PE1,RemoteSystemsTempFiles,ServoDrive_CB_FPGAVerification,ServoDrive_CB_FPGAVerification_system}
+timestamp=[2025-10-07 13:14:34], mode=BUILD, duration=0:00:03.710, duration_ms=3710, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=false}
+timestamp=[2025-10-07 13:14:48], mode=BUILD, duration=0:00:13.193, duration_ms=13193, data={name=ServoDrive_CB_FPGAVerification_system, configuration=Debug, clean_build=false}
+timestamp=[2025-10-07 13:20:00], mode=BUILD, duration=0:00:03.806, duration_ms=3806, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=false}
+timestamp=[2025-10-07 13:20:14], mode=BUILD, duration=0:00:13.807, duration_ms=13807, data={name=ServoDrive_CB_FPGAVerification_system, configuration=Debug, clean_build=false}
+timestamp=[2025-10-07 13:29:19], mode=BUILD, duration=0:00:05.805, duration_ms=5805, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=false}
+timestamp=[2025-10-07 13:32:43], mode=BUILD, duration=0:00:03.795, duration_ms=3795, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=false}
+timestamp=[2025-10-07 13:37:07], mode=BUILD, duration=0:00:03.793, duration_ms=3793, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=false}
+timestamp=[2025-10-07 13:46:34], mode=BUILD, duration=0:00:03.738, duration_ms=3738, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=false}
+timestamp=[2025-10-07 13:48:40], mode=BUILD, duration=0:00:03.686, duration_ms=3686, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=false}
+timestamp=[2025-10-07 16:13:23], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.444, duration_ms=444, data={}
+timestamp=[2025-10-07 16:13:52], mode=WORKBENCH_START, duration=0:00:42.915, duration_ms=42915, data={}
+timestamp=[2025-10-07 16:13:52], mode=WORKBENCH_UI_INIT, duration=0:00:00.157, duration_ms=157, data={editors_count=9, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Mercury_XU5_PE1,RemoteSystemsTempFiles,ServoDrive_CB_FPGAVerification,ServoDrive_CB_FPGAVerification_system}
+timestamp=[2025-10-07 16:15:31], mode=PLATFORM_GENERATION, duration=0:00:22.936, duration_ms=22936, data={name=Mercury_XU5_PE1}
+timestamp=[2025-10-07 16:15:49], mode=BUILD, duration=0:00:09.108, duration_ms=9108, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=false}
+timestamp=[2025-10-07 16:16:04], mode=BUILD, duration=0:00:14.063, duration_ms=14063, data={name=ServoDrive_CB_FPGAVerification_system, configuration=Debug, clean_build=false}
+timestamp=[2025-10-07 16:16:20], mode=BUILD, duration=0:00:03.877, duration_ms=3877, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=false}
+timestamp=[2025-10-07 16:18:05], mode=BUILD, duration=0:00:03.805, duration_ms=3805, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=false}
+timestamp=[2025-10-07 16:18:31], mode=BUILD, duration=0:00:01.688, duration_ms=1688, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=false}
+timestamp=[2025-10-08 10:04:03], mode=PLATFORM_GENERATION, duration=0:00:22.123, duration_ms=22123, data={name=Mercury_XU5_PE1}
+timestamp=[2025-10-08 10:04:20], mode=BUILD, duration=0:00:08.812, duration_ms=8812, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=false}
+timestamp=[2025-10-08 10:04:38], mode=BUILD, duration=0:00:16.008, duration_ms=16008, data={name=ServoDrive_CB_FPGAVerification_system, configuration=Debug, clean_build=false}
+timestamp=[2025-10-08 10:05:09], mode=BUILD, duration=0:00:03.735, duration_ms=3735, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=false}
+timestamp=[2025-10-08 10:05:59], mode=BUILD, duration=0:00:01.686, duration_ms=1686, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=false}
+timestamp=[2025-10-08 10:13:44], mode=BUILD, duration=0:00:04.013, duration_ms=4013, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=false}
+timestamp=[2025-10-08 10:53:17], mode=PLATFORM_GENERATION, duration=0:00:22.879, duration_ms=22879, data={name=Mercury_XU5_PE1}
+timestamp=[2025-10-08 10:53:40], mode=BUILD, duration=0:00:09.146, duration_ms=9146, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=false}
+timestamp=[2025-10-08 10:53:56], mode=BUILD, duration=0:00:15.327, duration_ms=15327, data={name=ServoDrive_CB_FPGAVerification_system, configuration=Debug, clean_build=false}
+timestamp=[2025-10-08 10:55:36], mode=BUILD, duration=0:00:01.637, duration_ms=1637, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=false}
+timestamp=[2025-10-08 10:59:46], mode=BUILD, duration=0:00:03.816, duration_ms=3816, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=false}
+timestamp=[2025-10-08 11:02:18], mode=BUILD, duration=0:00:03.859, duration_ms=3859, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=false}
+timestamp=[2025-10-08 11:35:54], mode=PLATFORM_GENERATION, duration=0:00:21.713, duration_ms=21713, data={name=Mercury_XU5_PE1}
+timestamp=[2025-10-08 11:36:16], mode=BUILD, duration=0:00:08.490, duration_ms=8490, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=false}
+timestamp=[2025-10-08 11:36:31], mode=BUILD, duration=0:00:14.739, duration_ms=14739, data={name=ServoDrive_CB_FPGAVerification_system, configuration=Debug, clean_build=false}
+timestamp=[2025-10-08 11:40:46], mode=BUILD, duration=0:00:05.875, duration_ms=5875, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=false}
+timestamp=[2025-10-08 11:44:33], mode=BUILD, duration=0:00:04.620, duration_ms=4620, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=false}
+timestamp=[2025-10-08 13:29:42], mode=PLATFORM_GENERATION, duration=0:00:22.731, duration_ms=22731, data={name=Mercury_XU5_PE1}
+timestamp=[2025-10-08 13:30:00], mode=BUILD, duration=0:00:08.174, duration_ms=8174, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=false}
+timestamp=[2025-10-08 13:30:17], mode=BUILD, duration=0:00:15.512, duration_ms=15512, data={name=ServoDrive_CB_FPGAVerification_system, configuration=Debug, clean_build=false}
+timestamp=[2025-10-08 13:36:16], mode=BUILD, duration=0:00:03.654, duration_ms=3654, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=false}
+timestamp=[2025-10-08 14:34:26], mode=PLATFORM_GENERATION, duration=0:00:21.197, duration_ms=21197, data={name=Mercury_XU5_PE1}
+timestamp=[2025-10-08 14:34:34], mode=BUILD, duration=0:00:08.201, duration_ms=8201, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=false}
+timestamp=[2025-10-08 14:34:48], mode=BUILD, duration=0:00:12.562, duration_ms=12562, data={name=ServoDrive_CB_FPGAVerification_system, configuration=Debug, clean_build=false}
+timestamp=[2025-10-08 14:40:02], mode=BUILD, duration=0:00:03.567, duration_ms=3567, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=false}
+timestamp=[2025-10-08 14:40:42], mode=BUILD, duration=0:00:01.634, duration_ms=1634, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=false}
+timestamp=[2025-10-09 09:18:39], mode=BUILD, duration=0:00:03.021, duration_ms=3021, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=false}
+timestamp=[2025-10-09 09:20:11], mode=BUILD, duration=0:00:01.886, duration_ms=1886, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=false}
+timestamp=[2025-10-09 09:20:56], mode=BUILD, duration=0:00:04.365, duration_ms=4365, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=false}
+timestamp=[2025-10-09 09:21:24], mode=BUILD, duration=0:00:03.145, duration_ms=3145, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=false}
+timestamp=[2025-10-09 09:44:29], mode=BUILD, duration=0:00:01.940, duration_ms=1940, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=false}
+timestamp=[2025-10-09 09:46:43], mode=BUILD, duration=0:00:01.920, duration_ms=1920, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=false}
+timestamp=[2025-10-09 09:48:37], mode=BUILD, duration=0:00:03.785, duration_ms=3785, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=false}
+timestamp=[2025-10-09 09:49:24], mode=BUILD, duration=0:00:04.310, duration_ms=4310, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=false}
+timestamp=[2025-10-09 09:49:53], mode=BUILD, duration=0:00:04.772, duration_ms=4772, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=false}
+timestamp=[2025-10-09 09:58:18], mode=BUILD, duration=0:00:03.225, duration_ms=3225, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=false}
+timestamp=[2025-10-09 09:58:46], mode=BUILD, duration=0:00:01.582, duration_ms=1582, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=false}
+timestamp=[2025-10-09 10:00:52], mode=BUILD, duration=0:00:03.205, duration_ms=3205, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=false}
+timestamp=[2025-10-09 10:03:18], mode=BUILD, duration=0:00:03.280, duration_ms=3280, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=false}
+timestamp=[2025-10-09 11:40:19], mode=BUILD, duration=0:00:04.469, duration_ms=4469, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=false}
+timestamp=[2025-10-09 11:43:07], mode=BUILD, duration=0:00:03.954, duration_ms=3954, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=false}
+timestamp=[2025-10-09 12:00:10], mode=BUILD, duration=0:00:05.489, duration_ms=5489, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=false}
+timestamp=[2025-10-09 12:04:37], mode=BUILD, duration=0:00:05.245, duration_ms=5245, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=false}
+timestamp=[2025-10-09 14:12:20], mode=BUILD, duration=0:00:03.387, duration_ms=3387, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=false}
+timestamp=[2025-10-09 14:12:59], mode=BUILD, duration=0:00:01.674, duration_ms=1674, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=false}
+timestamp=[2025-10-09 14:16:25], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.385, duration_ms=385, data={}
+timestamp=[2025-10-09 14:16:43], mode=WORKBENCH_START, duration=0:00:28.994, duration_ms=28994, data={}
+timestamp=[2025-10-09 14:16:44], mode=WORKBENCH_UI_INIT, duration=0:00:00.308, duration_ms=308, data={editors_count=13, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Mercury_XU5_PE1,RemoteSystemsTempFiles,ServoDrive_CB_FPGAVerification,ServoDrive_CB_FPGAVerification_system}
+timestamp=[2025-11-07 09:29:25], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.781, duration_ms=781, data={}
+timestamp=[2025-11-07 09:29:47], mode=WORKBENCH_START, duration=0:00:47.063, duration_ms=47063, data={}
+timestamp=[2025-11-07 09:29:48], mode=WORKBENCH_UI_INIT, duration=0:00:00.212, duration_ms=212, data={editors_count=14, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Mercury_XU5_PE1,RemoteSystemsTempFiles,ServoDrive_CB_FPGAVerification,ServoDrive_CB_FPGAVerification_system}
+timestamp=[2025-11-10 11:25:01], mode=WORKBENCH_START, duration=0:00:10.223, duration_ms=10223, data={}
+timestamp=[2025-11-10 11:25:02], mode=WORKBENCH_UI_INIT, duration=0:00:00.180, duration_ms=180, data={editors_count=15, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Mercury_XU5_PE1,RemoteSystemsTempFiles,ServoDrive_CB_FPGAVerification,ServoDrive_CB_FPGAVerification_system}
+timestamp=[2025-11-10 11:25:02], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.521, duration_ms=521, data={}
+timestamp=[2025-11-10 11:27:53], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.375, duration_ms=375, data={}
+timestamp=[2025-11-10 11:27:53], mode=WORKBENCH_START, duration=0:00:08.760, duration_ms=8760, data={}
+timestamp=[2025-11-10 11:27:53], mode=WORKBENCH_UI_INIT, duration=0:00:00.182, duration_ms=182, data={editors_count=15, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Mercury_XU5_PE1,RemoteSystemsTempFiles,ServoDrive_CB_FPGAVerification,ServoDrive_CB_FPGAVerification_system}
+timestamp=[2025-11-10 11:30:41], mode=PLATFORM_GENERATION, duration=0:01:56.401, duration_ms=116401, data={name=Mercury_XU5_PE1}
+timestamp=[2025-11-10 11:30:53], mode=BUILD, duration=0:00:01.758, duration_ms=1758, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=false}
+timestamp=[2025-11-10 11:39:28], mode=BUILD, duration=0:00:04.215, duration_ms=4215, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=false}
+timestamp=[2025-11-10 12:12:46], mode=BUILD, duration=0:00:01.772, duration_ms=1772, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=false}
+timestamp=[2025-11-12 13:49:46], mode=WORKBENCH_START, duration=0:00:11.187, duration_ms=11187, data={}
+timestamp=[2025-11-12 13:49:46], mode=WORKBENCH_UI_INIT, duration=0:00:00.131, duration_ms=131, data={editors_count=15, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Mercury_XU5_PE1,RemoteSystemsTempFiles,ServoDrive_CB_FPGAVerification,ServoDrive_CB_FPGAVerification_system}
+timestamp=[2025-11-12 13:49:48], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.460, duration_ms=460, data={}
+timestamp=[2025-11-13 14:01:56], mode=WORKBENCH_START, duration=0:00:09.217, duration_ms=9217, data={}
+timestamp=[2025-11-13 14:01:57], mode=WORKBENCH_UI_INIT, duration=0:00:00.221, duration_ms=221, data={editors_count=18, platform_editors_count=3, projects_count=4, platform_projects_count=1, active_platform_editor=true, projects=Mercury_XU5_PE1,RemoteSystemsTempFiles,ServoDrive_CB_FPGAVerification,ServoDrive_CB_FPGAVerification_system}
+timestamp=[2025-11-13 14:01:59], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.428, duration_ms=428, data={}
+timestamp=[2025-11-13 14:06:51], mode=PLATFORM_GENERATION, duration=0:01:53.663, duration_ms=113663, data={name=Mercury_XU5_PE1}
+timestamp=[2025-11-13 14:07:12], mode=BUILD, duration=0:00:09.855, duration_ms=9855, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=false}
+timestamp=[2025-11-13 14:07:31], mode=BUILD, duration=0:00:17.525, duration_ms=17525, data={name=ServoDrive_CB_FPGAVerification_system, configuration=Debug, clean_build=false}
+timestamp=[2025-11-13 14:27:24], mode=WORKBENCH_START, duration=0:00:08.750, duration_ms=8750, data={}
+timestamp=[2025-11-13 14:27:24], mode=WORKBENCH_UI_INIT, duration=0:00:00.176, duration_ms=176, data={editors_count=18, platform_editors_count=3, projects_count=4, platform_projects_count=1, active_platform_editor=true, projects=Mercury_XU5_PE1,RemoteSystemsTempFiles,ServoDrive_CB_FPGAVerification,ServoDrive_CB_FPGAVerification_system}
+timestamp=[2025-11-13 14:27:26], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.387, duration_ms=387, data={}
+timestamp=[2025-11-13 14:58:18], mode=PLATFORM_GENERATION, duration=0:00:04.062, duration_ms=4062, data={name=Mercury_XU5_PE1}
+timestamp=[2025-11-13 14:58:19], mode=BUILD, duration=0:00:00.658, duration_ms=658, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=true}
+timestamp=[2025-11-13 15:01:42], mode=BUILD, duration=0:03:23.501, duration_ms=203501, data={name=ServoDrive_CB_FPGAVerification, configuration=Debug, clean_build=false}
+timestamp=[2025-11-13 15:01:58], mode=BUILD, duration=0:00:14.826, duration_ms=14826, data={name=ServoDrive_CB_FPGAVerification_system, configuration=Debug, clean_build=false}
+timestamp=[2025-12-01 14:31:11], mode=WORKBENCH_START, duration=0:00:08.828, duration_ms=8828, data={}
+timestamp=[2025-12-01 14:31:11], mode=WORKBENCH_UI_INIT, duration=0:00:00.123, duration_ms=123, data={editors_count=22, platform_editors_count=2, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Mercury_XU5_PE1,RemoteSystemsTempFiles,ServoDrive_CB_FPGAVerification,ServoDrive_CB_FPGAVerification_system}
+timestamp=[2025-12-01 14:31:12], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.475, duration_ms=475, data={}
+timestamp=[2025-12-08 11:28:00], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.476, duration_ms=476, data={}
+timestamp=[2025-12-08 11:28:02], mode=WORKBENCH_START, duration=0:00:18.197, duration_ms=18197, data={}
+timestamp=[2025-12-08 11:28:02], mode=WORKBENCH_UI_INIT, duration=0:00:00.164, duration_ms=164, data={editors_count=22, platform_editors_count=2, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Mercury_XU5_PE1,RemoteSystemsTempFiles,ServoDrive_CB_FPGAVerification,ServoDrive_CB_FPGAVerification_system}
+timestamp=[2026-01-15 11:23:29], mode=WORKBENCH_START, duration=0:00:17.018, duration_ms=17018, data={}
+timestamp=[2026-01-15 11:23:30], mode=WORKBENCH_UI_INIT, duration=0:00:01.035, duration_ms=1035, data={editors_count=22, platform_editors_count=2, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Mercury_XU5_PE1,RemoteSystemsTempFiles,ServoDrive_CB_FPGAVerification,ServoDrive_CB_FPGAVerification_system}
+timestamp=[2026-01-15 11:23:32], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.778, duration_ms=778, data={}
+timestamp=[2026-01-15 16:31:30], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:01.036, duration_ms=1036, data={}
+timestamp=[2026-01-15 16:32:03], mode=WORKBENCH_START, duration=0:00:54.364, duration_ms=54364, data={}
+timestamp=[2026-01-15 16:32:04], mode=WORKBENCH_UI_INIT, duration=0:00:00.249, duration_ms=249, data={editors_count=22, platform_editors_count=2, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Mercury_XU5_PE1,RemoteSystemsTempFiles,ServoDrive_CB_FPGAVerification,ServoDrive_CB_FPGAVerification_system}
+timestamp=[2026-01-23 17:30:30], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.931, duration_ms=931, data={}
+timestamp=[2026-01-23 17:31:05], mode=WORKBENCH_START, duration=0:00:56.632, duration_ms=56632, data={}
+timestamp=[2026-01-23 17:31:06], mode=WORKBENCH_UI_INIT, duration=0:00:00.506, duration_ms=506, data={editors_count=24, platform_editors_count=4, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Mercury_XU5_PE1,RemoteSystemsTempFiles,ServoDrive_CB_FPGAVerification,ServoDrive_CB_FPGAVerification_system}
+timestamp=[2026-01-30 00:54:28], mode=WORKBENCH_START, duration=0:00:18.743, duration_ms=18743, data={}
+timestamp=[2026-01-30 00:54:29], mode=WORKBENCH_UI_INIT, duration=0:00:00.576, duration_ms=576, data={editors_count=24, platform_editors_count=4, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Mercury_XU5_PE1,RemoteSystemsTempFiles,ServoDrive_CB_FPGAVerification,ServoDrive_CB_FPGAVerification_system}
+timestamp=[2026-01-30 00:54:30], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.540, duration_ms=540, data={}
+timestamp=[2026-03-29 18:43:30], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.485, duration_ms=485, data={}
+timestamp=[2026-03-29 18:43:32], mode=WORKBENCH_START, duration=0:00:12.662, duration_ms=12662, data={}
+timestamp=[2026-03-29 18:43:32], mode=WORKBENCH_UI_INIT, duration=0:00:00.347, duration_ms=347, data={editors_count=24, platform_editors_count=4, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Mercury_XU5_PE1,RemoteSystemsTempFiles,ServoDrive_CB_FPGAVerification,ServoDrive_CB_FPGAVerification_system}
+timestamp=[2026-04-13 15:19:24], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.419, duration_ms=419, data={}
+timestamp=[2026-04-13 15:19:26], mode=WORKBENCH_START, duration=0:00:12.419, duration_ms=12419, data={}
+timestamp=[2026-04-13 15:19:26], mode=WORKBENCH_UI_INIT, duration=0:00:00.191, duration_ms=191, data={editors_count=24, platform_editors_count=4, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Mercury_XU5_PE1,RemoteSystemsTempFiles,ServoDrive_CB_FPGAVerification,ServoDrive_CB_FPGAVerification_system}

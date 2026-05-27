@@ -1,0 +1,10 @@
+15:01:43 **** Incremental Build of configuration Debug for project ServoDrive_CB_FPGAVerification_system ****
+make all 
+Generating bif file for the system project
+generate_system_bif.bat 52377 D:/Work/Vitis_workspace_FPGAVerification/Mercury_XU5_PE1/export/Mercury_XU5_PE1/Mercury_XU5_PE1.xpfm standalone_psu_cortexa53_0 D:/Work/Vitis_workspace_FPGAVerification/ServoDrive_CB_FPGAVerification_system/Debug/system.bif
+sdcard_gen --xpfm D:/Work/Vitis_workspace_FPGAVerification/Mercury_XU5_PE1/export/Mercury_XU5_PE1/Mercury_XU5_PE1.xpfm --sys_config Mercury_XU5_PE1 --bif D:/Work/Vitis_workspace_FPGAVerification/ServoDrive_CB_FPGAVerification_system/Debug/system.bif --bitstream D:/Work/Vitis_workspace_FPGAVerification/ServoDrive_CB_FPGAVerification/_ide/bitstream/MEXU5_U200_FPGACI.bit --elf D:/Work/Vitis_workspace_FPGAVerification/ServoDrive_CB_FPGAVerification/Debug/ServoDrive_CB_FPGAVerification.elf,psu_cortexa53_0
+creating BOOT.BIN using D:/Work/Vitis_workspace_FPGAVerification/ServoDrive_CB_FPGAVerification/_ide/bitstream/MEXU5_U200_FPGACI.bit
+Running C:/Xilinx/Vitis/2023.1/bin/bootgen -arch zynqmp -image D:/Work/Vitis_workspace_FPGAVerification/ServoDrive_CB_FPGAVerification_system/Debug/sd_card_temp/boot.bif -w -o i BOOT.BIN
+
+15:01:58 Build Finished (took 14s.821ms)
+

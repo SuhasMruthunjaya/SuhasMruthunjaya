@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="ServoDrive_CB_FPGAVerification" location="D:/Work/Vitis_workspace_FPGAVerification/ServoDrive_CB_FPGAVerification" platform="D:/Work/Vitis_workspace_FPGAVerification/Mercury_XU5_PE1/export/Mercury_XU5_PE1/Mercury_XU5_PE1.xpfm" platformUID="xilinx:::0.0(custom)" systemProject="ServoDrive_CB_FPGAVerification_system" sysConfig="Mercury_XU5_PE1" runtime="cpp" cpu="standalone_psu_cortexa53_0" cpuInstance="psu_cortexa53_0" os="standalone" mssSignature="db9fe0a560386a930a8d6ffd193be83c">
+  <configuration name="Debug" id="xilinx.gnu.arm.a53.exe.debug.412811246">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.arm.a53.exe.release.1577058190" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="hello_world"/>
+</sdkproject:SdkProject>
